@@ -1,0 +1,1 @@
+device.click(UIELEMENT.TEXT,'91ÖúÊÖ', 0)

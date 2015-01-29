@@ -1,0 +1,279 @@
+--------- beginning of /dev/log/main
+11-25 13:55:06.156 E/Parcel  ( 2908): Reading a NULL string not supported here.
+--------- beginning of /dev/log/system
+11-25 13:55:08.006 E/LightSensor( 2908): Light old sensor_state 129, new sensor_state : 1 en : 0
+11-25 13:55:08.061 E/JavaBinder( 2908): !!! FAILED BINDER TRANSACTION !!!
+11-25 13:55:08.166 W/dalvikvm(17048): VFY: unable to resolve virtual method 65: Lcom/android/uiautomator/core/UiObject;.dragTo (III)Z
+11-25 13:55:08.166 W/dalvikvm(17048): VFY: unable to resolve virtual method 66: Lcom/android/uiautomator/core/UiObject;.dragTo (Lcom/android/uiautomator/core/UiObject;I)Z
+11-25 13:55:08.166 W/dalvikvm(17048): VFY: unable to resolve virtual method 89: Lcom/android/uiautomator/core/UiObject;.performTwoPointerGesture (Landroid/graphics/Point;Landroid/graphics/Point;Landroid/graphics/Point;Landroid/graphics/Point;I)Z
+11-25 13:55:08.166 W/dalvikvm(17048): VFY: unable to resolve virtual method 90: Lcom/android/uiautomator/core/UiObject;.pinchIn (II)Z
+11-25 13:55:08.166 W/dalvikvm(17048): VFY: unable to resolve virtual method 91: Lcom/android/uiautomator/core/UiObject;.pinchOut (II)Z
+11-25 13:55:08.166 W/dalvikvm(17048): VFY: unable to resolve virtual method 13: Lcom/android/uiautomator/core/UiDevice;.drag (IIIII)Z
+11-25 13:55:08.171 W/dalvikvm(17048): VFY: unable to resolve virtual method 48: Lcom/android/uiautomator/core/UiDevice;.setCompressedLayoutHeirarchy (Z)V
+11-25 13:55:08.171 W/dalvikvm(17048): VFY: unable to resolve virtual method 28: Lcom/android/uiautomator/core/UiDevice;.openNotification ()Z
+11-25 13:55:08.171 W/dalvikvm(17048): VFY: unable to resolve virtual method 29: Lcom/android/uiautomator/core/UiDevice;.openQuickSettings ()Z
+11-25 13:55:08.491 E/LightSensor( 2908): Light old sensor_state 1, new sensor_state : 129 en : 1
+11-25 13:55:08.601 W/CAE     ( 2908): unregisterCallback(ContextAwareService.java) - [unregi 01] Mutex is locked for FLIP_COVER_ACTION
+11-25 13:55:08.611 W/Vibrator(17353): Vibrator.cancel()
+11-25 13:55:08.666 W/CAE     ( 2908): unregisterCallback(ContextAwareService.java) - [unregi 02] Mutex is unlocked for FLIP_COVER_ACTION
+11-25 13:55:08.701 E/LSO     ( 2908): LSO Service is not yet ready!!!
+11-25 13:55:08.701 E/LSO     ( 2908): LSO Service is not yet ready!!!
+11-25 13:55:08.701 E/LSO     ( 2908): LSO Service is not yet ready!!!
+11-25 13:55:08.701 E/LSO     ( 2908): LSO Service is not yet ready!!!
+11-25 13:55:08.731 E/LSO     ( 2908): LSO Service is not yet ready!!!
+11-25 13:55:08.731 E/LSO     ( 2908): LSO Service is not yet ready!!!
+11-25 13:55:08.731 E/LSO     ( 2908): LSO Service is not yet ready!!!
+11-25 13:55:08.731 E/LSO     ( 2908): LSO Service is not yet ready!!!
+11-25 13:55:08.776 W/SensorService( 2908): sensor 00000006 already enabled in connection 0x714160e8 (ignoring)
+11-25 13:55:08.776 W/SensorService( 2908): sensor 00000000 already enabled in connection 0x714160e8 (ignoring)
+11-25 13:55:08.896 E/videowall-TranscodeReceiver(16138): broadcastMSG : android.intent.action.SCREEN_OFF
+11-25 13:55:09.076 W/CAE     ( 2908): registerCallback(ContextAwareService.java) - [regi 01] Mutex is locked for FLIP_COVER_ACTION
+11-25 13:55:09.116 E/SEC_DRM_PLUGIN_PLAYREADY( 2458): [DRM_PR_PLUGIN] PSSH/UUID/MOOV NOT identified...not a drm file
+11-25 13:55:09.116 E/SEC_DRM_PLUGIN_PLAYREADY( 2458): [DRM_PR_PLUGIN] Mflag is FALSE... NOT a DRM file
+11-25 13:55:09.116 W/PlayreadyPlugIn( 2458): ChkDR plugin at : line 4000. DRMTOOLS_OpenMP4_File(&((*in_oToolContext)->oMediaFile), fileNameOrHeader, eDRM_MEDIA_FILE_TYPE_DASH_LOCAL)[0x80004005]
+11-25 13:55:09.116 E/PlayreadyPlugIn( 2458): PlayreadyPlugIn.cpp: Function[onCanHandle]; Line[1712]; DRM Result[0x80004005]
+11-25 13:55:09.116 E/SEC_DRM_PLUGIN_PLAYREADY( 2458): [DRM_PR_PLUGIN] PlayreadyPlugIn::onCanHandle   DRM_ASFVerify_Context_Initialize is failed
+11-25 13:55:09.116 W/PlayreadyPlugIn( 2458): ChkDR plugin at : line 1725. dr[0x80004005]
+11-25 13:55:09.121 E/videowall-TranscodeService(16138): duration time is 0 ==> not Live but Static thumbnail
+11-25 13:55:09.126 E/SEC_DRM_PLUGIN_PLAYREADY( 2458): [DRM_PR_PLUGIN] trak reached...not a drm file
+11-25 13:55:09.126 E/SEC_DRM_PLUGIN_PLAYREADY( 2458): [DRM_PR_PLUGIN] Mflag is FALSE... NOT a DRM file
+11-25 13:55:09.126 W/PlayreadyPlugIn( 2458): ChkDR plugin at : line 4000. DRMTOOLS_OpenMP4_File(&((*in_oToolContext)->oMediaFile), fileNameOrHeader, eDRM_MEDIA_FILE_TYPE_DASH_LOCAL)[0x80004005]
+11-25 13:55:09.126 E/PlayreadyPlugIn( 2458): PlayreadyPlugIn.cpp: Function[onCanHandle]; Line[1712]; DRM Result[0x80004005]
+11-25 13:55:09.126 E/SEC_DRM_PLUGIN_PLAYREADY( 2458): [DRM_PR_PLUGIN] PlayreadyPlugIn::onCanHandle   DRM_ASFVerify_Context_Initialize is failed
+11-25 13:55:09.126 W/PlayreadyPlugIn( 2458): ChkDR plugin at : line 1725. dr[0x80004005]
+11-25 13:55:09.136 E/SEC_DRM_PLUGIN_PLAYREADY( 2458): [DRM_PR_PLUGIN] trak reached...not a drm file
+11-25 13:55:09.136 E/SEC_DRM_PLUGIN_PLAYREADY( 2458): [DRM_PR_PLUGIN] Mflag is FALSE... NOT a DRM file
+11-25 13:55:09.136 W/PlayreadyPlugIn( 2458): ChkDR plugin at : line 4000. DRMTOOLS_OpenMP4_File(&((*in_oToolContext)->oMediaFile), fileNameOrHeader, eDRM_MEDIA_FILE_TYPE_DASH_LOCAL)[0x80004005]
+11-25 13:55:09.136 E/PlayreadyPlugIn( 2458): PlayreadyPlugIn.cpp: Function[onCanHandle]; Line[1712]; DRM Result[0x80004005]
+11-25 13:55:09.136 E/SEC_DRM_PLUGIN_PLAYREADY( 2458): [DRM_PR_PLUGIN] PlayreadyPlugIn::onCanHandle   DRM_ASFVerify_Context_Initialize is failed
+11-25 13:55:09.136 W/PlayreadyPlugIn( 2458): ChkDR plugin at : line 1725. dr[0x80004005]
+11-25 13:55:09.141 W/CAE     ( 2908): registerCallback(ContextAwareService.java) - [regi 02] Mutex is unlocked for FLIP_COVER_ACTION
+11-25 13:55:09.141 E/SEC_DRM_PLUGIN_PLAYREADY( 2458): [DRM_PR_PLUGIN] PSSH/UUID/MOOV NOT identified...not a drm file
+11-25 13:55:09.141 E/SEC_DRM_PLUGIN_PLAYREADY( 2458): [DRM_PR_PLUGIN] Mflag is FALSE... NOT a DRM file
+11-25 13:55:09.141 W/PlayreadyPlugIn( 2458): ChkDR plugin at : line 4000. DRMTOOLS_OpenMP4_File(&((*in_oToolContext)->oMediaFile), fileNameOrHeader, eDRM_MEDIA_FILE_TYPE_DASH_LOCAL)[0x80004005]
+11-25 13:55:09.141 E/PlayreadyPlugIn( 2458): PlayreadyPlugIn.cpp: Function[onCanHandle]; Line[1712]; DRM Result[0x80004005]
+11-25 13:55:09.141 E/SEC_DRM_PLUGIN_PLAYREADY( 2458): [DRM_PR_PLUGIN] PlayreadyPlugIn::onCanHandle   DRM_ASFVerify_Context_Initialize is failed
+11-25 13:55:09.141 W/PlayreadyPlugIn( 2458): ChkDR plugin at : line 1725. dr[0x80004005]
+11-25 13:55:09.151 E/videowall-TranscodeService(16138): duration time is 0 ==> not Live but Static thumbnail
+11-25 13:55:09.151 E/SEC_DRM_PLUGIN_PLAYREADY( 2458): [DRM_PR_PLUGIN] trak reached...not a drm file
+11-25 13:55:09.151 E/SEC_DRM_PLUGIN_PLAYREADY( 2458): [DRM_PR_PLUGIN] Mflag is FALSE... NOT a DRM file
+11-25 13:55:09.151 W/PlayreadyPlugIn( 2458): ChkDR plugin at : line 4000. DRMTOOLS_OpenMP4_File(&((*in_oToolContext)->oMediaFile), fileNameOrHeader, eDRM_MEDIA_FILE_TYPE_DASH_LOCAL)[0x80004005]
+11-25 13:55:09.151 E/PlayreadyPlugIn( 2458): PlayreadyPlugIn.cpp: Function[onCanHandle]; Line[1712]; DRM Result[0x80004005]
+11-25 13:55:09.151 E/SEC_DRM_PLUGIN_PLAYREADY( 2458): [DRM_PR_PLUGIN] PlayreadyPlugIn::onCanHandle   DRM_ASFVerify_Context_Initialize is failed
+11-25 13:55:09.151 W/PlayreadyPlugIn( 2458): ChkDR plugin at : line 1725. dr[0x80004005]
+11-25 13:55:09.161 E/SEC_DRM_PLUGIN_PLAYREADY( 2458): [DRM_PR_PLUGIN] trak reached...not a drm file
+11-25 13:55:09.161 E/SEC_DRM_PLUGIN_PLAYREADY( 2458): [DRM_PR_PLUGIN] Mflag is FALSE... NOT a DRM file
+11-25 13:55:09.161 W/PlayreadyPlugIn( 2458): ChkDR plugin at : line 4000. DRMTOOLS_OpenMP4_File(&((*in_oToolContext)->oMediaFile), fileNameOrHeader, eDRM_MEDIA_FILE_TYPE_DASH_LOCAL)[0x80004005]
+11-25 13:55:09.161 E/PlayreadyPlugIn( 2458): PlayreadyPlugIn.cpp: Function[onCanHandle]; Line[1712]; DRM Result[0x80004005]
+11-25 13:55:09.161 E/SEC_DRM_PLUGIN_PLAYREADY( 2458): [DRM_PR_PLUGIN] PlayreadyPlugIn::onCanHandle   DRM_ASFVerify_Context_Initialize is failed
+11-25 13:55:09.161 W/PlayreadyPlugIn( 2458): ChkDR plugin at : line 1725. dr[0x80004005]
+11-25 13:55:09.191 E/vwengine(16138): stopTranscoding
+11-25 13:55:09.226 E/GestureService( 3723): updateFlags started
+11-25 13:55:09.226 E/GestureService( 3723): bVertical = false
+11-25 13:55:09.226 E/GestureService( 3723): bHorizontal = false
+11-25 13:55:09.261 E/0409    ( 5682): call setFingerHoveredInAppWidge in remoteview. enabled:false
+11-25 13:55:09.391 E/AccessibilityManagerService( 2908): Error during sending EventType: TYPE_WINDOW_CONTENT_CHANGED; EventTime: 118766167; PackageName: android; MovementGranularity: 0; Action: 0 [ ClassName: android.widget.FrameLayout; Text: []; ContentDescription: null; ItemCount: -1; CurrentItemIndex: -1; IsEnabled: true; IsPassword: false; IsChecked: false; IsFullScreen: false; Scrollable: false; BeforeText: null; FromIndex: -1; ToIndex: -1; ScrollX: -1; ScrollY: -1; MaxScrollX: -1; MaxScrollY: -1; AddedCount: -1; RemovedCount: -1; ParcelableData: null ]; recordCount: 0 to android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@45282638
+11-25 13:55:09.391 E/AccessibilityManagerService( 2908): android.os.DeadObjectException
+11-25 13:55:09.391 E/AccessibilityManagerService( 2908): 	at android.os.BinderProxy.transact(Native Method)
+11-25 13:55:09.391 E/AccessibilityManagerService( 2908): 	at android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy.onAccessibilityEvent(IAccessibilityServiceClient.java)
+11-25 13:55:09.391 E/AccessibilityManagerService( 2908): 	at com.android.server.accessibility.AccessibilityManagerService$Service.notifyAccessibilityEventInternal(AccessibilityManagerService.java)
+11-25 13:55:09.391 E/AccessibilityManagerService( 2908): 	at com.android.server.accessibility.AccessibilityManagerService$Service.access$2400(AccessibilityManagerService.java)
+11-25 13:55:09.391 E/AccessibilityManagerService( 2908): 	at com.android.server.accessibility.AccessibilityManagerService$Service$1.handleMessage(AccessibilityManagerService.java)
+11-25 13:55:09.391 E/AccessibilityManagerService( 2908): 	at android.os.Handler.dispatchMessage(Handler.java)
+11-25 13:55:09.391 E/AccessibilityManagerService( 2908): 	at android.os.Looper.loop(Looper.java)
+11-25 13:55:09.391 E/AccessibilityManagerService( 2908): 	at com.android.server.ServerThread.run(SystemServer.java)
+11-25 13:55:09.396 E/JavaBinder( 2908): !!! FAILED BINDER TRANSACTION !!!
+11-25 13:55:09.646 E/Watchdog( 2908): !@Sync 3955
+11-25 13:55:09.871 W/LicenseLogService( 2908): log() is called by non admin
+11-25 13:55:09.876 E/SELinux (17101): selinux_android_seapp_context_reload: seapp_contexts file is loaded from /seapp_contexts
+11-25 13:55:09.991 W/PackageManager( 2908): verifying app can be installed or not
+11-25 13:55:09.996 W/LicenseLogService( 2908): log() is called by non admin
+11-25 13:55:09.996 W/PackageManager( 2908): SELinuxMMAC.assignSeinfoValue
+11-25 13:55:10.031 E/installd( 2460): ECS_ECS: * do_install  pkg [nd.com.unlock]
+11-25 13:55:10.031 E/installd( 2460): ECS_ECS: installing Normal package
+11-25 13:55:10.031 E/installd( 2460): ECS_ECS: installing Normal package
+11-25 13:55:10.031 E/installd( 2460): ECS_ECS  NON Container pkg, calling selinux
+11-25 13:55:10.031 E/installd( 2460): ECS_ECS: Restting the data Path to -data-  ret [0]
+11-25 13:55:10.036 E/installd( 2460): ECS_ECS: * do_linklib  pkg [nd.com.unlock]
+11-25 13:55:10.036 E/installd( 2460): ECS_ECS: do_linklib Normal package
+11-25 13:55:10.036 E/installd( 2460): ECS_ECS: Restting the data Path to -data-  ret [0]
+11-25 13:55:10.036 E/installd( 2460): ECS_ECS: * do_dexopt  pkg [/data/app/nd.com.unlock-1.apk]
+11-25 13:55:10.036 E/installd( 2460): ECS_ECS: do_dexopt Normal package
+11-25 13:55:10.306 E/installd( 2460): ECS_ECS: Restting the data Path to -data-  ret [0]
+11-25 13:55:10.481 E/installd( 2460): ECS_ECS: * do_move_dex  pkg [/data/app/nd.com.unlock-1.apk]
+11-25 13:55:10.481 E/installd( 2460): ECS_ECS: do_move_dex Normal package
+11-25 13:55:10.481 E/installd( 2460): ECS_ECS: Restting the data Path to -data-  ret [0]
+11-25 13:55:10.956 W/InputMethodManagerService( 2908): Found no subtypes in a system IME: com.samsung.inputmethod
+11-25 13:55:10.966 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.StatusBarManagerService.sendNotification:-1 com.android.server.StatusBarManagerService.addNotification:-1 com.android.server.NotificationManagerService.enqueueNotificationInternal:-1 com.android.server.NotificationManagerService.enqueueNotificationWithTag:-1 
+11-25 13:55:10.981 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.StatusBarManagerService.sendNotification:-1 com.android.server.StatusBarManagerService.removeNotification:-1 com.android.server.NotificationManagerService.cancelNotificationLocked:-1 com.android.server.NotificationManagerService.cancelNotification:-1 
+11-25 13:55:11.026 E/SELinux (17123): selinux_android_seapp_context_reload: seapp_contexts file is loaded from /seapp_contexts
+11-25 13:55:11.106 E/SELinux (17135): selinux_android_seapp_context_reload: seapp_contexts file is loaded from /seapp_contexts
+11-25 13:55:11.166 E/SELinux (17147): selinux_android_seapp_context_reload: seapp_contexts file is loaded from /seapp_contexts
+11-25 13:55:11.171 W/Vibrator(17353): Vibrator.cancel()
+11-25 13:55:11.246 W/ContextImpl(17147): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:-1 android.content.ContextWrapper.startService:-1 android.content.ContextWrapper.startService:-1 com.samsung.android.app.filterinstaller.PackageIntentReceiver.onReceive:41 android.app.ActivityThread.handleReceiver:-1 
+11-25 13:55:11.316 E/SELinux (17162): selinux_android_seapp_context_reload: seapp_contexts file is loaded from /seapp_contexts
+11-25 13:55:11.471 W/LicenseLogService( 2908): log() is called by non admin
+11-25 13:55:11.486 W/LicenseLogService( 2908): log() is called by non admin
+11-25 13:55:11.501 E/SELinux (17185): selinux_android_seapp_context_reload: seapp_contexts file is loaded from /seapp_contexts
+11-25 13:55:11.596 W/System.err(17185): android.content.pm.PackageManager$NameNotFoundException: com.samsung.helphub
+11-25 13:55:11.601 W/System.err(17185): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java)
+11-25 13:55:11.601 W/System.err(17185): 	at com.sec.android.gallery3d.util.GalleryFeature.checkUseMotionTutorialDialog(GalleryFeature.java:651)
+11-25 13:55:11.601 W/System.err(17185): 	at com.sec.android.gallery3d.util.GalleryFeature.init(GalleryFeature.java:356)
+11-25 13:55:11.601 W/System.err(17185): 	at com.sec.android.gallery3d.app.GalleryAppImpl.getDataManager(GalleryAppImpl.java:203)
+11-25 13:55:11.601 W/System.err(17185): 	at com.sec.android.gallery3d.provider.GalleryProvider.onCreate(GalleryProvider.java:118)
+11-25 13:55:11.601 W/System.err(17185): 	at android.content.ContentProvider.attachInfo(ContentProvider.java)
+11-25 13:55:11.601 W/System.err(17185): 	at android.app.ActivityThread.installProvider(ActivityThread.java)
+11-25 13:55:11.601 W/System.err(17185): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java)
+11-25 13:55:11.601 W/System.err(17185): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java)
+11-25 13:55:11.601 W/System.err(17185): 	at android.app.ActivityThread.access$1400(ActivityThread.java)
+11-25 13:55:11.601 W/System.err(17185): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java)
+11-25 13:55:11.601 W/System.err(17185): 	at android.os.Handler.dispatchMessage(Handler.java)
+11-25 13:55:11.601 W/System.err(17185): 	at android.os.Looper.loop(Looper.java)
+11-25 13:55:11.601 W/System.err(17185): 	at android.app.ActivityThread.main(ActivityThread.java)
+11-25 13:55:11.601 W/System.err(17185): 	at java.lang.reflect.Method.invokeNative(Native Method)
+11-25 13:55:11.601 W/System.err(17185): 	at java.lang.reflect.Method.invoke(Method.java:511)
+11-25 13:55:11.601 W/System.err(17185): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java)
+11-25 13:55:11.601 W/System.err(17185): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+11-25 13:55:11.601 W/System.err(17185): 	at dalvik.system.NativeStart.main(Native Method)
+11-25 13:55:11.621 W/System.err(17185): android.content.pm.PackageManager$NameNotFoundException: com.skp.tcloud.agent
+11-25 13:55:11.621 W/System.err(17185): 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java)
+11-25 13:55:11.621 W/System.err(17185): 	at com.sec.android.gallery3d.tCloud.TCloudRefer.isTCloudAgentExist(TCloudRefer.java:39)
+11-25 13:55:11.621 W/System.err(17185): 	at com.sec.android.gallery3d.util.GalleryFeature.checkUseTCloud(GalleryFeature.java:1327)
+11-25 13:55:11.621 W/System.err(17185): 	at com.sec.android.gallery3d.util.GalleryFeature.init(GalleryFeature.java:470)
+11-25 13:55:11.621 W/System.err(17185): 	at com.sec.android.gallery3d.app.GalleryAppImpl.getDataManager(GalleryAppImpl.java:203)
+11-25 13:55:11.621 W/System.err(17185): 	at com.sec.android.gallery3d.provider.GalleryProvider.onCreate(GalleryProvider.java:118)
+11-25 13:55:11.621 W/System.err(17185): 	at android.content.ContentProvider.attachInfo(ContentProvider.java)
+11-25 13:55:11.621 W/System.err(17185): 	at android.app.ActivityThread.installProvider(ActivityThread.java)
+11-25 13:55:11.621 W/System.err(17185): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java)
+11-25 13:55:11.621 W/System.err(17185): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java)
+11-25 13:55:11.621 W/System.err(17185): 	at android.app.ActivityThread.access$1400(ActivityThread.java)
+11-25 13:55:11.621 W/System.err(17185): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java)
+11-25 13:55:11.621 W/System.err(17185): 	at android.os.Handler.dispatchMessage(Handler.java)
+11-25 13:55:11.621 W/System.err(17185): 	at android.os.Looper.loop(Looper.java)
+11-25 13:55:11.621 W/System.err(17185): 	at android.app.ActivityThread.main(ActivityThread.java)
+11-25 13:55:11.621 W/System.err(17185): 	at java.lang.reflect.Method.invokeNative(Native Method)
+11-25 13:55:11.621 W/System.err(17185): 	at java.lang.reflect.Method.invoke(Method.java:511)
+11-25 13:55:11.621 W/System.err(17185): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java)
+11-25 13:55:11.621 W/System.err(17185): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+11-25 13:55:11.621 W/System.err(17185): 	at dalvik.system.NativeStart.main(Native Method)
+11-25 13:55:11.691 E/SELinux (17202): selinux_android_seapp_context_reload: seapp_contexts file is loaded from /seapp_contexts
+11-25 13:55:11.756 E/SELinux (17217): selinux_android_seapp_context_reload: seapp_contexts file is loaded from /seapp_contexts
+11-25 13:55:11.756 W/ContextImpl(17147): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 android.content.ContextWrapper.sendBroadcast:-1 com.samsung.android.app.filterinstaller.FilterPackageService$ServiceHandler.handleMessage:95 android.os.Handler.dispatchMessage:-1 android.os.Looper.loop:-1 
+11-25 13:55:11.761 W/RecognitionManagerService( 2908): no available voice recognition services found for user 0
+11-25 13:55:11.801 W/GeocoderProxy( 2908): com.google.android.gms resolves service com.android.location.service.GeocodeProvider, but has wrong signature, ignoring
+11-25 13:55:11.851 E/SELinux (17233): selinux_android_seapp_context_reload: seapp_contexts file is loaded from /seapp_contexts
+11-25 13:55:11.961 E/SELinux (17255): selinux_android_seapp_context_reload: seapp_contexts file is loaded from /seapp_contexts
+11-25 13:55:12.041 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:-1 com.android.server.am.ActivityManagerService.handleAppDiedLocked:-1 com.android.server.am.ActivityManagerService.appDiedLocked:-1 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:-1 
+11-25 13:55:12.046 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:-1 com.android.server.am.ActivityManagerService.handleAppDiedLocked:-1 com.android.server.am.ActivityManagerService.appDiedLocked:-1 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:-1 
+11-25 13:55:12.056 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:-1 com.android.server.am.ActivityManagerService.handleAppDiedLocked:-1 com.android.server.am.ActivityManagerService.appDiedLocked:-1 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:-1 
+11-25 13:55:12.066 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:-1 com.android.server.am.ActivityManagerService.handleAppDiedLocked:-1 com.android.server.am.ActivityManagerService.appDiedLocked:-1 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:-1 
+11-25 13:55:12.071 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:-1 com.android.server.am.ActivityManagerService.handleAppDiedLocked:-1 com.android.server.am.ActivityManagerService.appDiedLocked:-1 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:-1 
+11-25 13:55:12.076 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:-1 com.android.server.am.ActivityManagerService.handleAppDiedLocked:-1 com.android.server.am.ActivityManagerService.appDiedLocked:-1 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:-1 
+11-25 13:55:12.101 W/ActivityManager( 2908): Unable to start service Intent { act=com.sec.knox.containeragent.service.containermanager.ContainerManagerService } U=0: not found
+11-25 13:55:12.101 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:-1 com.android.server.am.ActivityManagerService.handleAppDiedLocked:-1 com.android.server.am.ActivityManagerService.appDiedLocked:-1 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:-1 
+11-25 13:55:12.146 W/[SAUI]  (17255): ConcreteDataExchange::getFreeTabClsf::NumberFormatException
+11-25 13:55:12.256 W/LicenseLogService( 2908): log() is called by non admin
+11-25 13:55:12.346 E/SELinux (17286): selinux_android_seapp_context_reload: seapp_contexts file is loaded from /seapp_contexts
+11-25 13:55:12.436 W/ActivityManager( 2908): mDVFSHelper.acquire()
+11-25 13:55:12.451 E/SELinux (17305): selinux_android_seapp_context_reload: seapp_contexts file is loaded from /seapp_contexts
+11-25 13:55:12.456 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.computeOomAdjLocked:-1 com.android.server.am.ActivityManagerService.computeOomAdjLocked:-1 com.android.server.am.ActivityManagerService.updateOomAdjLocked:-1 com.android.server.am.ActivityManagerService.updateOomAdjLocked:-1 
+11-25 13:55:12.466 E/MoreInfoHPW_ViewGroup( 2908): Parent view is not a TextView
+11-25 13:55:12.741 E/Parcel  ( 2908): Reading a NULL string not supported here.
+11-25 13:55:12.741 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.computeOomAdjLocked:-1 com.android.server.am.ActivityManagerService.updateOomAdjLocked:-1 com.android.server.am.ActivityManagerService.updateOomAdjLocked:-1 com.android.server.am.ActivityManagerService.updateLruProcessLocked:-1 
+11-25 13:55:12.751 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityStack.realStartActivityLocked:-1 com.android.server.am.ActivityManagerService.attachApplicationLocked:-1 com.android.server.am.ActivityManagerService.attachApplication:-1 android.app.ActivityManagerNative.onTransact:-1 
+11-25 13:55:12.821 E/Parcel  ( 2908): Reading a NULL string not supported here.
+11-25 13:55:12.856 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityStack.startPausingLocked:-1 com.android.server.am.ActivityStack.checkReadyForSleepLocked:-1 com.android.server.am.ActivityStack.realStartActivityLocked:-1 com.android.server.am.ActivityManagerService.attachApplicationLocked:-1 
+11-25 13:55:12.871 E/Parcel  ( 2908): Reading a NULL string not supported here.
+11-25 13:55:12.896 E/DexLoad (17286): [E]Success
+11-25 13:55:12.901 E/DexLoad (17286): [E]Success
+11-25 13:55:12.936 W/Vibrator(17353): Vibrator.cancel()
+11-25 13:55:12.961 W/GmsApplication( 9433): Using Auth Proxy for data requests.
+11-25 13:55:12.966 W/ResourceType(17286): getEntry failing because entryIndex 595 is beyond type entryCount 595
+11-25 13:55:12.966 W/ResourceType(17286): Failure getting entry for 0x7f0b0253 (t=10 e=595) in package 0 (error -2147483647)
+11-25 13:55:12.991 E/MoreInfoHPW_ViewGroup(17305): Parent view is not a TextView
+11-25 13:55:13.026 E/SELinux (17331): selinux_android_seapp_context_reload: seapp_contexts file is loaded from /seapp_contexts
+11-25 13:55:13.051 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:-1 com.android.server.am.ActivityManagerService.handleAppDiedLocked:-1 com.android.server.am.ActivityManagerService.appDiedLocked:-1 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:-1 
+11-25 13:55:13.131 W/dalvikvm( 9433): VFY: unable to find class referenced in signature (Landroid/app/SharedElementCallback;)
+11-25 13:55:13.131 W/dalvikvm( 9433): VFY: unable to resolve virtual method 75: Landroid/app/Activity;.setEnterSharedElementCallback (Landroid/app/SharedElementCallback;)V
+11-25 13:55:13.136 W/dalvikvm( 9433): VFY: unable to find class referenced in signature (Landroid/app/SharedElementCallback;)
+11-25 13:55:13.136 W/dalvikvm( 9433): VFY: unable to resolve virtual method 76: Landroid/app/Activity;.setExitSharedElementCallback (Landroid/app/SharedElementCallback;)V
+11-25 13:55:13.136 W/dalvikvm( 9433): VFY: unable to resolve virtual method 39: Landroid/app/Activity;.finishAfterTransition ()V
+11-25 13:55:13.136 W/dalvikvm( 9433): VFY: unable to resolve virtual method 71: Landroid/app/Activity;.postponeEnterTransition ()V
+11-25 13:55:13.136 W/dalvikvm( 9433): VFY: unable to resolve virtual method 84: Landroid/app/Activity;.startPostponedEnterTransition ()V
+11-25 13:55:13.141 W/LicenseLogService( 2908): log() is called by non admin
+11-25 13:55:13.161 E/dalvikvm( 9433): Could not find class 'android.security.KeyPairGeneratorSpec$Builder', referenced from method com.google.android.gms.auth.c.a.a
+11-25 13:55:13.161 W/dalvikvm( 9433): VFY: unable to resolve new-instance 350 (Landroid/security/KeyPairGeneratorSpec$Builder;) in Lcom/google/android/gms/auth/c/a;
+11-25 13:55:13.201 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityStack.resumeTopActivityLocked:-1 com.android.server.am.ActivityStack.resumeTopActivityLocked:-1 com.android.server.am.ActivityStack.resumeTopActivityLocked:-1 com.android.server.am.ActivityManagerService.comeOutOfSleepIfNeededLocked:-1 
+11-25 13:55:13.351 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:-1 com.android.server.am.ActivityManagerService.handleAppDiedLocked:-1 com.android.server.am.ActivityManagerService.appDiedLocked:-1 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:-1 
+11-25 13:55:13.451 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityStack.startPausingLocked:-1 com.android.server.am.ActivityStack.finishActivityLocked:-1 com.android.server.am.ActivityStack.finishActivityLocked:-1 com.android.server.am.ActivityStack.requestFinishActivityLocked:-1 
+11-25 13:55:13.616 W/LicenseLogService( 2908): log() is called by non admin
+11-25 13:55:13.631 W/LicenseLogService( 2908): log() is called by non admin
+11-25 13:55:13.646 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.computeOomAdjLocked:-1 com.android.server.am.ActivityManagerService.computeOomAdjLocked:-1 com.android.server.am.ActivityManagerService.updateOomAdjLocked:-1 com.android.server.am.ActivityManagerService.updateOomAdjLocked:-1 
+11-25 13:55:13.646 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.computeOomAdjLocked:-1 com.android.server.am.ActivityManagerService.computeOomAdjLocked:-1 com.android.server.am.ActivityManagerService.updateOomAdjLocked:-1 com.android.server.am.ActivityManagerService.updateOomAdjLocked:-1 
+11-25 13:55:13.681 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityStack.resumeTopActivityLocked:-1 com.android.server.am.ActivityStack.resumeTopActivityLocked:-1 com.android.server.am.ActivityStack.resumeTopActivityLocked:-1 com.android.server.am.ActivityStack.completePauseLocked:-1 
+11-25 13:55:13.776 W/GmsApplication( 9433): Using Auth Proxy for data requests.
+11-25 13:55:13.841 E/SELinux (17391): selinux_android_seapp_context_reload: seapp_contexts file is loaded from /seapp_contexts
+11-25 13:55:13.941 E/SELinux (17410): selinux_android_seapp_context_reload: seapp_contexts file is loaded from /seapp_contexts
+11-25 13:55:13.961 W/ActivityManager( 2908): mDVFSHelper.release()
+11-25 13:55:13.966 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:-1 com.android.server.am.ActivityManagerService.handleAppDiedLocked:-1 com.android.server.am.ActivityManagerService.appDiedLocked:-1 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:-1 
+11-25 13:55:13.981 W/GmsApplication( 9433): Using Auth Proxy for data requests.
+11-25 13:55:14.046 E/LSO     ( 2908): LSO Service is not yet ready!!!
+11-25 13:55:14.046 E/LSO     ( 2908): LSO Service is not yet ready!!!
+11-25 13:55:14.046 E/LSO     ( 2908): LSO Service is not yet ready!!!
+11-25 13:55:14.051 E/LSO     ( 2908): LSO Service is not yet ready!!!
+11-25 13:55:14.051 E/SELinux (17428): selinux_android_seapp_context_reload: seapp_contexts file is loaded from /seapp_contexts
+11-25 13:55:14.071 E/LSO     ( 2908): LSO Service is not yet ready!!!
+11-25 13:55:14.071 E/LSO     ( 2908): LSO Service is not yet ready!!!
+11-25 13:55:14.071 E/LSO     ( 2908): LSO Service is not yet ready!!!
+11-25 13:55:14.071 E/LSO     ( 2908): LSO Service is not yet ready!!!
+11-25 13:55:14.086 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:-1 com.android.server.am.ActivityManagerService.handleAppDiedLocked:-1 com.android.server.am.ActivityManagerService.appDiedLocked:-1 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:-1 
+11-25 13:55:14.091 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:-1 com.android.server.am.ActivityManagerService.handleAppDiedLocked:-1 com.android.server.am.ActivityManagerService.appDiedLocked:-1 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:-1 
+11-25 13:55:14.106 W/GmsApplication( 9433): Using Auth Proxy for data requests.
+11-25 13:55:14.116 W/GmsApplication( 9433): Using Auth Proxy for data requests.
+11-25 13:55:14.146 W/GmsApplication( 9433): Using Auth Proxy for data requests.
+11-25 13:55:14.176 E/SELinux (17448): selinux_android_seapp_context_reload: seapp_contexts file is loaded from /seapp_contexts
+11-25 13:55:14.181 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:-1 com.android.server.am.ActivityManagerService.handleAppDiedLocked:-1 com.android.server.am.ActivityManagerService.appDiedLocked:-1 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:-1 
+11-25 13:55:14.251 W/System.err(17135): tcs.qh: no connecition!
+11-25 13:55:14.256 W/System.err(17135): 	at tmsdk.common.internal.utils.k.s(SourceFile:231)
+11-25 13:55:14.256 W/System.err(17135): 	at tcs.tc.a(SourceFile:296)
+11-25 13:55:14.256 W/System.err(17135): 	at tcs.tc.a(SourceFile:208)
+11-25 13:55:14.256 W/System.err(17135): 	at tcs.tc.a(SourceFile:195)
+11-25 13:55:14.256 W/System.err(17135): 	at tcs.tf.a(SourceFile:188)
+11-25 13:55:14.256 W/System.err(17135): 	at tcs.te.a(SourceFile:119)
+11-25 13:55:14.256 W/System.err(17135): 	at tmsdk.fg.module.qscanner.o.a(SourceFile:494)
+11-25 13:55:14.256 W/System.err(17135): 	at tmsdk.fg.module.qscanner.n.a(SourceFile:84)
+11-25 13:55:14.256 W/System.err(17135): 	at com.tencent.server.task.f$a.a(SourceFile:294)
+11-25 13:55:14.256 W/System.err(17135): 	at com.tencent.server.task.f$a.a(SourceFile:138)
+11-25 13:55:14.256 W/System.err(17135): 	at com.tencent.server.task.f$1.run(SourceFile:125)
+11-25 13:55:14.256 W/System.err(17135): 	at java.lang.Thread.run(Thread.java:856)
+11-25 13:55:14.301 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:-1 com.android.server.am.ActivityManagerService.handleAppDiedLocked:-1 com.android.server.am.ActivityManagerService.appDiedLocked:-1 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:-1 
+11-25 13:55:14.401 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked:-1 com.android.server.am.ActivityManagerService.handleAppDiedLocked:-1 com.android.server.am.ActivityManagerService.appDiedLocked:-1 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:-1 
+11-25 13:55:14.476 W/System.err(17353): tcs.qh: no connecition!
+11-25 13:55:14.476 W/System.err(17353): 	at tmsdk.common.internal.utils.k.s(SourceFile:231)
+11-25 13:55:14.476 W/System.err(17353): 	at tcs.tc.a(SourceFile:296)
+11-25 13:55:14.476 W/System.err(17353): 	at tcs.tc.a(SourceFile:208)
+11-25 13:55:14.476 W/System.err(17353): 	at tcs.tc.a(SourceFile:195)
+11-25 13:55:14.476 W/System.err(17353): 	at tcs.aop$d.run(SourceFile:172)
+11-25 13:55:14.476 W/System.err(17353): 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+11-25 13:55:14.476 W/System.err(17353): 	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+11-25 13:55:14.481 W/System.err(17353): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+11-25 13:55:14.481 W/System.err(17353): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+11-25 13:55:14.481 W/System.err(17353): 	at java.lang.Thread.run(Thread.java:856)
+11-25 13:55:14.561 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.StatusBarManagerService.sendNotification:-1 com.android.server.StatusBarManagerService.addNotification:-1 com.android.server.NotificationManagerService.enqueueNotificationInternal:-1 com.android.server.NotificationManagerService.enqueueNotificationWithTag:-1 
+11-25 13:55:14.566 W/ContextImpl( 2908): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:-1 com.android.server.StatusBarManagerService.sendNotification:-1 com.android.server.StatusBarManagerService.removeNotification:-1 com.android.server.NotificationManagerService.cancelNotificationLocked:-1 com.android.server.NotificationManagerService.cancelNotification:-1 
+11-25 13:55:14.621 E/JavaBinder( 2908): !!! FAILED BINDER TRANSACTION !!!
+11-25 13:55:15.771 E/Parcel  ( 2908): Reading a NULL string not supported here.
+11-25 13:55:15.781 W/AccessibilityNodeInfoDumper(17471): Fetch time: 114ms
+11-25 13:55:15.786 W/MessageQueue(17471): Handler (com.android.internal.os.HandlerCaller$MyHandler) {415b2470} sending message to a Handler on a dead thread
+11-25 13:55:15.786 W/MessageQueue(17471): java.lang.RuntimeException: Handler (com.android.internal.os.HandlerCaller$MyHandler) {415b2470} sending message to a Handler on a dead thread
+11-25 13:55:15.786 W/MessageQueue(17471): 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java)
+11-25 13:55:15.786 W/MessageQueue(17471): 	at android.os.Handler.enqueueMessage(Handler.java)
+11-25 13:55:15.786 W/MessageQueue(17471): 	at android.os.Handler.sendMessageAtTime(Handler.java)
+11-25 13:55:15.786 W/MessageQueue(17471): 	at android.os.Handler.sendMessageDelayed(Handler.java)
+11-25 13:55:15.786 W/MessageQueue(17471): 	at android.os.Handler.sendMessage(Handler.java)
+11-25 13:55:15.786 W/MessageQueue(17471): 	at com.android.internal.os.HandlerCaller.sendMessage(HandlerCaller.java)
+11-25 13:55:15.786 W/MessageQueue(17471): 	at android.accessibilityservice.AccessibilityService$IAccessibilityServiceClientWrapper.setConnection(AccessibilityService.java)
+11-25 13:55:15.786 W/MessageQueue(17471): 	at android.accessibilityservice.IAccessibilityServiceClient$Stub.onTransact(IAccessibilityServiceClient.java)
+11-25 13:55:15.786 W/MessageQueue(17471): 	at android.os.Binder.execTransact(Binder.java)
+11-25 13:55:15.786 W/MessageQueue(17471): 	at dalvik.system.NativeStart.run(Native Method)
+11-25 13:55:15.786 E/JavaBinder( 2908): !!! FAILED BINDER TRANSACTION !!!

@@ -1,0 +1,120 @@
+--------- beginning of /dev/log/main
+11-25 12:16:53.156 E/JavaBinder(  802): !!! FAILED BINDER TRANSACTION !!!
+11-25 12:16:54.127 E/cutils-trace(15555): Error opening trace file: No such file or directory (2)
+11-25 12:16:54.237 W/HtcNativeFlag(15555): Fail to get flag string for type 'customer', use default value
+11-25 12:16:54.237 W/HtcNativeFlag(15555): Fail to get flag for type 'customer', use default value: -1
+11-25 12:16:54.237 W/HtcNativeFlag(15555): Fail to get flag string for type 'language', use default value
+11-25 12:16:54.237 W/HtcNativeFlag(15555): Fail to get flag for type 'language', use default value: -1
+11-25 12:16:54.277 E/memtrack(15555): Couldn't load memtrack module (No such file or directory)
+11-25 12:16:54.277 E/android.os.Debug(15555): failed to load memtrack module: -2
+--------- beginning of /dev/log/system
+11-25 12:16:54.507 W/CpuWake (  802): >>nativeAcquireCpuPerfWakeLock()
+11-25 12:16:54.507 W/CpuWake (  802): <<nativeAcquireCpuPerfWakeLock()
+11-25 12:16:54.597 E/ActivityThread( 1246): Failed to find provider info for com.htc.idlescreen.setting.provider
+11-25 12:16:54.607 W/Prism.WorkspaceThumbna_( 1246): Get null workspace page thumbnail with index: 7
+11-25 12:16:54.607 W/Prism.WorkspaceThumbna_( 1246): Get null workspace page thumbnail with index: 7
+11-25 12:16:54.837 W/WifiHW  (  802): QCOM Debug wifi_send_command "IFNAME=wlan0 SIGNAL_POLL"
+11-25 12:16:55.158 E/JavaBinder(  802): !!! FAILED BINDER TRANSACTION !!!
+11-25 12:16:55.168 E/cutils-trace(15590): Error opening trace file: No such file or directory (2)
+11-25 12:16:55.278 W/HtcNativeFlag(15590): Fail to get flag string for type 'customer', use default value
+11-25 12:16:55.278 W/HtcNativeFlag(15590): Fail to get flag for type 'customer', use default value: -1
+11-25 12:16:55.278 W/HtcNativeFlag(15590): Fail to get flag string for type 'language', use default value
+11-25 12:16:55.278 W/HtcNativeFlag(15590): Fail to get flag for type 'language', use default value: -1
+11-25 12:16:55.308 W/CpuWake (  802): >>nativeReleaseCpuPerfWakeLock()
+11-25 12:16:55.308 W/CpuWake (  802): <<nativeReleaseCpuPerfWakeLock()
+11-25 12:16:55.318 E/memtrack(15590): Couldn't load memtrack module (No such file or directory)
+11-25 12:16:55.318 E/android.os.Debug(15590): failed to load memtrack module: -2
+11-25 12:16:56.169 E/JavaBinder(  802): !!! FAILED BINDER TRANSACTION !!!
+11-25 12:16:56.669 W/ResourceType( 1246): No known package when getting name for resource number 0x9b000000
+11-25 12:16:56.669 W/ResourceType( 1246): No known package when getting name for resource number 0x9b010100
+11-25 12:16:56.669 W/ResourceType( 1246): No known package when getting name for resource number 0x9b030300
+11-25 12:16:56.669 W/ResourceType( 1246): No known package when getting name for resource number 0x9b040400
+11-25 12:16:56.679 W/AccessibilityNodeInfoDumper(15590): Fetch time: 137ms
+11-25 12:16:56.679 W/HtcDLNAServiceManager(  802): Settings:AgentMONITOR_LOG
+11-25 12:16:56.679 W/HtcDLNAServiceManager(  802): Settings:Agentname: accelerometer_rotation
+11-25 12:16:56.679 W/HtcDLNAServiceManager(  802): Settings:Agentvalue: 0
+11-25 12:16:56.679 W/Settings:Agent(  802): >> traceCallingStack()
+11-25 12:16:56.679 W/Settings:Agent(  802): Process.myPid(): 802
+11-25 12:16:56.679 W/Settings:Agent(  802): Process.myTid(): 814
+11-25 12:16:56.679 W/Settings:Agent(  802): Process.myUid(): 1000
+11-25 12:16:56.679 W/Settings:Agent(  802): 
+11-25 12:16:56.679 W/Settings:Agent(  802): 
+11-25 12:16:56.679 W/System.err(  802): java.lang.Throwable: stack dump
+11-25 12:16:56.679 W/System.err(  802): 	at java.lang.Thread.dumpStack(Thread.java:512)
+11-25 12:16:56.689 W/System.err(  802): 	at android.provider.Settings$HtcISettings$Agent.traceCallingStack(Settings$HtcISettings.java:56)
+11-25 12:16:56.689 W/System.err(  802): 	at android.provider.Settings$HtcISystem$Agent.monitorKey(Settings$HtcISystem.java:120)
+11-25 12:16:56.689 W/System.err(  802): 	at android.provider.Settings$System.putStringForUser(Settings.java:1257)
+11-25 12:16:56.689 W/System.err(  802): 	at android.provider.Settings$System.putIntForUser(Settings.java:1365)
+11-25 12:16:56.689 W/System.err(  802): 	at com.android.internal.policy.impl.PhoneWindowManager.setUserRotationMode(PhoneWindowManager.java:6741)
+11-25 12:16:56.689 W/System.err(  802): 	at com.android.server.wm.WindowManagerService.freezeRotation(WindowManagerService.java:6174)
+11-25 12:16:56.689 W/System.err(  802): 	at android.view.IWindowManager$Stub.onTransact(IWindowManager.java:739)
+11-25 12:16:56.689 W/System.err(  802): 	at com.android.server.wm.WindowManagerService.onTransact(WindowManagerService.java:984)
+11-25 12:16:56.689 W/System.err(  802): 	at android.os.Binder.execTransact(Binder.java:412)
+11-25 12:16:56.689 W/System.err(  802): 	at dalvik.system.NativeStart.run(Native Method)
+11-25 12:16:56.689 W/Settings:Agent(  802): 
+11-25 12:16:56.689 W/Settings:Agent(  802): << traceCallingStack(): 2(ms)
+11-25 12:16:57.180 E/JavaBinder(  802): !!! FAILED BINDER TRANSACTION !!!
+11-25 12:16:57.710 E/cutils-trace(15620): Error opening trace file: No such file or directory (2)
+11-25 12:16:57.820 W/HtcNativeFlag(15620): Fail to get flag string for type 'customer', use default value
+11-25 12:16:57.820 W/HtcNativeFlag(15620): Fail to get flag for type 'customer', use default value: -1
+11-25 12:16:57.820 W/HtcNativeFlag(15620): Fail to get flag string for type 'language', use default value
+11-25 12:16:57.820 W/HtcNativeFlag(15620): Fail to get flag for type 'language', use default value: -1
+11-25 12:16:57.841 W/WifiHW  (  802): QCOM Debug wifi_send_command "IFNAME=wlan0 SIGNAL_POLL"
+11-25 12:16:57.861 E/memtrack(15620): Couldn't load memtrack module (No such file or directory)
+11-25 12:16:57.861 E/android.os.Debug(15620): failed to load memtrack module: -2
+11-25 12:16:58.031 W/Prism.WorkspaceThumbna_( 1246): Get null workspace page thumbnail with index: 7
+11-25 12:16:58.031 W/Prism.WorkspaceThumbna_( 1246): Get null workspace page thumbnail with index: 7
+11-25 12:16:58.181 E/JavaBinder(  802): !!! FAILED BINDER TRANSACTION !!!
+11-25 12:16:59.042 E/cutils-trace(15639): Error opening trace file: No such file or directory (2)
+11-25 12:16:59.162 W/HtcNativeFlag(15639): Fail to get flag string for type 'customer', use default value
+11-25 12:16:59.162 W/HtcNativeFlag(15639): Fail to get flag for type 'customer', use default value: -1
+11-25 12:16:59.162 W/HtcNativeFlag(15639): Fail to get flag string for type 'language', use default value
+11-25 12:16:59.162 W/HtcNativeFlag(15639): Fail to get flag for type 'language', use default value: -1
+11-25 12:16:59.202 E/memtrack(15639): Couldn't load memtrack module (No such file or directory)
+11-25 12:16:59.202 E/android.os.Debug(15639): failed to load memtrack module: -2
+11-25 12:16:59.572 W/ProcessCpuTracker(  802): Skipping unknown process pid 15651
+11-25 12:16:59.572 W/ProcessCpuTracker(  802): Skipping unknown process pid 15653
+11-25 12:16:59.572 W/ProcessCpuTracker(  802): Skipping unknown process pid 15654
+11-25 12:16:59.572 W/ProcessCpuTracker(  802): Skipping unknown process pid 15656
+11-25 12:16:59.572 W/ProcessCpuTracker(  802): Skipping unknown process pid 15657
+11-25 12:16:59.582 W/ProcessCpuTracker(  802): Skipping unknown process pid 15659
+11-25 12:17:00.123 W/MastheadClock( 1246): mDigitAnimMin.start
+11-25 12:17:00.854 W/WifiHW  (  802): QCOM Debug wifi_send_command "IFNAME=wlan0 SIGNAL_POLL"
+11-25 12:17:01.194 E/JavaBinder(  802): !!! FAILED BINDER TRANSACTION !!!
+11-25 12:17:01.715 W/ResourceType( 1246): No known package when getting name for resource number 0x9b000000
+11-25 12:17:01.715 W/ResourceType( 1246): No known package when getting name for resource number 0x9b010100
+11-25 12:17:01.715 W/ResourceType( 1246): No known package when getting name for resource number 0x9b030300
+11-25 12:17:01.715 W/ResourceType( 1246): No known package when getting name for resource number 0x9b040400
+11-25 12:17:01.735 W/AccessibilityNodeInfoDumper(15639): Fetch time: 133ms
+11-25 12:17:01.735 W/HtcDLNAServiceManager(  802): Settings:AgentMONITOR_LOG
+11-25 12:17:01.735 W/HtcDLNAServiceManager(  802): Settings:Agentname: accelerometer_rotation
+11-25 12:17:01.735 W/HtcDLNAServiceManager(  802): Settings:Agentvalue: 0
+11-25 12:17:01.735 W/Settings:Agent(  802): >> traceCallingStack()
+11-25 12:17:01.735 W/Settings:Agent(  802): Process.myPid(): 802
+11-25 12:17:01.735 W/Settings:Agent(  802): Process.myTid(): 1494
+11-25 12:17:01.735 W/Settings:Agent(  802): Process.myUid(): 1000
+11-25 12:17:01.735 W/Settings:Agent(  802): 
+11-25 12:17:01.735 W/Settings:Agent(  802): 
+11-25 12:17:01.735 W/System.err(  802): java.lang.Throwable: stack dump
+11-25 12:17:01.735 W/System.err(  802): 	at java.lang.Thread.dumpStack(Thread.java:512)
+11-25 12:17:01.735 W/System.err(  802): 	at android.provider.Settings$HtcISettings$Agent.traceCallingStack(Settings$HtcISettings.java:56)
+11-25 12:17:01.735 W/System.err(  802): 	at android.provider.Settings$HtcISystem$Agent.monitorKey(Settings$HtcISystem.java:120)
+11-25 12:17:01.735 W/System.err(  802): 	at android.provider.Settings$System.putStringForUser(Settings.java:1257)
+11-25 12:17:01.735 W/System.err(  802): 	at android.provider.Settings$System.putIntForUser(Settings.java:1365)
+11-25 12:17:01.745 W/System.err(  802): 	at com.android.internal.policy.impl.PhoneWindowManager.setUserRotationMode(PhoneWindowManager.java:6741)
+11-25 12:17:01.745 W/System.err(  802): 	at com.android.server.wm.WindowManagerService.freezeRotation(WindowManagerService.java:6174)
+11-25 12:17:01.745 W/System.err(  802): 	at android.view.IWindowManager$Stub.onTransact(IWindowManager.java:739)
+11-25 12:17:01.745 W/System.err(  802): 	at com.android.server.wm.WindowManagerService.onTransact(WindowManagerService.java:984)
+11-25 12:17:01.745 W/System.err(  802): 	at android.os.Binder.execTransact(Binder.java:412)
+11-25 12:17:01.745 W/System.err(  802): 	at dalvik.system.NativeStart.run(Native Method)
+11-25 12:17:01.745 W/Settings:Agent(  802): 
+11-25 12:17:01.745 W/Settings:Agent(  802): << traceCallingStack(): 6(ms)
+11-25 12:17:02.786 E/cutils-trace(15703): Error opening trace file: No such file or directory (2)
+11-25 12:17:02.896 W/HtcNativeFlag(15703): Fail to get flag string for type 'customer', use default value
+11-25 12:17:02.896 W/HtcNativeFlag(15703): Fail to get flag for type 'customer', use default value: -1
+11-25 12:17:02.896 W/HtcNativeFlag(15703): Fail to get flag string for type 'language', use default value
+11-25 12:17:02.896 W/HtcNativeFlag(15703): Fail to get flag for type 'language', use default value: -1
+11-25 12:17:02.946 E/memtrack(15703): Couldn't load memtrack module (No such file or directory)
+11-25 12:17:02.946 E/android.os.Debug(15703): failed to load memtrack module: -2
+11-25 12:17:03.156 W/CpuWake (  802): >>nativeAcquireCpuPerfWakeLock()
+11-25 12:17:03.176 W/CpuWake (  802): <<nativeAcquireCpuPerfWakeLock()
