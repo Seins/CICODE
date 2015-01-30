@@ -14,14 +14,14 @@ import nd.com.db.model.ProgramPage;
 
 public class ScriptElement {
 	
-	public boolean createProjectScript(String projectName){
+	public String createProjectScript(String projectName){
 		List<String> modelList = Util.dao.getProgramNameForProjectName(projectName);
 		String projectDirPath = Util.rootPath + projectName + "/";
 		FileUtil.createDir(projectDirPath);
 		for (String modelName : modelList) {
 			createModelScript(modelName, projectDirPath);
 		}
-		return true;
+		return projectDirPath;
 	}
 
 	/**
