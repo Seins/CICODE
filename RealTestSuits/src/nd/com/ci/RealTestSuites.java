@@ -28,7 +28,8 @@ public class RealTestSuites {
 		List<String> fileList = new ArrayList<String>();
 		File rootDir = new File(rootPath);
 		if (!rootDir.isDirectory()) {
-			if (rootDir.getAbsolutePath().contains(".py")) {
+			String filePath = rootDir.getAbsolutePath();
+			if (filePath.substring(filePath.lastIndexOf(".")+1).equals("py")) {
 				fileList.add(rootDir.getAbsolutePath());
 			}
 		} else {
@@ -36,7 +37,7 @@ public class RealTestSuites {
 			for (int i = 0; i < files.length; i++) {
 				rootPath = rootDir.getAbsolutePath() + "\\" + files[i];
 				fileList.addAll(scanTestFile(rootPath));
-			}
+			}	
 		}
 		return fileList;
 	}
