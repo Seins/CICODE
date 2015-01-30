@@ -14,11 +14,10 @@ public class RealMonkey {
 		sb.append("from automatormonkey.monkeyrunnercore.info.Enum import *\n");
 		sb.append("from automatormonkey.realunittest.RealJunit import *\n\n");
 	
-		sb.append("ROOTPATH = 'D:/CIServers'\n");
+		sb.append("ROOTPATH = 'D:/report'\n");
 		sb.append("filename = __file__.split('\\\\')[-1].split('.')[0]\n");
-		sb.append("if os.path.exists(ROOTPATH)==False:\n");
-		sb.append("    os.mkdir(ROOTPATH)\n");
-		sb.append("modelname = '%s/%s'%(ROOTPATH, filename)\n");
+		sb.append("package_name = __file__.replace('\\\\','/',10)\n");
+		sb.append("modelname = '%s/html/%s'%(ROOTPATH, filename)\n");
 		sb.append("if os.path.exists(modelname)==False:\n");
 		sb.append("    os.mkdir(modelname)\n");
 

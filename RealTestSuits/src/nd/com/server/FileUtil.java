@@ -73,7 +73,7 @@ public class FileUtil {
 				}
 			}
 		}
-		// 目录此时为空，可以删除
+		// 目录此时为空，可以删
 		boolean delete = dir.delete();
 		// try {
 		// Thread.sleep(500);

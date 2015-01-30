@@ -1,8 +1,6 @@
 package nd.com;
 
-import nd.com.server.FileUtil;
-import nd.com.server.Util;
-
+import nd.com.server.ScriptElement;
 
 public class TestMain {
 
@@ -13,7 +11,6 @@ public class TestMain {
 		// TODO Auto-generated method stub
 		//System.out.println(Util.dao.getProgramIdForName("测试"));
 		//System.out.println(Util.dao.getProgramNameForProjectName("91助手"));
-		FileUtil.createDir("E:/wqm/wqm");
+		new ScriptElement().createProjectScript("Demo");
 	}
-
 }

@@ -7,7 +7,7 @@ public class TestSuits {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Util util = new Util();
+		RealTestSuites util = new RealTestSuites();
 		util.StartRun("E:/CISCRIPT");
 	}
 

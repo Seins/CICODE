@@ -26,7 +26,6 @@ public class ScriptTool {
 		this.modelDirPath = projectDirPath;
 	}
 
-
 	private void createScript(String scriptName) {
 		content = new StringBuilder();
 		String fileName = this.modelDirPath + scriptName;
@@ -45,8 +44,8 @@ public class ScriptTool {
 
 	private String setUp() {
 		StringBuilder testCase = new StringBuilder();
-		testCase.append("print 'xml_file_path#'+ROOTPATH\n");
-		testCase.append("print 'TestModelName#', filename\n");
+		testCase.append("print 'xml_file_path#'+ROOTPATH+'/xml'\n");
+		testCase.append("print 'TestModelName#', package_name\n");
 		return junitScript.setUp(testCase.toString());
 	}
 
@@ -95,15 +94,14 @@ public class ScriptTool {
 				String caseName = String.format("%s%s", element.getClassType(), element.getElementId());
 				sb.append(String.format("logPath = modelname+'/%s'\n", caseName));
 				sb.append("device=rMonkeyRunner(logPath)\n");
-				sb.append(startApp("com.up91.pocket",
-						"com.nd.k12.app.pocketlearning.view.activity.SplashActivity"));
+				sb.append(startApp("qa.demo",
+						"qa.demo.MainActivity"));
 				System.out.println("-----------------------------------------");
 				int size = list.size();
 				for (int i = size - 1; i >= 0; i--) {
 					sb.append(writeCode(list.get(i)));
 					System.out.println(list.get(i).toString());
 				}
-				System.out.println(sb.toString());
 				content.append(junitScript.testCase(caseName, sb.toString()));
 				System.out.println("-----------------------------------------");
 			}
