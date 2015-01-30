@@ -1,4 +1,4 @@
-package nd.com.ci;
+ï»¿package nd.com.ci;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,7 +14,7 @@ public class Util {
 	private String reportRootPath = "D:/CIServers";
 
 	/**
-	 * É¨ÃèËùÒÔÒªÖ´ĞĞµÄÎÄ¼ş
+	 * æ‰«ææ‰€ä»¥è¦æ‰§è¡Œçš„æ–‡ä»¶
 	 * 
 	 * @param rootPath
 	 * @return
@@ -75,9 +75,9 @@ public class Util {
 		try {
 			reader = new BufferedReader(new FileReader(file));
 			String tempString = null;
-			// Ò»´Î¶ÁÈëÒ»ĞĞ£¬Ö±µ½¶ÁÈënullÎªÎÄ¼ş½áÊø
+			// ä¸€æ¬¡è¯»å…¥ä¸€è¡Œï¼Œç›´åˆ°è¯»å…¥nullä¸ºæ–‡ä»¶ç»“æŸ
 			while ((tempString = reader.readLine()) != null) {
-				// ÏÔÊ¾ĞĞºÅ
+				// æ˜¾ç¤ºè¡Œå·
 				if (!tempString.contains("xml version")) {
 					sb.append(tempString+"\n");
 				}
