@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-list{
+	position: absolute;
+	top: 100px;
+	left: 20px;
+	background: #efefef;
+	display: block;
+}
+
+.menu-list>li{
+	list-style: none;
+	display: block;
+	line-height: 25px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.menu-list>li.menu-head{
+	line-height: 28px;
+	background: #55B1DF;
+	font-size: 16px;
+	font:bold;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	font-family: '微软雅黑';
+}
+
+.menu-list>li:hover{
+	background: #ABD8EF;
+
+}
+
+.menu-list>li.menu-head:hover{
+	background: #55B1DF;
+}
+.menu-list>li>a.menu-item{
+	text-decoration: none;
+	font-size: 14px;
+	font-family: '微软雅黑';
+	display: block;
+	padding: 0 5px;
+	min-width: 100px;
+	color: #6C6C6C;
+	cursor: pointer;
+	text-align: center;
+}
+
+.menu-list>li>a.menu-item:hover{
+	color: #55B1DF;
+}

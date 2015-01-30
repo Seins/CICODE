@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+#close{
+	height:21px;
+	width:21px;
+	background:url(../images/right.png);
+	position:absolute;
+	top:50%;
+	right:-20px;
+	margin:-10px 10px;
+	cursor:pointer;
+	z-index:999;
+}
+.close{
+	top:0;
+	bottom:50%;
+	right:0px;
+	margin: 10px -10px;	
+	background:url(../images/left.png) !important;
+}
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd"> 
+<sqlMap namespace="Operational">
+    
+<typeAlias alias="operational" type="com.nd.citest.model.Operational"/>
+
+
+<!-- 插入操作信息 -->
+<insert id="insertOperational" parameterClass="operational">
+	insert into operational(content) values(#content#)
+	<selectKey resultClass="int" keyProperty="operationalid">  
+        select LAST_INSERT_ID()   
+    </selectKey>  
+</insert>
+<!-- 查询操作信息 -->
+<select id="getOperationalByContent" parameterClass="String" resultClass="operational">
+	select operationalid,content from operational where content=#content#
+</select>
+<!-- 修改操作信息 -->
+<update id="updateOperationalById" parameterClass="operational">
+	update operational set content=#content# where operationalid=#operationalid#
+</update>
+
+<delete id="delOperational" parameterClass="int">
+	delete from operational where operationalid=#operationalid#
+</delete>
+
+<select id="getOperationalContent"  parameterClass="String" resultClass="operational">
+	select distinct content from operational where 1=1 and content like '%$content$%'
+</select>
+</sqlMap>

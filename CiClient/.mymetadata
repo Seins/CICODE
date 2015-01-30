@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="CiClient"
+  id="myeclipse.1419322694713"
+  context-root="/CiClient"
+  j2ee-spec="5.0"
+  archive="CiClient.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

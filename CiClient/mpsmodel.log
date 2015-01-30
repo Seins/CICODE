@@ -1,0 +1,945 @@
+2015-01-30 16:18:13,068 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@12088db: display name [org.springframework.context.support.ClassPathXmlApplicationContext@12088db]; startup date [Fri Jan 30 16:18:12 CST 2015]; root of context hierarchy
+2015-01-30 16:18:13,225 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-01-30 16:18:13,881 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@12088db]: org.springframework.beans.factory.support.DefaultListableBeanFactory@f64b73
+2015-01-30 16:18:14,052 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [application.properties]
+2015-01-30 16:18:14,099 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@f64b73: defining beans [propertyConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sqlMapClient,Dao,Data,ShowReport,ToPageAction,programDao,programService,ShowTreeAction,AddPageAction,EditPageAction,UpdateProgramPageAction,ShowProgramAction,ShowElementOperByPageidAction,AddEleOperAction,UpdateElementAction,UpdateOperationalAction,DelEleOperationalAction,AddProgramAction,DelProgramAction,DelPageAction,CheckPageNameAction,CopyPageAction,GetElementClasstypeAction,GetOperContentAction,ShowProjectProgramAction,GenerateScriptAction]; root of factory hierarchy
+2015-01-30 16:18:14,303 INFO [org.springframework.jdbc.datasource.DriverManagerDataSource] - Loaded JDBC driver: com.mysql.jdbc.Driver
+2015-01-30 16:24:31,920 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@c6a3a0: display name [org.springframework.context.support.ClassPathXmlApplicationContext@c6a3a0]; startup date [Fri Jan 30 16:24:31 CST 2015]; root of context hierarchy
+2015-01-30 16:24:32,013 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-01-30 16:24:32,388 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@c6a3a0]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1116cae
+2015-01-30 16:24:32,514 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [application.properties]
+2015-01-30 16:24:32,560 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1116cae: defining beans [propertyConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sqlMapClient,Dao,Data,ShowReport,ToPageAction,programDao,programService,ShowTreeAction,AddPageAction,EditPageAction,UpdateProgramPageAction,ShowProgramAction,ShowElementOperByPageidAction,AddEleOperAction,UpdateElementAction,UpdateOperationalAction,DelEleOperationalAction,AddProgramAction,DelProgramAction,DelPageAction,CheckPageNameAction,CopyPageAction,GetElementClasstypeAction,GetOperContentAction,ShowProjectProgramAction,GenerateScriptAction]; root of factory hierarchy
+2015-01-30 16:24:32,654 INFO [org.springframework.jdbc.datasource.DriverManagerDataSource] - Loaded JDBC driver: com.mysql.jdbc.Driver
+2015-01-30 16:25:46,022 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@cd51ad: display name [org.springframework.context.support.ClassPathXmlApplicationContext@cd51ad]; startup date [Fri Jan 30 16:25:46 CST 2015]; root of context hierarchy
+2015-01-30 16:25:46,132 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-01-30 16:25:46,490 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@cd51ad]: org.springframework.beans.factory.support.DefaultListableBeanFactory@8bfa09
+2015-01-30 16:25:46,640 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [application.properties]
+2015-01-30 16:25:46,687 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8bfa09: defining beans [propertyConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sqlMapClient,Dao,Data,ShowReport,ToPageAction,programDao,programService,ShowTreeAction,AddPageAction,EditPageAction,UpdateProgramPageAction,ShowProgramAction,ShowElementOperByPageidAction,AddEleOperAction,UpdateElementAction,UpdateOperationalAction,DelEleOperationalAction,AddProgramAction,DelProgramAction,DelPageAction,CheckPageNameAction,CopyPageAction,GetElementClasstypeAction,GetOperContentAction,ShowProjectProgramAction,GenerateScriptAction]; root of factory hierarchy
+2015-01-30 16:25:46,765 INFO [org.springframework.jdbc.datasource.DriverManagerDataSource] - Loaded JDBC driver: com.mysql.jdbc.Driver
+2015-01-30 16:27:33,627 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1ad5d46: display name [org.springframework.context.support.ClassPathXmlApplicationContext@1ad5d46]; startup date [Fri Jan 30 16:27:33 CST 2015]; root of context hierarchy
+2015-01-30 16:27:33,799 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-01-30 16:27:34,236 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@1ad5d46]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1116cae
+2015-01-30 16:27:34,377 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [application.properties]
+2015-01-30 16:27:34,408 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1116cae: defining beans [propertyConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sqlMapClient,Dao,Data,ShowReport,ToPageAction,programDao,programService,ShowTreeAction,AddPageAction,EditPageAction,UpdateProgramPageAction,ShowProgramAction,ShowElementOperByPageidAction,AddEleOperAction,UpdateElementAction,UpdateOperationalAction,DelEleOperationalAction,AddProgramAction,DelProgramAction,DelPageAction,CheckPageNameAction,CopyPageAction,GetElementClasstypeAction,GetOperContentAction,ShowProjectProgramAction,GenerateScriptAction]; root of factory hierarchy
+2015-01-30 16:27:34,502 INFO [org.springframework.jdbc.datasource.DriverManagerDataSource] - Loaded JDBC driver: com.mysql.jdbc.Driver
+2015-01-30 16:27:35,173 DEBUG [java.sql.Connection] - {conn-100000} Connection
+2015-01-30 16:31:21,878 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@cd51ad: display name [org.springframework.context.support.ClassPathXmlApplicationContext@cd51ad]; startup date [Fri Jan 30 16:31:21 CST 2015]; root of context hierarchy
+2015-01-30 16:31:21,987 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-01-30 16:31:22,299 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@cd51ad]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1116cae
+2015-01-30 16:31:22,502 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [application.properties]
+2015-01-30 16:31:22,549 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1116cae: defining beans [propertyConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sqlMapClient,Dao,Data,ShowReport,ToPageAction,programDao,programService,ShowTreeAction,AddPageAction,EditPageAction,UpdateProgramPageAction,ShowProgramAction,ShowElementOperByPageidAction,AddEleOperAction,UpdateElementAction,UpdateOperationalAction,DelEleOperationalAction,AddProgramAction,DelProgramAction,DelPageAction,CheckPageNameAction,CopyPageAction,GetElementClasstypeAction,GetOperContentAction,ShowProjectProgramAction,GenerateScriptAction]; root of factory hierarchy
+2015-01-30 16:31:22,627 INFO [org.springframework.jdbc.datasource.DriverManagerDataSource] - Loaded JDBC driver: com.mysql.jdbc.Driver
+2015-01-30 16:31:23,173 DEBUG [java.sql.Connection] - {conn-100000} Connection
+2015-01-30 16:31:23,251 DEBUG [java.sql.Connection] - {conn-100000} Preparing Statement:       SELECT name   FROM project   LEFT JOIN    (   SELECT projectid, pp.programid, program.name   FROM    project_program AS pp   LEFT JOIN program ON pp.programid = program.programid) AS pro ON project.projectid = pro.projectid   where projectname = ?  
+2015-01-30 16:31:24,233 DEBUG [java.sql.PreparedStatement] - {pstm-100001} Executing Statement:       SELECT name   FROM project   LEFT JOIN    (   SELECT projectid, pp.programid, program.name   FROM    project_program AS pp   LEFT JOIN program ON pp.programid = program.programid) AS pro ON project.projectid = pro.projectid   where projectname = ?  
+2015-01-30 16:31:24,233 DEBUG [java.sql.PreparedStatement] - {pstm-100001} Parameters: [Demo]
+2015-01-30 16:31:24,233 DEBUG [java.sql.PreparedStatement] - {pstm-100001} Types: [java.lang.String]
+2015-01-30 16:31:24,233 DEBUG [java.sql.ResultSet] - {rset-100002} ResultSet
+2015-01-30 16:33:48,842 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@c6a3a0: display name [org.springframework.context.support.ClassPathXmlApplicationContext@c6a3a0]; startup date [Fri Jan 30 16:33:48 CST 2015]; root of context hierarchy
+2015-01-30 16:33:48,967 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-01-30 16:33:49,295 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@c6a3a0]: org.springframework.beans.factory.support.DefaultListableBeanFactory@f64b73
+2015-01-30 16:33:49,420 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [application.properties]
+2015-01-30 16:33:49,467 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@f64b73: defining beans [propertyConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sqlMapClient,Dao,Data,ShowReport,ToPageAction,programDao,programService,ShowTreeAction,AddPageAction,EditPageAction,UpdateProgramPageAction,ShowProgramAction,ShowElementOperByPageidAction,AddEleOperAction,UpdateElementAction,UpdateOperationalAction,DelEleOperationalAction,AddProgramAction,DelProgramAction,DelPageAction,CheckPageNameAction,CopyPageAction,GetElementClasstypeAction,GetOperContentAction,ShowProjectProgramAction,GenerateScriptAction]; root of factory hierarchy
+2015-01-30 16:33:49,561 INFO [org.springframework.jdbc.datasource.DriverManagerDataSource] - Loaded JDBC driver: com.mysql.jdbc.Driver
+2015-01-30 16:33:50,060 DEBUG [java.sql.Connection] - {conn-100000} Connection
+2015-01-30 16:33:50,076 DEBUG [java.sql.Connection] - {conn-100000} Preparing Statement:       SELECT name   FROM project   LEFT JOIN    (   SELECT projectid, pp.programid, program.name   FROM    project_program AS pp   LEFT JOIN program ON pp.programid = program.programid) AS pro ON project.projectid = pro.projectid   where projectname = ?  
+2015-01-30 16:33:50,403 DEBUG [java.sql.PreparedStatement] - {pstm-100001} Executing Statement:       SELECT name   FROM project   LEFT JOIN    (   SELECT projectid, pp.programid, program.name   FROM    project_program AS pp   LEFT JOIN program ON pp.programid = program.programid) AS pro ON project.projectid = pro.projectid   where projectname = ?  
+2015-01-30 16:33:50,403 DEBUG [java.sql.PreparedStatement] - {pstm-100001} Parameters: [Demo]
+2015-01-30 16:33:50,403 DEBUG [java.sql.PreparedStatement] - {pstm-100001} Types: [java.lang.String]
+2015-01-30 16:33:50,403 DEBUG [java.sql.ResultSet] - {rset-100002} ResultSet
+2015-01-30 16:34:38,092 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1ad5d46: display name [org.springframework.context.support.ClassPathXmlApplicationContext@1ad5d46]; startup date [Fri Jan 30 16:34:38 CST 2015]; root of context hierarchy
+2015-01-30 16:34:38,232 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-01-30 16:34:38,591 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@1ad5d46]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1cc903c
+2015-01-30 16:34:38,767 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [application.properties]
+2015-01-30 16:34:38,813 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1cc903c: defining beans [propertyConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sqlMapClient,Dao,Data,ShowReport,ToPageAction,programDao,programService,ShowTreeAction,AddPageAction,EditPageAction,UpdateProgramPageAction,ShowProgramAction,ShowElementOperByPageidAction,AddEleOperAction,UpdateElementAction,UpdateOperationalAction,DelEleOperationalAction,AddProgramAction,DelProgramAction,DelPageAction,CheckPageNameAction,CopyPageAction,GetElementClasstypeAction,GetOperContentAction,ShowProjectProgramAction,GenerateScriptAction]; root of factory hierarchy
+2015-01-30 16:34:38,907 INFO [org.springframework.jdbc.datasource.DriverManagerDataSource] - Loaded JDBC driver: com.mysql.jdbc.Driver
+2015-01-30 16:34:39,578 DEBUG [java.sql.Connection] - {conn-100000} Connection
+2015-01-30 16:34:39,593 DEBUG [java.sql.Connection] - {conn-100000} Preparing Statement:       SELECT name   FROM project   LEFT JOIN    (   SELECT projectid, pp.programid, program.name   FROM    project_program AS pp   LEFT JOIN program ON pp.programid = program.programid) AS pro ON project.projectid = pro.projectid   where projectname = ?  
+2015-01-30 16:34:39,918 DEBUG [java.sql.PreparedStatement] - {pstm-100001} Executing Statement:       SELECT name   FROM project   LEFT JOIN    (   SELECT projectid, pp.programid, program.name   FROM    project_program AS pp   LEFT JOIN program ON pp.programid = program.programid) AS pro ON project.projectid = pro.projectid   where projectname = ?  
+2015-01-30 16:34:39,918 DEBUG [java.sql.PreparedStatement] - {pstm-100001} Parameters: [101随身学]
+2015-01-30 16:34:39,918 DEBUG [java.sql.PreparedStatement] - {pstm-100001} Types: [java.lang.String]
+2015-01-30 16:34:39,918 DEBUG [java.sql.ResultSet] - {rset-100002} ResultSet
+2015-01-30 16:34:39,981 DEBUG [java.sql.ResultSet] - {rset-100002} Header: [name]
+2015-01-30 16:34:39,981 DEBUG [java.sql.ResultSet] - {rset-100002} Result: [我的书架]
+2015-01-30 16:34:40,121 DEBUG [java.sql.Connection] - {conn-100003} Connection
+2015-01-30 16:34:40,121 DEBUG [java.sql.Connection] - {conn-100003} Preparing Statement:       select programid from program   where name = ?  
+2015-01-30 16:34:40,137 DEBUG [java.sql.PreparedStatement] - {pstm-100004} Executing Statement:       select programid from program   where name = ?  
+2015-01-30 16:34:40,137 DEBUG [java.sql.PreparedStatement] - {pstm-100004} Parameters: [我的书架]
+2015-01-30 16:34:40,137 DEBUG [java.sql.PreparedStatement] - {pstm-100004} Types: [java.lang.String]
+2015-01-30 16:34:40,137 DEBUG [java.sql.ResultSet] - {rset-100005} ResultSet
+2015-01-30 16:34:40,137 DEBUG [java.sql.ResultSet] - {rset-100005} Header: [programid]
+2015-01-30 16:34:40,137 DEBUG [java.sql.ResultSet] - {rset-100005} Result: [17]
+2015-01-30 16:34:40,137 DEBUG [java.sql.Connection] - {conn-100006} Connection
+2015-01-30 16:34:40,137 DEBUG [java.sql.Connection] - {conn-100006} Preparing Statement:   select max(depth) from program_page  where programid = ?; 
+2015-01-30 16:34:40,168 DEBUG [java.sql.PreparedStatement] - {pstm-100007} Executing Statement:   select max(depth) from program_page  where programid = ?; 
+2015-01-30 16:34:40,168 DEBUG [java.sql.PreparedStatement] - {pstm-100007} Parameters: [17]
+2015-01-30 16:34:40,168 DEBUG [java.sql.PreparedStatement] - {pstm-100007} Types: [java.lang.Integer]
+2015-01-30 16:34:40,168 DEBUG [java.sql.ResultSet] - {rset-100008} ResultSet
+2015-01-30 16:34:40,168 DEBUG [java.sql.ResultSet] - {rset-100008} Header: [max(depth)]
+2015-01-30 16:34:40,168 DEBUG [java.sql.ResultSet] - {rset-100008} Result: [3]
+2015-01-30 16:34:40,168 DEBUG [java.sql.Connection] - {conn-100009} Connection
+2015-01-30 16:34:40,168 DEBUG [java.sql.Connection] - {conn-100009} Preparing Statement:      select endpage endPage, pageid pageId, programid programId, depth from program_page  where programid = ? and depth = ?; 
+2015-01-30 16:34:40,199 DEBUG [java.sql.PreparedStatement] - {pstm-100010} Executing Statement:      select endpage endPage, pageid pageId, programid programId, depth from program_page  where programid = ? and depth = ?; 
+2015-01-30 16:34:40,199 DEBUG [java.sql.PreparedStatement] - {pstm-100010} Parameters: [17, 3]
+2015-01-30 16:34:40,199 DEBUG [java.sql.PreparedStatement] - {pstm-100010} Types: [java.lang.Integer, java.lang.Integer]
+2015-01-30 16:34:40,199 DEBUG [java.sql.ResultSet] - {rset-100011} ResultSet
+2015-01-30 16:34:40,199 DEBUG [java.sql.ResultSet] - {rset-100011} Header: [endPage, pageId, programId, depth]
+2015-01-30 16:34:40,199 DEBUG [java.sql.ResultSet] - {rset-100011} Result: [0, 5, 17, 3]
+2015-01-30 16:34:40,199 DEBUG [java.sql.ResultSet] - {rset-100011} Result: [0, 7, 17, 3]
+2015-01-30 16:34:40,199 DEBUG [java.sql.Connection] - {conn-100012} Connection
+2015-01-30 16:34:40,199 DEBUG [java.sql.Connection] - {conn-100012} Preparing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 16:34:40,308 DEBUG [java.sql.PreparedStatement] - {pstm-100013} Executing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 16:34:40,308 DEBUG [java.sql.PreparedStatement] - {pstm-100013} Parameters: [5]
+2015-01-30 16:34:40,308 DEBUG [java.sql.PreparedStatement] - {pstm-100013} Types: [java.lang.Integer]
+2015-01-30 16:34:40,308 DEBUG [java.sql.ResultSet] - {rset-100014} ResultSet
+2015-01-30 16:34:40,308 DEBUG [java.sql.ResultSet] - {rset-100014} Header: [elementid]
+2015-01-30 16:34:40,308 DEBUG [java.sql.ResultSet] - {rset-100014} Result: [7]
+2015-01-30 16:34:40,308 DEBUG [java.sql.ResultSet] - {rset-100014} Result: [8]
+2015-01-30 16:34:40,308 DEBUG [java.sql.Connection] - {conn-100015} Connection
+2015-01-30 16:34:40,308 DEBUG [java.sql.Connection] - {conn-100015} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId in    (       ?   ,       ?   ) 
+2015-01-30 16:34:40,386 DEBUG [java.sql.PreparedStatement] - {pstm-100016} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId in    (       ?   ,       ?   ) 
+2015-01-30 16:34:40,386 DEBUG [java.sql.PreparedStatement] - {pstm-100016} Parameters: [7, 8]
+2015-01-30 16:34:40,386 DEBUG [java.sql.PreparedStatement] - {pstm-100016} Types: [java.lang.Integer, java.lang.Integer]
+2015-01-30 16:34:40,402 DEBUG [java.sql.ResultSet] - {rset-100017} ResultSet
+2015-01-30 16:34:40,402 DEBUG [java.sql.ResultSet] - {rset-100017} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 16:34:40,402 DEBUG [java.sql.ResultSet] - {rset-100017} Result: [7, 知识手册, TextView, 0, 7, 1]
+2015-01-30 16:34:40,402 DEBUG [java.sql.ResultSet] - {rset-100017} Result: [8, 高考真题, TextView, 0, 8, 1]
+2015-01-30 16:34:40,527 DEBUG [java.sql.Connection] - {conn-100018} Connection
+2015-01-30 16:34:40,527 DEBUG [java.sql.Connection] - {conn-100018} Preparing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 16:34:40,558 DEBUG [java.sql.PreparedStatement] - {pstm-100019} Executing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 16:34:40,558 DEBUG [java.sql.PreparedStatement] - {pstm-100019} Parameters: [5]
+2015-01-30 16:34:40,558 DEBUG [java.sql.PreparedStatement] - {pstm-100019} Types: [java.lang.Integer]
+2015-01-30 16:34:40,558 DEBUG [java.sql.ResultSet] - {rset-100020} ResultSet
+2015-01-30 16:34:40,558 DEBUG [java.sql.ResultSet] - {rset-100020} Header: [elementId, operationalId, resultId, targetpageId]
+2015-01-30 16:34:40,558 DEBUG [java.sql.ResultSet] - {rset-100020} Result: [4, 4, 2, 5]
+2015-01-30 16:34:40,558 DEBUG [java.sql.Connection] - {conn-100021} Connection
+2015-01-30 16:34:40,558 DEBUG [java.sql.Connection] - {conn-100021} Preparing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 16:34:40,574 DEBUG [java.sql.PreparedStatement] - {pstm-100022} Executing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 16:34:40,574 DEBUG [java.sql.PreparedStatement] - {pstm-100022} Parameters: [4]
+2015-01-30 16:34:40,574 DEBUG [java.sql.PreparedStatement] - {pstm-100022} Types: [java.lang.Integer]
+2015-01-30 16:34:40,574 DEBUG [java.sql.ResultSet] - {rset-100023} ResultSet
+2015-01-30 16:34:40,574 DEBUG [java.sql.ResultSet] - {rset-100023} Header: [pageid]
+2015-01-30 16:34:40,574 DEBUG [java.sql.ResultSet] - {rset-100023} Result: [3]
+2015-01-30 16:34:40,574 DEBUG [java.sql.Connection] - {conn-100024} Connection
+2015-01-30 16:34:40,574 DEBUG [java.sql.Connection] - {conn-100024} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 16:34:40,589 DEBUG [java.sql.PreparedStatement] - {pstm-100025} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 16:34:40,589 DEBUG [java.sql.PreparedStatement] - {pstm-100025} Parameters: [4]
+2015-01-30 16:34:40,589 DEBUG [java.sql.PreparedStatement] - {pstm-100025} Types: [java.lang.Integer]
+2015-01-30 16:34:40,589 DEBUG [java.sql.ResultSet] - {rset-100026} ResultSet
+2015-01-30 16:34:40,605 DEBUG [java.sql.ResultSet] - {rset-100026} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 16:34:40,605 DEBUG [java.sql.ResultSet] - {rset-100026} Result: [4, 数学, TextView, 0, 4, 2]
+2015-01-30 16:34:40,605 DEBUG [java.sql.Connection] - {conn-100027} Connection
+2015-01-30 16:34:40,605 DEBUG [java.sql.Connection] - {conn-100027} Preparing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 16:34:40,620 DEBUG [java.sql.PreparedStatement] - {pstm-100028} Executing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 16:34:40,620 DEBUG [java.sql.PreparedStatement] - {pstm-100028} Parameters: [3]
+2015-01-30 16:34:40,620 DEBUG [java.sql.PreparedStatement] - {pstm-100028} Types: [java.lang.Integer]
+2015-01-30 16:34:40,620 DEBUG [java.sql.ResultSet] - {rset-100029} ResultSet
+2015-01-30 16:34:40,620 DEBUG [java.sql.ResultSet] - {rset-100029} Header: [depth]
+2015-01-30 16:34:40,620 DEBUG [java.sql.ResultSet] - {rset-100029} Result: [2]
+2015-01-30 16:34:40,620 DEBUG [java.sql.Connection] - {conn-100030} Connection
+2015-01-30 16:34:40,620 DEBUG [java.sql.Connection] - {conn-100030} Preparing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 16:34:40,636 DEBUG [java.sql.PreparedStatement] - {pstm-100031} Executing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 16:34:40,636 DEBUG [java.sql.PreparedStatement] - {pstm-100031} Parameters: [3]
+2015-01-30 16:34:40,636 DEBUG [java.sql.PreparedStatement] - {pstm-100031} Types: [java.lang.Integer]
+2015-01-30 16:34:40,636 DEBUG [java.sql.ResultSet] - {rset-100032} ResultSet
+2015-01-30 16:34:40,636 DEBUG [java.sql.ResultSet] - {rset-100032} Header: [elementId, operationalId, resultId, targetpageId]
+2015-01-30 16:34:40,636 DEBUG [java.sql.ResultSet] - {rset-100032} Result: [2, 2, 2, 3]
+2015-01-30 16:34:40,636 DEBUG [java.sql.Connection] - {conn-100033} Connection
+2015-01-30 16:34:40,636 DEBUG [java.sql.Connection] - {conn-100033} Preparing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 16:34:40,651 DEBUG [java.sql.PreparedStatement] - {pstm-100034} Executing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 16:34:40,651 DEBUG [java.sql.PreparedStatement] - {pstm-100034} Parameters: [2]
+2015-01-30 16:34:40,651 DEBUG [java.sql.PreparedStatement] - {pstm-100034} Types: [java.lang.Integer]
+2015-01-30 16:34:40,651 DEBUG [java.sql.ResultSet] - {rset-100035} ResultSet
+2015-01-30 16:34:40,651 DEBUG [java.sql.ResultSet] - {rset-100035} Header: [pageid]
+2015-01-30 16:34:40,651 DEBUG [java.sql.ResultSet] - {rset-100035} Result: [2]
+2015-01-30 16:34:40,651 DEBUG [java.sql.Connection] - {conn-100036} Connection
+2015-01-30 16:34:40,651 DEBUG [java.sql.Connection] - {conn-100036} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 16:34:40,698 DEBUG [java.sql.PreparedStatement] - {pstm-100037} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 16:34:40,698 DEBUG [java.sql.PreparedStatement] - {pstm-100037} Parameters: [2]
+2015-01-30 16:34:40,698 DEBUG [java.sql.PreparedStatement] - {pstm-100037} Types: [java.lang.Integer]
+2015-01-30 16:34:40,698 DEBUG [java.sql.ResultSet] - {rset-100038} ResultSet
+2015-01-30 16:34:40,698 DEBUG [java.sql.ResultSet] - {rset-100038} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 16:34:40,698 DEBUG [java.sql.ResultSet] - {rset-100038} Result: [2, 分类, TextView, 0, 2, 2]
+2015-01-30 16:34:40,698 DEBUG [java.sql.Connection] - {conn-100039} Connection
+2015-01-30 16:34:40,698 DEBUG [java.sql.Connection] - {conn-100039} Preparing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 16:34:40,714 DEBUG [java.sql.PreparedStatement] - {pstm-100040} Executing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 16:34:40,714 DEBUG [java.sql.PreparedStatement] - {pstm-100040} Parameters: [2]
+2015-01-30 16:34:40,714 DEBUG [java.sql.PreparedStatement] - {pstm-100040} Types: [java.lang.Integer]
+2015-01-30 16:34:40,714 DEBUG [java.sql.ResultSet] - {rset-100041} ResultSet
+2015-01-30 16:34:40,714 DEBUG [java.sql.ResultSet] - {rset-100041} Header: [depth]
+2015-01-30 16:34:40,714 DEBUG [java.sql.ResultSet] - {rset-100041} Result: [1]
+2015-01-30 16:34:40,714 DEBUG [java.sql.Connection] - {conn-100042} Connection
+2015-01-30 16:34:40,714 DEBUG [java.sql.Connection] - {conn-100042} Preparing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 16:34:40,722 DEBUG [java.sql.PreparedStatement] - {pstm-100043} Executing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 16:34:40,722 DEBUG [java.sql.PreparedStatement] - {pstm-100043} Parameters: [2]
+2015-01-30 16:34:40,722 DEBUG [java.sql.PreparedStatement] - {pstm-100043} Types: [java.lang.Integer]
+2015-01-30 16:34:40,723 DEBUG [java.sql.ResultSet] - {rset-100044} ResultSet
+2015-01-30 16:34:40,723 DEBUG [java.sql.ResultSet] - {rset-100044} Header: [elementId, operationalId, resultId, targetpageId]
+2015-01-30 16:34:40,723 DEBUG [java.sql.ResultSet] - {rset-100044} Result: [1, 1, 2, 2]
+2015-01-30 16:34:40,724 DEBUG [java.sql.Connection] - {conn-100045} Connection
+2015-01-30 16:34:40,725 DEBUG [java.sql.Connection] - {conn-100045} Preparing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 16:34:40,735 DEBUG [java.sql.PreparedStatement] - {pstm-100046} Executing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 16:34:40,735 DEBUG [java.sql.PreparedStatement] - {pstm-100046} Parameters: [1]
+2015-01-30 16:34:40,735 DEBUG [java.sql.PreparedStatement] - {pstm-100046} Types: [java.lang.Integer]
+2015-01-30 16:34:40,736 DEBUG [java.sql.ResultSet] - {rset-100047} ResultSet
+2015-01-30 16:34:40,737 DEBUG [java.sql.ResultSet] - {rset-100047} Header: [pageid]
+2015-01-30 16:34:40,737 DEBUG [java.sql.ResultSet] - {rset-100047} Result: [1]
+2015-01-30 16:34:40,739 DEBUG [java.sql.Connection] - {conn-100048} Connection
+2015-01-30 16:34:40,740 DEBUG [java.sql.Connection] - {conn-100048} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 16:34:40,749 DEBUG [java.sql.PreparedStatement] - {pstm-100049} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 16:34:40,749 DEBUG [java.sql.PreparedStatement] - {pstm-100049} Parameters: [1]
+2015-01-30 16:34:40,749 DEBUG [java.sql.PreparedStatement] - {pstm-100049} Types: [java.lang.Integer]
+2015-01-30 16:34:40,750 DEBUG [java.sql.ResultSet] - {rset-100050} ResultSet
+2015-01-30 16:34:40,750 DEBUG [java.sql.ResultSet] - {rset-100050} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 16:34:40,750 DEBUG [java.sql.ResultSet] - {rset-100050} Result: [1, 进入书店, TextView, 0, 1, 2]
+2015-01-30 16:34:40,751 DEBUG [java.sql.Connection] - {conn-100051} Connection
+2015-01-30 16:34:40,780 DEBUG [java.sql.Connection] - {conn-100051} Preparing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 16:34:40,827 DEBUG [java.sql.PreparedStatement] - {pstm-100052} Executing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 16:34:40,827 DEBUG [java.sql.PreparedStatement] - {pstm-100052} Parameters: [1]
+2015-01-30 16:34:40,827 DEBUG [java.sql.PreparedStatement] - {pstm-100052} Types: [java.lang.Integer]
+2015-01-30 16:34:40,827 DEBUG [java.sql.ResultSet] - {rset-100053} ResultSet
+2015-01-30 16:34:40,827 DEBUG [java.sql.ResultSet] - {rset-100053} Header: [depth]
+2015-01-30 16:34:40,827 DEBUG [java.sql.ResultSet] - {rset-100053} Result: [0]
+2015-01-30 16:34:40,827 DEBUG [java.sql.Connection] - {conn-100054} Connection
+2015-01-30 16:34:40,827 DEBUG [java.sql.Connection] - {conn-100054} Preparing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 16:34:40,843 DEBUG [java.sql.PreparedStatement] - {pstm-100055} Executing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 16:34:40,843 DEBUG [java.sql.PreparedStatement] - {pstm-100055} Parameters: [5]
+2015-01-30 16:34:40,843 DEBUG [java.sql.PreparedStatement] - {pstm-100055} Types: [java.lang.Integer]
+2015-01-30 16:34:40,843 DEBUG [java.sql.ResultSet] - {rset-100056} ResultSet
+2015-01-30 16:34:40,843 DEBUG [java.sql.ResultSet] - {rset-100056} Header: [elementId, operationalId, resultId, targetpageId]
+2015-01-30 16:34:40,843 DEBUG [java.sql.ResultSet] - {rset-100056} Result: [4, 4, 2, 5]
+2015-01-30 16:34:40,843 DEBUG [java.sql.Connection] - {conn-100057} Connection
+2015-01-30 16:34:40,843 DEBUG [java.sql.Connection] - {conn-100057} Preparing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 16:34:40,843 DEBUG [java.sql.PreparedStatement] - {pstm-100058} Executing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 16:34:40,843 DEBUG [java.sql.PreparedStatement] - {pstm-100058} Parameters: [4]
+2015-01-30 16:34:40,843 DEBUG [java.sql.PreparedStatement] - {pstm-100058} Types: [java.lang.Integer]
+2015-01-30 16:34:40,843 DEBUG [java.sql.ResultSet] - {rset-100059} ResultSet
+2015-01-30 16:34:40,843 DEBUG [java.sql.ResultSet] - {rset-100059} Header: [pageid]
+2015-01-30 16:34:40,843 DEBUG [java.sql.ResultSet] - {rset-100059} Result: [3]
+2015-01-30 16:34:40,843 DEBUG [java.sql.Connection] - {conn-100060} Connection
+2015-01-30 16:34:40,843 DEBUG [java.sql.Connection] - {conn-100060} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 16:34:40,905 DEBUG [java.sql.PreparedStatement] - {pstm-100061} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 16:34:40,905 DEBUG [java.sql.PreparedStatement] - {pstm-100061} Parameters: [4]
+2015-01-30 16:34:40,905 DEBUG [java.sql.PreparedStatement] - {pstm-100061} Types: [java.lang.Integer]
+2015-01-30 16:34:40,905 DEBUG [java.sql.ResultSet] - {rset-100062} ResultSet
+2015-01-30 16:34:40,905 DEBUG [java.sql.ResultSet] - {rset-100062} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 16:34:40,905 DEBUG [java.sql.ResultSet] - {rset-100062} Result: [4, 数学, TextView, 0, 4, 2]
+2015-01-30 16:34:40,905 DEBUG [java.sql.Connection] - {conn-100063} Connection
+2015-01-30 16:34:40,905 DEBUG [java.sql.Connection] - {conn-100063} Preparing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 16:34:40,921 DEBUG [java.sql.PreparedStatement] - {pstm-100064} Executing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 16:34:40,921 DEBUG [java.sql.PreparedStatement] - {pstm-100064} Parameters: [3]
+2015-01-30 16:34:40,921 DEBUG [java.sql.PreparedStatement] - {pstm-100064} Types: [java.lang.Integer]
+2015-01-30 16:34:40,921 DEBUG [java.sql.ResultSet] - {rset-100065} ResultSet
+2015-01-30 16:34:40,921 DEBUG [java.sql.ResultSet] - {rset-100065} Header: [depth]
+2015-01-30 16:34:40,921 DEBUG [java.sql.ResultSet] - {rset-100065} Result: [2]
+2015-01-30 16:34:40,921 DEBUG [java.sql.Connection] - {conn-100066} Connection
+2015-01-30 16:34:40,921 DEBUG [java.sql.Connection] - {conn-100066} Preparing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 16:34:40,936 DEBUG [java.sql.PreparedStatement] - {pstm-100067} Executing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 16:34:40,936 DEBUG [java.sql.PreparedStatement] - {pstm-100067} Parameters: [3]
+2015-01-30 16:34:40,936 DEBUG [java.sql.PreparedStatement] - {pstm-100067} Types: [java.lang.Integer]
+2015-01-30 16:34:40,936 DEBUG [java.sql.ResultSet] - {rset-100068} ResultSet
+2015-01-30 16:34:40,936 DEBUG [java.sql.ResultSet] - {rset-100068} Header: [elementId, operationalId, resultId, targetpageId]
+2015-01-30 16:34:40,936 DEBUG [java.sql.ResultSet] - {rset-100068} Result: [2, 2, 2, 3]
+2015-01-30 16:34:40,936 DEBUG [java.sql.Connection] - {conn-100069} Connection
+2015-01-30 16:34:40,936 DEBUG [java.sql.Connection] - {conn-100069} Preparing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 16:34:40,968 DEBUG [java.sql.PreparedStatement] - {pstm-100070} Executing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 16:34:40,968 DEBUG [java.sql.PreparedStatement] - {pstm-100070} Parameters: [2]
+2015-01-30 16:34:40,968 DEBUG [java.sql.PreparedStatement] - {pstm-100070} Types: [java.lang.Integer]
+2015-01-30 16:34:40,968 DEBUG [java.sql.ResultSet] - {rset-100071} ResultSet
+2015-01-30 16:34:40,968 DEBUG [java.sql.ResultSet] - {rset-100071} Header: [pageid]
+2015-01-30 16:34:40,968 DEBUG [java.sql.ResultSet] - {rset-100071} Result: [2]
+2015-01-30 16:34:40,968 DEBUG [java.sql.Connection] - {conn-100072} Connection
+2015-01-30 16:34:40,968 DEBUG [java.sql.Connection] - {conn-100072} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 16:34:40,968 DEBUG [java.sql.PreparedStatement] - {pstm-100073} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 16:34:40,968 DEBUG [java.sql.PreparedStatement] - {pstm-100073} Parameters: [2]
+2015-01-30 16:34:40,968 DEBUG [java.sql.PreparedStatement] - {pstm-100073} Types: [java.lang.Integer]
+2015-01-30 16:34:40,968 DEBUG [java.sql.ResultSet] - {rset-100074} ResultSet
+2015-01-30 16:34:40,968 DEBUG [java.sql.ResultSet] - {rset-100074} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 16:34:40,968 DEBUG [java.sql.ResultSet] - {rset-100074} Result: [2, 分类, TextView, 0, 2, 2]
+2015-01-30 16:34:40,968 DEBUG [java.sql.Connection] - {conn-100075} Connection
+2015-01-30 16:34:40,968 DEBUG [java.sql.Connection] - {conn-100075} Preparing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 16:34:41,014 DEBUG [java.sql.PreparedStatement] - {pstm-100076} Executing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 16:34:41,014 DEBUG [java.sql.PreparedStatement] - {pstm-100076} Parameters: [2]
+2015-01-30 16:34:41,014 DEBUG [java.sql.PreparedStatement] - {pstm-100076} Types: [java.lang.Integer]
+2015-01-30 16:34:41,014 DEBUG [java.sql.ResultSet] - {rset-100077} ResultSet
+2015-01-30 16:34:41,014 DEBUG [java.sql.ResultSet] - {rset-100077} Header: [depth]
+2015-01-30 16:34:41,014 DEBUG [java.sql.ResultSet] - {rset-100077} Result: [1]
+2015-01-30 16:34:41,014 DEBUG [java.sql.Connection] - {conn-100078} Connection
+2015-01-30 16:34:41,014 DEBUG [java.sql.Connection] - {conn-100078} Preparing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 16:34:41,061 DEBUG [java.sql.PreparedStatement] - {pstm-100079} Executing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 16:34:41,061 DEBUG [java.sql.PreparedStatement] - {pstm-100079} Parameters: [2]
+2015-01-30 16:34:41,061 DEBUG [java.sql.PreparedStatement] - {pstm-100079} Types: [java.lang.Integer]
+2015-01-30 16:34:41,061 DEBUG [java.sql.ResultSet] - {rset-100080} ResultSet
+2015-01-30 16:34:41,061 DEBUG [java.sql.ResultSet] - {rset-100080} Header: [elementId, operationalId, resultId, targetpageId]
+2015-01-30 16:34:41,061 DEBUG [java.sql.ResultSet] - {rset-100080} Result: [1, 1, 2, 2]
+2015-01-30 16:34:41,061 DEBUG [java.sql.Connection] - {conn-100081} Connection
+2015-01-30 16:34:41,061 DEBUG [java.sql.Connection] - {conn-100081} Preparing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 16:34:41,077 DEBUG [java.sql.PreparedStatement] - {pstm-100082} Executing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 16:34:41,077 DEBUG [java.sql.PreparedStatement] - {pstm-100082} Parameters: [1]
+2015-01-30 16:34:41,077 DEBUG [java.sql.PreparedStatement] - {pstm-100082} Types: [java.lang.Integer]
+2015-01-30 16:34:41,077 DEBUG [java.sql.ResultSet] - {rset-100083} ResultSet
+2015-01-30 16:34:41,077 DEBUG [java.sql.ResultSet] - {rset-100083} Header: [pageid]
+2015-01-30 16:34:41,077 DEBUG [java.sql.ResultSet] - {rset-100083} Result: [1]
+2015-01-30 16:34:41,077 DEBUG [java.sql.Connection] - {conn-100084} Connection
+2015-01-30 16:34:41,077 DEBUG [java.sql.Connection] - {conn-100084} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 16:34:41,124 DEBUG [java.sql.PreparedStatement] - {pstm-100085} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 16:34:41,124 DEBUG [java.sql.PreparedStatement] - {pstm-100085} Parameters: [1]
+2015-01-30 16:34:41,124 DEBUG [java.sql.PreparedStatement] - {pstm-100085} Types: [java.lang.Integer]
+2015-01-30 16:34:41,124 DEBUG [java.sql.ResultSet] - {rset-100086} ResultSet
+2015-01-30 16:34:41,124 DEBUG [java.sql.ResultSet] - {rset-100086} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 16:34:41,124 DEBUG [java.sql.ResultSet] - {rset-100086} Result: [1, 进入书店, TextView, 0, 1, 2]
+2015-01-30 16:34:41,124 DEBUG [java.sql.Connection] - {conn-100087} Connection
+2015-01-30 16:34:41,124 DEBUG [java.sql.Connection] - {conn-100087} Preparing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 16:34:41,124 DEBUG [java.sql.PreparedStatement] - {pstm-100088} Executing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 16:34:41,124 DEBUG [java.sql.PreparedStatement] - {pstm-100088} Parameters: [1]
+2015-01-30 16:34:41,124 DEBUG [java.sql.PreparedStatement] - {pstm-100088} Types: [java.lang.Integer]
+2015-01-30 16:34:41,124 DEBUG [java.sql.ResultSet] - {rset-100089} ResultSet
+2015-01-30 16:34:41,124 DEBUG [java.sql.ResultSet] - {rset-100089} Header: [depth]
+2015-01-30 16:34:41,124 DEBUG [java.sql.ResultSet] - {rset-100089} Result: [0]
+2015-01-30 16:34:41,124 DEBUG [java.sql.Connection] - {conn-100090} Connection
+2015-01-30 16:34:41,139 DEBUG [java.sql.Connection] - {conn-100090} Preparing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 16:34:41,139 DEBUG [java.sql.PreparedStatement] - {pstm-100091} Executing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 16:34:41,139 DEBUG [java.sql.PreparedStatement] - {pstm-100091} Parameters: [7]
+2015-01-30 16:34:41,139 DEBUG [java.sql.PreparedStatement] - {pstm-100091} Types: [java.lang.Integer]
+2015-01-30 16:34:41,139 DEBUG [java.sql.ResultSet] - {rset-100092} ResultSet
+2015-01-30 16:34:41,139 DEBUG [java.sql.Connection] - {conn-100093} Connection
+2015-01-30 16:34:41,139 DEBUG [java.sql.Connection] - {conn-100093} Preparing Statement:      select endpage endPage, pageid pageId, programid programId, depth from program_page  where programid = ? and depth = ?; 
+2015-01-30 16:34:41,155 DEBUG [java.sql.PreparedStatement] - {pstm-100094} Executing Statement:      select endpage endPage, pageid pageId, programid programId, depth from program_page  where programid = ? and depth = ?; 
+2015-01-30 16:34:41,155 DEBUG [java.sql.PreparedStatement] - {pstm-100094} Parameters: [17, 2]
+2015-01-30 16:34:41,155 DEBUG [java.sql.PreparedStatement] - {pstm-100094} Types: [java.lang.Integer, java.lang.Integer]
+2015-01-30 16:34:41,155 DEBUG [java.sql.ResultSet] - {rset-100095} ResultSet
+2015-01-30 16:34:41,155 DEBUG [java.sql.ResultSet] - {rset-100095} Header: [endPage, pageId, programId, depth]
+2015-01-30 16:34:41,155 DEBUG [java.sql.ResultSet] - {rset-100095} Result: [0, 3, 17, 2]
+2015-01-30 16:34:41,155 DEBUG [java.sql.ResultSet] - {rset-100095} Result: [0, 4, 17, 2]
+2015-01-30 16:34:41,155 DEBUG [java.sql.Connection] - {conn-100096} Connection
+2015-01-30 16:34:41,155 DEBUG [java.sql.Connection] - {conn-100096} Preparing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 16:34:41,155 DEBUG [java.sql.PreparedStatement] - {pstm-100097} Executing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 16:34:41,155 DEBUG [java.sql.PreparedStatement] - {pstm-100097} Parameters: [3]
+2015-01-30 16:34:41,155 DEBUG [java.sql.PreparedStatement] - {pstm-100097} Types: [java.lang.Integer]
+2015-01-30 16:34:41,155 DEBUG [java.sql.ResultSet] - {rset-100098} ResultSet
+2015-01-30 16:34:41,155 DEBUG [java.sql.ResultSet] - {rset-100098} Header: [elementid]
+2015-01-30 16:34:41,155 DEBUG [java.sql.ResultSet] - {rset-100098} Result: [4]
+2015-01-30 16:34:41,155 DEBUG [java.sql.ResultSet] - {rset-100098} Result: [6]
+2015-01-30 16:34:41,155 DEBUG [java.sql.Connection] - {conn-100099} Connection
+2015-01-30 16:34:41,155 DEBUG [java.sql.Connection] - {conn-100099} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId in    (       ?   ,       ?   ) 
+2015-01-30 16:34:41,217 DEBUG [java.sql.PreparedStatement] - {pstm-100100} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId in    (       ?   ,       ?   ) 
+2015-01-30 16:34:41,217 DEBUG [java.sql.PreparedStatement] - {pstm-100100} Parameters: [4, 6]
+2015-01-30 16:34:41,217 DEBUG [java.sql.PreparedStatement] - {pstm-100100} Types: [java.lang.Integer, java.lang.Integer]
+2015-01-30 16:34:41,217 DEBUG [java.sql.ResultSet] - {rset-100101} ResultSet
+2015-01-30 16:34:41,217 DEBUG [java.sql.ResultSet] - {rset-100101} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 16:34:41,217 DEBUG [java.sql.ResultSet] - {rset-100101} Result: [4, 数学, TextView, 0, 4, 2]
+2015-01-30 16:34:41,217 DEBUG [java.sql.ResultSet] - {rset-100101} Result: [6, 语文, TextView, 0, 6, 2]
+2015-01-30 16:34:41,217 DEBUG [java.sql.Connection] - {conn-100102} Connection
+2015-01-30 16:34:41,217 DEBUG [java.sql.Connection] - {conn-100102} Preparing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 16:34:41,233 DEBUG [java.sql.PreparedStatement] - {pstm-100103} Executing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 16:34:41,233 DEBUG [java.sql.PreparedStatement] - {pstm-100103} Parameters: [3]
+2015-01-30 16:34:41,233 DEBUG [java.sql.PreparedStatement] - {pstm-100103} Types: [java.lang.Integer]
+2015-01-30 16:34:41,233 DEBUG [java.sql.ResultSet] - {rset-100104} ResultSet
+2015-01-30 16:34:41,233 DEBUG [java.sql.ResultSet] - {rset-100104} Header: [elementId, operationalId, resultId, targetpageId]
+2015-01-30 16:34:41,233 DEBUG [java.sql.ResultSet] - {rset-100104} Result: [2, 2, 2, 3]
+2015-01-30 16:34:41,233 DEBUG [java.sql.Connection] - {conn-100105} Connection
+2015-01-30 16:34:41,233 DEBUG [java.sql.Connection] - {conn-100105} Preparing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 16:34:41,280 DEBUG [java.sql.PreparedStatement] - {pstm-100106} Executing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 16:34:41,280 DEBUG [java.sql.PreparedStatement] - {pstm-100106} Parameters: [2]
+2015-01-30 16:34:41,280 DEBUG [java.sql.PreparedStatement] - {pstm-100106} Types: [java.lang.Integer]
+2015-01-30 16:34:41,280 DEBUG [java.sql.ResultSet] - {rset-100107} ResultSet
+2015-01-30 16:34:41,280 DEBUG [java.sql.ResultSet] - {rset-100107} Header: [pageid]
+2015-01-30 16:34:41,280 DEBUG [java.sql.ResultSet] - {rset-100107} Result: [2]
+2015-01-30 16:34:41,280 DEBUG [java.sql.Connection] - {conn-100108} Connection
+2015-01-30 16:34:41,280 DEBUG [java.sql.Connection] - {conn-100108} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 16:34:41,280 DEBUG [java.sql.PreparedStatement] - {pstm-100109} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 16:34:41,280 DEBUG [java.sql.PreparedStatement] - {pstm-100109} Parameters: [2]
+2015-01-30 16:34:41,280 DEBUG [java.sql.PreparedStatement] - {pstm-100109} Types: [java.lang.Integer]
+2015-01-30 16:34:41,326 DEBUG [java.sql.ResultSet] - {rset-100110} ResultSet
+2015-01-30 16:34:41,326 DEBUG [java.sql.ResultSet] - {rset-100110} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 16:34:41,326 DEBUG [java.sql.ResultSet] - {rset-100110} Result: [2, 分类, TextView, 0, 2, 2]
+2015-01-30 16:34:41,326 DEBUG [java.sql.Connection] - {conn-100111} Connection
+2015-01-30 16:34:41,326 DEBUG [java.sql.Connection] - {conn-100111} Preparing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 16:34:41,342 DEBUG [java.sql.PreparedStatement] - {pstm-100112} Executing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 16:34:41,342 DEBUG [java.sql.PreparedStatement] - {pstm-100112} Parameters: [2]
+2015-01-30 16:34:41,342 DEBUG [java.sql.PreparedStatement] - {pstm-100112} Types: [java.lang.Integer]
+2015-01-30 16:34:41,342 DEBUG [java.sql.ResultSet] - {rset-100113} ResultSet
+2015-01-30 16:34:41,342 DEBUG [java.sql.ResultSet] - {rset-100113} Header: [depth]
+2015-01-30 16:34:41,342 DEBUG [java.sql.ResultSet] - {rset-100113} Result: [1]
+2015-01-30 16:34:41,342 DEBUG [java.sql.Connection] - {conn-100114} Connection
+2015-01-30 16:34:41,342 DEBUG [java.sql.Connection] - {conn-100114} Preparing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 16:34:41,373 DEBUG [java.sql.PreparedStatement] - {pstm-100115} Executing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 16:34:41,373 DEBUG [java.sql.PreparedStatement] - {pstm-100115} Parameters: [2]
+2015-01-30 16:34:41,373 DEBUG [java.sql.PreparedStatement] - {pstm-100115} Types: [java.lang.Integer]
+2015-01-30 16:34:41,373 DEBUG [java.sql.ResultSet] - {rset-100116} ResultSet
+2015-01-30 16:34:41,373 DEBUG [java.sql.ResultSet] - {rset-100116} Header: [elementId, operationalId, resultId, targetpageId]
+2015-01-30 16:34:41,373 DEBUG [java.sql.ResultSet] - {rset-100116} Result: [1, 1, 2, 2]
+2015-01-30 16:34:41,373 DEBUG [java.sql.Connection] - {conn-100117} Connection
+2015-01-30 16:34:41,373 DEBUG [java.sql.Connection] - {conn-100117} Preparing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 16:34:41,404 DEBUG [java.sql.PreparedStatement] - {pstm-100118} Executing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 16:34:41,404 DEBUG [java.sql.PreparedStatement] - {pstm-100118} Parameters: [1]
+2015-01-30 16:34:41,404 DEBUG [java.sql.PreparedStatement] - {pstm-100118} Types: [java.lang.Integer]
+2015-01-30 16:34:41,404 DEBUG [java.sql.ResultSet] - {rset-100119} ResultSet
+2015-01-30 16:34:41,404 DEBUG [java.sql.ResultSet] - {rset-100119} Header: [pageid]
+2015-01-30 16:34:41,404 DEBUG [java.sql.ResultSet] - {rset-100119} Result: [1]
+2015-01-30 16:34:41,404 DEBUG [java.sql.Connection] - {conn-100120} Connection
+2015-01-30 16:34:41,404 DEBUG [java.sql.Connection] - {conn-100120} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 16:34:41,404 DEBUG [java.sql.PreparedStatement] - {pstm-100121} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 16:34:41,404 DEBUG [java.sql.PreparedStatement] - {pstm-100121} Parameters: [1]
+2015-01-30 16:34:41,404 DEBUG [java.sql.PreparedStatement] - {pstm-100121} Types: [java.lang.Integer]
+2015-01-30 16:34:41,404 DEBUG [java.sql.ResultSet] - {rset-100122} ResultSet
+2015-01-30 16:34:41,404 DEBUG [java.sql.ResultSet] - {rset-100122} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 16:34:41,404 DEBUG [java.sql.ResultSet] - {rset-100122} Result: [1, 进入书店, TextView, 0, 1, 2]
+2015-01-30 16:34:41,404 DEBUG [java.sql.Connection] - {conn-100123} Connection
+2015-01-30 16:34:41,404 DEBUG [java.sql.Connection] - {conn-100123} Preparing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 16:34:41,436 DEBUG [java.sql.PreparedStatement] - {pstm-100124} Executing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 16:34:41,436 DEBUG [java.sql.PreparedStatement] - {pstm-100124} Parameters: [1]
+2015-01-30 16:34:41,436 DEBUG [java.sql.PreparedStatement] - {pstm-100124} Types: [java.lang.Integer]
+2015-01-30 16:34:41,436 DEBUG [java.sql.ResultSet] - {rset-100125} ResultSet
+2015-01-30 16:34:41,436 DEBUG [java.sql.ResultSet] - {rset-100125} Header: [depth]
+2015-01-30 16:34:41,436 DEBUG [java.sql.ResultSet] - {rset-100125} Result: [0]
+2015-01-30 16:34:41,436 DEBUG [java.sql.Connection] - {conn-100126} Connection
+2015-01-30 16:34:41,436 DEBUG [java.sql.Connection] - {conn-100126} Preparing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 16:34:41,467 DEBUG [java.sql.PreparedStatement] - {pstm-100127} Executing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 16:34:41,467 DEBUG [java.sql.PreparedStatement] - {pstm-100127} Parameters: [4]
+2015-01-30 16:34:41,467 DEBUG [java.sql.PreparedStatement] - {pstm-100127} Types: [java.lang.Integer]
+2015-01-30 16:34:41,467 DEBUG [java.sql.ResultSet] - {rset-100128} ResultSet
+2015-01-30 16:34:41,482 DEBUG [java.sql.Connection] - {conn-100129} Connection
+2015-01-30 16:34:41,482 DEBUG [java.sql.Connection] - {conn-100129} Preparing Statement:      select endpage endPage, pageid pageId, programid programId, depth from program_page  where programid = ? and depth = ?; 
+2015-01-30 16:34:41,482 DEBUG [java.sql.PreparedStatement] - {pstm-100130} Executing Statement:      select endpage endPage, pageid pageId, programid programId, depth from program_page  where programid = ? and depth = ?; 
+2015-01-30 16:34:41,482 DEBUG [java.sql.PreparedStatement] - {pstm-100130} Parameters: [17, 1]
+2015-01-30 16:34:41,482 DEBUG [java.sql.PreparedStatement] - {pstm-100130} Types: [java.lang.Integer, java.lang.Integer]
+2015-01-30 16:34:41,482 DEBUG [java.sql.ResultSet] - {rset-100131} ResultSet
+2015-01-30 16:34:41,482 DEBUG [java.sql.ResultSet] - {rset-100131} Header: [endPage, pageId, programId, depth]
+2015-01-30 16:34:41,482 DEBUG [java.sql.ResultSet] - {rset-100131} Result: [0, 2, 17, 1]
+2015-01-30 16:34:41,482 DEBUG [java.sql.Connection] - {conn-100132} Connection
+2015-01-30 16:34:41,482 DEBUG [java.sql.Connection] - {conn-100132} Preparing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 16:34:41,498 DEBUG [java.sql.PreparedStatement] - {pstm-100133} Executing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 16:34:41,498 DEBUG [java.sql.PreparedStatement] - {pstm-100133} Parameters: [2]
+2015-01-30 16:34:41,498 DEBUG [java.sql.PreparedStatement] - {pstm-100133} Types: [java.lang.Integer]
+2015-01-30 16:34:41,498 DEBUG [java.sql.ResultSet] - {rset-100134} ResultSet
+2015-01-30 16:34:41,498 DEBUG [java.sql.ResultSet] - {rset-100134} Header: [elementid]
+2015-01-30 16:34:41,498 DEBUG [java.sql.ResultSet] - {rset-100134} Result: [2]
+2015-01-30 16:34:41,498 DEBUG [java.sql.ResultSet] - {rset-100134} Result: [3]
+2015-01-30 16:34:41,498 DEBUG [java.sql.Connection] - {conn-100135} Connection
+2015-01-30 16:34:41,498 DEBUG [java.sql.Connection] - {conn-100135} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId in    (       ?   ,       ?   ) 
+2015-01-30 16:34:41,498 DEBUG [java.sql.PreparedStatement] - {pstm-100136} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId in    (       ?   ,       ?   ) 
+2015-01-30 16:34:41,498 DEBUG [java.sql.PreparedStatement] - {pstm-100136} Parameters: [2, 3]
+2015-01-30 16:34:41,498 DEBUG [java.sql.PreparedStatement] - {pstm-100136} Types: [java.lang.Integer, java.lang.Integer]
+2015-01-30 16:34:41,514 DEBUG [java.sql.ResultSet] - {rset-100137} ResultSet
+2015-01-30 16:34:41,514 DEBUG [java.sql.ResultSet] - {rset-100137} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 16:34:41,514 DEBUG [java.sql.ResultSet] - {rset-100137} Result: [2, 分类, TextView, 0, 2, 2]
+2015-01-30 16:34:41,514 DEBUG [java.sql.ResultSet] - {rset-100137} Result: [3, 推荐, TextView, 0, 3, 2]
+2015-01-30 16:34:41,514 DEBUG [java.sql.Connection] - {conn-100138} Connection
+2015-01-30 16:34:41,514 DEBUG [java.sql.Connection] - {conn-100138} Preparing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 16:34:41,529 DEBUG [java.sql.PreparedStatement] - {pstm-100139} Executing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 16:34:41,529 DEBUG [java.sql.PreparedStatement] - {pstm-100139} Parameters: [2]
+2015-01-30 16:34:41,529 DEBUG [java.sql.PreparedStatement] - {pstm-100139} Types: [java.lang.Integer]
+2015-01-30 16:34:41,529 DEBUG [java.sql.ResultSet] - {rset-100140} ResultSet
+2015-01-30 16:34:41,529 DEBUG [java.sql.ResultSet] - {rset-100140} Header: [elementId, operationalId, resultId, targetpageId]
+2015-01-30 16:34:41,529 DEBUG [java.sql.ResultSet] - {rset-100140} Result: [1, 1, 2, 2]
+2015-01-30 16:34:41,529 DEBUG [java.sql.Connection] - {conn-100141} Connection
+2015-01-30 16:34:41,529 DEBUG [java.sql.Connection] - {conn-100141} Preparing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 16:34:41,560 DEBUG [java.sql.PreparedStatement] - {pstm-100142} Executing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 16:34:41,560 DEBUG [java.sql.PreparedStatement] - {pstm-100142} Parameters: [1]
+2015-01-30 16:34:41,560 DEBUG [java.sql.PreparedStatement] - {pstm-100142} Types: [java.lang.Integer]
+2015-01-30 16:34:41,560 DEBUG [java.sql.ResultSet] - {rset-100143} ResultSet
+2015-01-30 16:34:41,560 DEBUG [java.sql.ResultSet] - {rset-100143} Header: [pageid]
+2015-01-30 16:34:41,560 DEBUG [java.sql.ResultSet] - {rset-100143} Result: [1]
+2015-01-30 16:34:41,560 DEBUG [java.sql.Connection] - {conn-100144} Connection
+2015-01-30 16:34:41,560 DEBUG [java.sql.Connection] - {conn-100144} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 16:34:41,576 DEBUG [java.sql.PreparedStatement] - {pstm-100145} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 16:34:41,576 DEBUG [java.sql.PreparedStatement] - {pstm-100145} Parameters: [1]
+2015-01-30 16:34:41,576 DEBUG [java.sql.PreparedStatement] - {pstm-100145} Types: [java.lang.Integer]
+2015-01-30 16:34:41,576 DEBUG [java.sql.ResultSet] - {rset-100146} ResultSet
+2015-01-30 16:34:41,576 DEBUG [java.sql.ResultSet] - {rset-100146} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 16:34:41,576 DEBUG [java.sql.ResultSet] - {rset-100146} Result: [1, 进入书店, TextView, 0, 1, 2]
+2015-01-30 16:34:41,576 DEBUG [java.sql.Connection] - {conn-100147} Connection
+2015-01-30 16:34:41,576 DEBUG [java.sql.Connection] - {conn-100147} Preparing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 16:34:41,576 DEBUG [java.sql.PreparedStatement] - {pstm-100148} Executing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 16:34:41,576 DEBUG [java.sql.PreparedStatement] - {pstm-100148} Parameters: [1]
+2015-01-30 16:34:41,576 DEBUG [java.sql.PreparedStatement] - {pstm-100148} Types: [java.lang.Integer]
+2015-01-30 16:34:41,576 DEBUG [java.sql.ResultSet] - {rset-100149} ResultSet
+2015-01-30 16:34:41,576 DEBUG [java.sql.ResultSet] - {rset-100149} Header: [depth]
+2015-01-30 16:34:41,576 DEBUG [java.sql.ResultSet] - {rset-100149} Result: [0]
+2015-01-30 16:34:41,576 DEBUG [java.sql.Connection] - {conn-100150} Connection
+2015-01-30 16:34:41,576 DEBUG [java.sql.Connection] - {conn-100150} Preparing Statement:      select endpage endPage, pageid pageId, programid programId, depth from program_page  where programid = ? and depth = ?; 
+2015-01-30 16:34:41,638 DEBUG [java.sql.PreparedStatement] - {pstm-100151} Executing Statement:      select endpage endPage, pageid pageId, programid programId, depth from program_page  where programid = ? and depth = ?; 
+2015-01-30 16:34:41,638 DEBUG [java.sql.PreparedStatement] - {pstm-100151} Parameters: [17, 0]
+2015-01-30 16:34:41,638 DEBUG [java.sql.PreparedStatement] - {pstm-100151} Types: [java.lang.Integer, java.lang.Integer]
+2015-01-30 16:34:41,638 DEBUG [java.sql.ResultSet] - {rset-100152} ResultSet
+2015-01-30 16:34:41,638 DEBUG [java.sql.ResultSet] - {rset-100152} Header: [endPage, pageId, programId, depth]
+2015-01-30 16:34:41,638 DEBUG [java.sql.ResultSet] - {rset-100152} Result: [0, 1, 17, 0]
+2015-01-30 16:34:41,638 DEBUG [java.sql.Connection] - {conn-100153} Connection
+2015-01-30 16:34:41,638 DEBUG [java.sql.Connection] - {conn-100153} Preparing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 16:34:41,654 DEBUG [java.sql.PreparedStatement] - {pstm-100154} Executing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 16:34:41,654 DEBUG [java.sql.PreparedStatement] - {pstm-100154} Parameters: [1]
+2015-01-30 16:34:41,654 DEBUG [java.sql.PreparedStatement] - {pstm-100154} Types: [java.lang.Integer]
+2015-01-30 16:34:41,654 DEBUG [java.sql.ResultSet] - {rset-100155} ResultSet
+2015-01-30 16:34:41,654 DEBUG [java.sql.ResultSet] - {rset-100155} Header: [elementid]
+2015-01-30 16:34:41,654 DEBUG [java.sql.ResultSet] - {rset-100155} Result: [1]
+2015-01-30 16:34:41,654 DEBUG [java.sql.Connection] - {conn-100156} Connection
+2015-01-30 16:34:41,654 DEBUG [java.sql.Connection] - {conn-100156} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId in    (       ?   ) 
+2015-01-30 16:34:41,670 DEBUG [java.sql.PreparedStatement] - {pstm-100157} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId in    (       ?   ) 
+2015-01-30 16:34:41,670 DEBUG [java.sql.PreparedStatement] - {pstm-100157} Parameters: [1]
+2015-01-30 16:34:41,670 DEBUG [java.sql.PreparedStatement] - {pstm-100157} Types: [java.lang.Integer]
+2015-01-30 16:34:41,670 DEBUG [java.sql.ResultSet] - {rset-100158} ResultSet
+2015-01-30 16:34:41,670 DEBUG [java.sql.ResultSet] - {rset-100158} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 16:34:41,670 DEBUG [java.sql.ResultSet] - {rset-100158} Result: [1, 进入书店, TextView, 0, 1, 2]
+2015-01-30 16:34:41,670 DEBUG [java.sql.Connection] - {conn-100159} Connection
+2015-01-30 16:34:41,670 DEBUG [java.sql.Connection] - {conn-100159} Preparing Statement:    select operationalid, content from operational  
+2015-01-30 16:34:41,811 DEBUG [java.sql.PreparedStatement] - {pstm-100160} Executing Statement:    select operationalid, content from operational  
+2015-01-30 16:34:41,811 DEBUG [java.sql.PreparedStatement] - {pstm-100160} Parameters: []
+2015-01-30 16:34:41,811 DEBUG [java.sql.PreparedStatement] - {pstm-100160} Types: []
+2015-01-30 16:34:41,827 DEBUG [java.sql.ResultSet] - {rset-100161} ResultSet
+2015-01-30 16:34:41,842 DEBUG [java.sql.ResultSet] - {rset-100161} Header: [operationalid, content]
+2015-01-30 16:34:41,842 DEBUG [java.sql.ResultSet] - {rset-100161} Result: [1, click]
+2015-01-30 16:34:41,842 DEBUG [java.sql.ResultSet] - {rset-100161} Result: [2, click]
+2015-01-30 16:34:41,842 DEBUG [java.sql.ResultSet] - {rset-100161} Result: [3, click]
+2015-01-30 16:34:41,842 DEBUG [java.sql.ResultSet] - {rset-100161} Result: [4, click]
+2015-01-30 16:34:41,842 DEBUG [java.sql.ResultSet] - {rset-100161} Result: [6, click]
+2015-01-30 16:34:41,842 DEBUG [java.sql.ResultSet] - {rset-100161} Result: [7, click]
+2015-01-30 16:34:41,842 DEBUG [java.sql.ResultSet] - {rset-100161} Result: [8, click]
+2015-01-30 17:22:30,382 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1d40c4e: display name [org.springframework.context.support.ClassPathXmlApplicationContext@1d40c4e]; startup date [Fri Jan 30 17:22:30 CST 2015]; root of context hierarchy
+2015-01-30 17:22:30,633 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-01-30 17:22:31,943 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@1d40c4e]: org.springframework.beans.factory.support.DefaultListableBeanFactory@5ac6ce
+2015-01-30 17:22:32,213 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [application.properties]
+2015-01-30 17:22:32,244 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5ac6ce: defining beans [propertyConfig,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,sqlMapClient,Dao,Data,ShowReport,ToPageAction,programDao,programService,ShowTreeAction,AddPageAction,EditPageAction,UpdateProgramPageAction,ShowProgramAction,ShowElementOperByPageidAction,AddEleOperAction,UpdateElementAction,UpdateOperationalAction,DelEleOperationalAction,AddProgramAction,DelProgramAction,DelPageAction,CheckPageNameAction,CopyPageAction,GetElementClasstypeAction,GetOperContentAction,ShowProjectProgramAction,GenerateScriptAction]; root of factory hierarchy
+2015-01-30 17:22:32,431 INFO [org.springframework.jdbc.datasource.DriverManagerDataSource] - Loaded JDBC driver: com.mysql.jdbc.Driver
+2015-01-30 17:22:33,352 DEBUG [java.sql.Connection] - {conn-100000} Connection
+2015-01-30 17:22:33,352 DEBUG [java.sql.Connection] - {conn-100000} Preparing Statement:       SELECT name   FROM project   LEFT JOIN    (   SELECT projectid, pp.programid, program.name   FROM    project_program AS pp   LEFT JOIN program ON pp.programid = program.programid) AS pro ON project.projectid = pro.projectid   where projectname = ?  
+2015-01-30 17:22:33,846 DEBUG [java.sql.PreparedStatement] - {pstm-100001} Executing Statement:       SELECT name   FROM project   LEFT JOIN    (   SELECT projectid, pp.programid, program.name   FROM    project_program AS pp   LEFT JOIN program ON pp.programid = program.programid) AS pro ON project.projectid = pro.projectid   where projectname = ?  
+2015-01-30 17:22:33,846 DEBUG [java.sql.PreparedStatement] - {pstm-100001} Parameters: [101随身学]
+2015-01-30 17:22:33,846 DEBUG [java.sql.PreparedStatement] - {pstm-100001} Types: [java.lang.String]
+2015-01-30 17:22:33,846 DEBUG [java.sql.ResultSet] - {rset-100002} ResultSet
+2015-01-30 17:22:33,862 DEBUG [java.sql.ResultSet] - {rset-100002} Header: [name]
+2015-01-30 17:22:33,862 DEBUG [java.sql.ResultSet] - {rset-100002} Result: [我的书架]
+2015-01-30 17:22:34,486 DEBUG [java.sql.Connection] - {conn-100003} Connection
+2015-01-30 17:22:34,486 DEBUG [java.sql.Connection] - {conn-100003} Preparing Statement:       select programid from program   where name = ?  
+2015-01-30 17:22:34,487 DEBUG [java.sql.PreparedStatement] - {pstm-100004} Executing Statement:       select programid from program   where name = ?  
+2015-01-30 17:22:34,487 DEBUG [java.sql.PreparedStatement] - {pstm-100004} Parameters: [我的书架]
+2015-01-30 17:22:34,487 DEBUG [java.sql.PreparedStatement] - {pstm-100004} Types: [java.lang.String]
+2015-01-30 17:22:34,487 DEBUG [java.sql.ResultSet] - {rset-100005} ResultSet
+2015-01-30 17:22:34,487 DEBUG [java.sql.ResultSet] - {rset-100005} Header: [programid]
+2015-01-30 17:22:34,487 DEBUG [java.sql.ResultSet] - {rset-100005} Result: [17]
+2015-01-30 17:22:34,487 DEBUG [java.sql.Connection] - {conn-100006} Connection
+2015-01-30 17:22:34,487 DEBUG [java.sql.Connection] - {conn-100006} Preparing Statement:   select max(depth) from program_page  where programid = ?; 
+2015-01-30 17:22:34,553 DEBUG [java.sql.PreparedStatement] - {pstm-100007} Executing Statement:   select max(depth) from program_page  where programid = ?; 
+2015-01-30 17:22:34,553 DEBUG [java.sql.PreparedStatement] - {pstm-100007} Parameters: [17]
+2015-01-30 17:22:34,553 DEBUG [java.sql.PreparedStatement] - {pstm-100007} Types: [java.lang.Integer]
+2015-01-30 17:22:34,568 DEBUG [java.sql.ResultSet] - {rset-100008} ResultSet
+2015-01-30 17:22:34,568 DEBUG [java.sql.ResultSet] - {rset-100008} Header: [max(depth)]
+2015-01-30 17:22:34,568 DEBUG [java.sql.ResultSet] - {rset-100008} Result: [3]
+2015-01-30 17:22:34,568 DEBUG [java.sql.Connection] - {conn-100009} Connection
+2015-01-30 17:22:34,568 DEBUG [java.sql.Connection] - {conn-100009} Preparing Statement:      select endpage endPage, pageid pageId, programid programId, depth from program_page  where programid = ? and depth = ?; 
+2015-01-30 17:22:34,584 DEBUG [java.sql.PreparedStatement] - {pstm-100010} Executing Statement:      select endpage endPage, pageid pageId, programid programId, depth from program_page  where programid = ? and depth = ?; 
+2015-01-30 17:22:34,584 DEBUG [java.sql.PreparedStatement] - {pstm-100010} Parameters: [17, 3]
+2015-01-30 17:22:34,584 DEBUG [java.sql.PreparedStatement] - {pstm-100010} Types: [java.lang.Integer, java.lang.Integer]
+2015-01-30 17:22:34,584 DEBUG [java.sql.ResultSet] - {rset-100011} ResultSet
+2015-01-30 17:22:34,584 DEBUG [java.sql.ResultSet] - {rset-100011} Header: [endPage, pageId, programId, depth]
+2015-01-30 17:22:34,584 DEBUG [java.sql.ResultSet] - {rset-100011} Result: [0, 5, 17, 3]
+2015-01-30 17:22:34,584 DEBUG [java.sql.ResultSet] - {rset-100011} Result: [0, 7, 17, 3]
+2015-01-30 17:22:34,584 DEBUG [java.sql.Connection] - {conn-100012} Connection
+2015-01-30 17:22:34,584 DEBUG [java.sql.Connection] - {conn-100012} Preparing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 17:22:34,615 DEBUG [java.sql.PreparedStatement] - {pstm-100013} Executing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 17:22:34,631 DEBUG [java.sql.PreparedStatement] - {pstm-100013} Parameters: [5]
+2015-01-30 17:22:34,631 DEBUG [java.sql.PreparedStatement] - {pstm-100013} Types: [java.lang.Integer]
+2015-01-30 17:22:34,631 DEBUG [java.sql.ResultSet] - {rset-100014} ResultSet
+2015-01-30 17:22:34,631 DEBUG [java.sql.ResultSet] - {rset-100014} Header: [elementid]
+2015-01-30 17:22:34,631 DEBUG [java.sql.ResultSet] - {rset-100014} Result: [7]
+2015-01-30 17:22:34,631 DEBUG [java.sql.ResultSet] - {rset-100014} Result: [8]
+2015-01-30 17:22:34,631 DEBUG [java.sql.Connection] - {conn-100015} Connection
+2015-01-30 17:22:34,631 DEBUG [java.sql.Connection] - {conn-100015} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId in    (       ?   ,       ?   ) 
+2015-01-30 17:22:34,646 DEBUG [java.sql.PreparedStatement] - {pstm-100016} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId in    (       ?   ,       ?   ) 
+2015-01-30 17:22:34,646 DEBUG [java.sql.PreparedStatement] - {pstm-100016} Parameters: [7, 8]
+2015-01-30 17:22:34,646 DEBUG [java.sql.PreparedStatement] - {pstm-100016} Types: [java.lang.Integer, java.lang.Integer]
+2015-01-30 17:22:34,646 DEBUG [java.sql.ResultSet] - {rset-100017} ResultSet
+2015-01-30 17:22:34,646 DEBUG [java.sql.ResultSet] - {rset-100017} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 17:22:34,646 DEBUG [java.sql.ResultSet] - {rset-100017} Result: [7, 知识手册, TextView, 0, 7, 1]
+2015-01-30 17:22:34,646 DEBUG [java.sql.ResultSet] - {rset-100017} Result: [8, 高考真题, TextView, 0, 8, 1]
+2015-01-30 17:22:34,709 DEBUG [java.sql.Connection] - {conn-100018} Connection
+2015-01-30 17:22:34,709 DEBUG [java.sql.Connection] - {conn-100018} Preparing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 17:22:34,740 DEBUG [java.sql.PreparedStatement] - {pstm-100019} Executing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 17:22:34,740 DEBUG [java.sql.PreparedStatement] - {pstm-100019} Parameters: [5]
+2015-01-30 17:22:34,740 DEBUG [java.sql.PreparedStatement] - {pstm-100019} Types: [java.lang.Integer]
+2015-01-30 17:22:34,740 DEBUG [java.sql.ResultSet] - {rset-100020} ResultSet
+2015-01-30 17:22:34,756 DEBUG [java.sql.ResultSet] - {rset-100020} Header: [elementId, operationalId, resultId, targetpageId]
+2015-01-30 17:22:34,756 DEBUG [java.sql.ResultSet] - {rset-100020} Result: [4, 4, 2, 5]
+2015-01-30 17:22:34,756 DEBUG [java.sql.Connection] - {conn-100021} Connection
+2015-01-30 17:22:34,756 DEBUG [java.sql.Connection] - {conn-100021} Preparing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 17:22:35,005 DEBUG [java.sql.PreparedStatement] - {pstm-100022} Executing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 17:22:35,005 DEBUG [java.sql.PreparedStatement] - {pstm-100022} Parameters: [4]
+2015-01-30 17:22:35,005 DEBUG [java.sql.PreparedStatement] - {pstm-100022} Types: [java.lang.Integer]
+2015-01-30 17:22:35,021 DEBUG [java.sql.ResultSet] - {rset-100023} ResultSet
+2015-01-30 17:22:35,021 DEBUG [java.sql.ResultSet] - {rset-100023} Header: [pageid]
+2015-01-30 17:22:35,021 DEBUG [java.sql.ResultSet] - {rset-100023} Result: [3]
+2015-01-30 17:22:35,021 DEBUG [java.sql.Connection] - {conn-100024} Connection
+2015-01-30 17:22:35,021 DEBUG [java.sql.Connection] - {conn-100024} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 17:22:35,036 DEBUG [java.sql.PreparedStatement] - {pstm-100025} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 17:22:35,036 DEBUG [java.sql.PreparedStatement] - {pstm-100025} Parameters: [4]
+2015-01-30 17:22:35,036 DEBUG [java.sql.PreparedStatement] - {pstm-100025} Types: [java.lang.Integer]
+2015-01-30 17:22:35,036 DEBUG [java.sql.ResultSet] - {rset-100026} ResultSet
+2015-01-30 17:22:35,036 DEBUG [java.sql.ResultSet] - {rset-100026} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 17:22:35,036 DEBUG [java.sql.ResultSet] - {rset-100026} Result: [4, 数学, TextView, 0, 4, 2]
+2015-01-30 17:22:35,036 DEBUG [java.sql.Connection] - {conn-100027} Connection
+2015-01-30 17:22:35,036 DEBUG [java.sql.Connection] - {conn-100027} Preparing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 17:22:35,068 DEBUG [java.sql.PreparedStatement] - {pstm-100028} Executing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 17:22:35,068 DEBUG [java.sql.PreparedStatement] - {pstm-100028} Parameters: [3]
+2015-01-30 17:22:35,068 DEBUG [java.sql.PreparedStatement] - {pstm-100028} Types: [java.lang.Integer]
+2015-01-30 17:22:35,068 DEBUG [java.sql.ResultSet] - {rset-100029} ResultSet
+2015-01-30 17:22:35,068 DEBUG [java.sql.ResultSet] - {rset-100029} Header: [depth]
+2015-01-30 17:22:35,068 DEBUG [java.sql.ResultSet] - {rset-100029} Result: [2]
+2015-01-30 17:22:35,068 DEBUG [java.sql.Connection] - {conn-100030} Connection
+2015-01-30 17:22:35,068 DEBUG [java.sql.Connection] - {conn-100030} Preparing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 17:22:35,083 DEBUG [java.sql.PreparedStatement] - {pstm-100031} Executing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 17:22:35,083 DEBUG [java.sql.PreparedStatement] - {pstm-100031} Parameters: [3]
+2015-01-30 17:22:35,083 DEBUG [java.sql.PreparedStatement] - {pstm-100031} Types: [java.lang.Integer]
+2015-01-30 17:22:35,083 DEBUG [java.sql.ResultSet] - {rset-100032} ResultSet
+2015-01-30 17:22:35,083 DEBUG [java.sql.ResultSet] - {rset-100032} Header: [elementId, operationalId, resultId, targetpageId]
+2015-01-30 17:22:35,083 DEBUG [java.sql.ResultSet] - {rset-100032} Result: [2, 2, 2, 3]
+2015-01-30 17:22:35,083 DEBUG [java.sql.Connection] - {conn-100033} Connection
+2015-01-30 17:22:35,083 DEBUG [java.sql.Connection] - {conn-100033} Preparing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 17:22:35,099 DEBUG [java.sql.PreparedStatement] - {pstm-100034} Executing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 17:22:35,099 DEBUG [java.sql.PreparedStatement] - {pstm-100034} Parameters: [2]
+2015-01-30 17:22:35,099 DEBUG [java.sql.PreparedStatement] - {pstm-100034} Types: [java.lang.Integer]
+2015-01-30 17:22:35,099 DEBUG [java.sql.ResultSet] - {rset-100035} ResultSet
+2015-01-30 17:22:35,099 DEBUG [java.sql.ResultSet] - {rset-100035} Header: [pageid]
+2015-01-30 17:22:35,099 DEBUG [java.sql.ResultSet] - {rset-100035} Result: [2]
+2015-01-30 17:22:35,099 DEBUG [java.sql.Connection] - {conn-100036} Connection
+2015-01-30 17:22:35,099 DEBUG [java.sql.Connection] - {conn-100036} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 17:22:35,130 DEBUG [java.sql.PreparedStatement] - {pstm-100037} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 17:22:35,130 DEBUG [java.sql.PreparedStatement] - {pstm-100037} Parameters: [2]
+2015-01-30 17:22:35,130 DEBUG [java.sql.PreparedStatement] - {pstm-100037} Types: [java.lang.Integer]
+2015-01-30 17:22:35,130 DEBUG [java.sql.ResultSet] - {rset-100038} ResultSet
+2015-01-30 17:22:35,130 DEBUG [java.sql.ResultSet] - {rset-100038} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 17:22:35,130 DEBUG [java.sql.ResultSet] - {rset-100038} Result: [2, 分类, TextView, 0, 2, 2]
+2015-01-30 17:22:35,130 DEBUG [java.sql.Connection] - {conn-100039} Connection
+2015-01-30 17:22:35,130 DEBUG [java.sql.Connection] - {conn-100039} Preparing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 17:22:35,146 DEBUG [java.sql.PreparedStatement] - {pstm-100040} Executing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 17:22:35,146 DEBUG [java.sql.PreparedStatement] - {pstm-100040} Parameters: [2]
+2015-01-30 17:22:35,146 DEBUG [java.sql.PreparedStatement] - {pstm-100040} Types: [java.lang.Integer]
+2015-01-30 17:22:35,146 DEBUG [java.sql.ResultSet] - {rset-100041} ResultSet
+2015-01-30 17:22:35,146 DEBUG [java.sql.ResultSet] - {rset-100041} Header: [depth]
+2015-01-30 17:22:35,146 DEBUG [java.sql.ResultSet] - {rset-100041} Result: [1]
+2015-01-30 17:22:35,146 DEBUG [java.sql.Connection] - {conn-100042} Connection
+2015-01-30 17:22:35,146 DEBUG [java.sql.Connection] - {conn-100042} Preparing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 17:22:35,146 DEBUG [java.sql.PreparedStatement] - {pstm-100043} Executing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 17:22:35,146 DEBUG [java.sql.PreparedStatement] - {pstm-100043} Parameters: [2]
+2015-01-30 17:22:35,146 DEBUG [java.sql.PreparedStatement] - {pstm-100043} Types: [java.lang.Integer]
+2015-01-30 17:22:35,161 DEBUG [java.sql.ResultSet] - {rset-100044} ResultSet
+2015-01-30 17:22:35,161 DEBUG [java.sql.ResultSet] - {rset-100044} Header: [elementId, operationalId, resultId, targetpageId]
+2015-01-30 17:22:35,161 DEBUG [java.sql.ResultSet] - {rset-100044} Result: [1, 1, 2, 2]
+2015-01-30 17:22:35,161 DEBUG [java.sql.Connection] - {conn-100045} Connection
+2015-01-30 17:22:35,161 DEBUG [java.sql.Connection] - {conn-100045} Preparing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 17:22:35,161 DEBUG [java.sql.PreparedStatement] - {pstm-100046} Executing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 17:22:35,161 DEBUG [java.sql.PreparedStatement] - {pstm-100046} Parameters: [1]
+2015-01-30 17:22:35,161 DEBUG [java.sql.PreparedStatement] - {pstm-100046} Types: [java.lang.Integer]
+2015-01-30 17:22:35,161 DEBUG [java.sql.ResultSet] - {rset-100047} ResultSet
+2015-01-30 17:22:35,177 DEBUG [java.sql.ResultSet] - {rset-100047} Header: [pageid]
+2015-01-30 17:22:35,177 DEBUG [java.sql.ResultSet] - {rset-100047} Result: [1]
+2015-01-30 17:22:35,177 DEBUG [java.sql.Connection] - {conn-100048} Connection
+2015-01-30 17:22:35,177 DEBUG [java.sql.Connection] - {conn-100048} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 17:22:35,177 DEBUG [java.sql.PreparedStatement] - {pstm-100049} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 17:22:35,177 DEBUG [java.sql.PreparedStatement] - {pstm-100049} Parameters: [1]
+2015-01-30 17:22:35,177 DEBUG [java.sql.PreparedStatement] - {pstm-100049} Types: [java.lang.Integer]
+2015-01-30 17:22:35,177 DEBUG [java.sql.ResultSet] - {rset-100050} ResultSet
+2015-01-30 17:22:35,177 DEBUG [java.sql.ResultSet] - {rset-100050} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 17:22:35,177 DEBUG [java.sql.ResultSet] - {rset-100050} Result: [1, 进入书店, TextView, 0, 1, 2]
+2015-01-30 17:22:35,177 DEBUG [java.sql.Connection] - {conn-100051} Connection
+2015-01-30 17:22:35,255 DEBUG [java.sql.Connection] - {conn-100051} Preparing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 17:22:35,286 DEBUG [java.sql.PreparedStatement] - {pstm-100052} Executing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 17:22:35,286 DEBUG [java.sql.PreparedStatement] - {pstm-100052} Parameters: [1]
+2015-01-30 17:22:35,286 DEBUG [java.sql.PreparedStatement] - {pstm-100052} Types: [java.lang.Integer]
+2015-01-30 17:22:35,286 DEBUG [java.sql.ResultSet] - {rset-100053} ResultSet
+2015-01-30 17:22:35,286 DEBUG [java.sql.ResultSet] - {rset-100053} Header: [depth]
+2015-01-30 17:22:35,286 DEBUG [java.sql.ResultSet] - {rset-100053} Result: [0]
+2015-01-30 17:22:35,286 DEBUG [java.sql.Connection] - {conn-100054} Connection
+2015-01-30 17:22:35,286 DEBUG [java.sql.Connection] - {conn-100054} Preparing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 17:22:35,317 DEBUG [java.sql.PreparedStatement] - {pstm-100055} Executing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 17:22:35,317 DEBUG [java.sql.PreparedStatement] - {pstm-100055} Parameters: [5]
+2015-01-30 17:22:35,317 DEBUG [java.sql.PreparedStatement] - {pstm-100055} Types: [java.lang.Integer]
+2015-01-30 17:22:35,317 DEBUG [java.sql.ResultSet] - {rset-100056} ResultSet
+2015-01-30 17:22:35,317 DEBUG [java.sql.ResultSet] - {rset-100056} Header: [elementId, operationalId, resultId, targetpageId]
+2015-01-30 17:22:35,317 DEBUG [java.sql.ResultSet] - {rset-100056} Result: [4, 4, 2, 5]
+2015-01-30 17:22:35,317 DEBUG [java.sql.Connection] - {conn-100057} Connection
+2015-01-30 17:22:35,317 DEBUG [java.sql.Connection] - {conn-100057} Preparing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 17:22:35,333 DEBUG [java.sql.PreparedStatement] - {pstm-100058} Executing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 17:22:35,333 DEBUG [java.sql.PreparedStatement] - {pstm-100058} Parameters: [4]
+2015-01-30 17:22:35,333 DEBUG [java.sql.PreparedStatement] - {pstm-100058} Types: [java.lang.Integer]
+2015-01-30 17:22:35,333 DEBUG [java.sql.ResultSet] - {rset-100059} ResultSet
+2015-01-30 17:22:35,333 DEBUG [java.sql.ResultSet] - {rset-100059} Header: [pageid]
+2015-01-30 17:22:35,333 DEBUG [java.sql.ResultSet] - {rset-100059} Result: [3]
+2015-01-30 17:22:35,333 DEBUG [java.sql.Connection] - {conn-100060} Connection
+2015-01-30 17:22:35,333 DEBUG [java.sql.Connection] - {conn-100060} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 17:22:35,442 DEBUG [java.sql.PreparedStatement] - {pstm-100061} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 17:22:35,442 DEBUG [java.sql.PreparedStatement] - {pstm-100061} Parameters: [4]
+2015-01-30 17:22:35,442 DEBUG [java.sql.PreparedStatement] - {pstm-100061} Types: [java.lang.Integer]
+2015-01-30 17:22:35,442 DEBUG [java.sql.ResultSet] - {rset-100062} ResultSet
+2015-01-30 17:22:35,442 DEBUG [java.sql.ResultSet] - {rset-100062} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 17:22:35,442 DEBUG [java.sql.ResultSet] - {rset-100062} Result: [4, 数学, TextView, 0, 4, 2]
+2015-01-30 17:22:35,442 DEBUG [java.sql.Connection] - {conn-100063} Connection
+2015-01-30 17:22:35,442 DEBUG [java.sql.Connection] - {conn-100063} Preparing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 17:22:35,489 DEBUG [java.sql.PreparedStatement] - {pstm-100064} Executing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 17:22:35,489 DEBUG [java.sql.PreparedStatement] - {pstm-100064} Parameters: [3]
+2015-01-30 17:22:35,489 DEBUG [java.sql.PreparedStatement] - {pstm-100064} Types: [java.lang.Integer]
+2015-01-30 17:22:35,489 DEBUG [java.sql.ResultSet] - {rset-100065} ResultSet
+2015-01-30 17:22:35,489 DEBUG [java.sql.ResultSet] - {rset-100065} Header: [depth]
+2015-01-30 17:22:35,489 DEBUG [java.sql.ResultSet] - {rset-100065} Result: [2]
+2015-01-30 17:22:35,489 DEBUG [java.sql.Connection] - {conn-100066} Connection
+2015-01-30 17:22:35,489 DEBUG [java.sql.Connection] - {conn-100066} Preparing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 17:22:35,490 DEBUG [java.sql.PreparedStatement] - {pstm-100067} Executing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 17:22:35,490 DEBUG [java.sql.PreparedStatement] - {pstm-100067} Parameters: [3]
+2015-01-30 17:22:35,490 DEBUG [java.sql.PreparedStatement] - {pstm-100067} Types: [java.lang.Integer]
+2015-01-30 17:22:35,521 DEBUG [java.sql.ResultSet] - {rset-100068} ResultSet
+2015-01-30 17:22:35,521 DEBUG [java.sql.ResultSet] - {rset-100068} Header: [elementId, operationalId, resultId, targetpageId]
+2015-01-30 17:22:35,521 DEBUG [java.sql.ResultSet] - {rset-100068} Result: [2, 2, 2, 3]
+2015-01-30 17:22:35,521 DEBUG [java.sql.Connection] - {conn-100069} Connection
+2015-01-30 17:22:35,521 DEBUG [java.sql.Connection] - {conn-100069} Preparing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 17:22:35,521 DEBUG [java.sql.PreparedStatement] - {pstm-100070} Executing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 17:22:35,521 DEBUG [java.sql.PreparedStatement] - {pstm-100070} Parameters: [2]
+2015-01-30 17:22:35,521 DEBUG [java.sql.PreparedStatement] - {pstm-100070} Types: [java.lang.Integer]
+2015-01-30 17:22:35,521 DEBUG [java.sql.ResultSet] - {rset-100071} ResultSet
+2015-01-30 17:22:35,521 DEBUG [java.sql.ResultSet] - {rset-100071} Header: [pageid]
+2015-01-30 17:22:35,521 DEBUG [java.sql.ResultSet] - {rset-100071} Result: [2]
+2015-01-30 17:22:35,521 DEBUG [java.sql.Connection] - {conn-100072} Connection
+2015-01-30 17:22:35,521 DEBUG [java.sql.Connection] - {conn-100072} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 17:22:35,537 DEBUG [java.sql.PreparedStatement] - {pstm-100073} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 17:22:35,537 DEBUG [java.sql.PreparedStatement] - {pstm-100073} Parameters: [2]
+2015-01-30 17:22:35,537 DEBUG [java.sql.PreparedStatement] - {pstm-100073} Types: [java.lang.Integer]
+2015-01-30 17:22:35,537 DEBUG [java.sql.ResultSet] - {rset-100074} ResultSet
+2015-01-30 17:22:35,537 DEBUG [java.sql.ResultSet] - {rset-100074} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 17:22:35,537 DEBUG [java.sql.ResultSet] - {rset-100074} Result: [2, 分类, TextView, 0, 2, 2]
+2015-01-30 17:22:35,537 DEBUG [java.sql.Connection] - {conn-100075} Connection
+2015-01-30 17:22:35,537 DEBUG [java.sql.Connection] - {conn-100075} Preparing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 17:22:35,552 DEBUG [java.sql.PreparedStatement] - {pstm-100076} Executing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 17:22:35,552 DEBUG [java.sql.PreparedStatement] - {pstm-100076} Parameters: [2]
+2015-01-30 17:22:35,552 DEBUG [java.sql.PreparedStatement] - {pstm-100076} Types: [java.lang.Integer]
+2015-01-30 17:22:35,552 DEBUG [java.sql.ResultSet] - {rset-100077} ResultSet
+2015-01-30 17:22:35,552 DEBUG [java.sql.ResultSet] - {rset-100077} Header: [depth]
+2015-01-30 17:22:35,552 DEBUG [java.sql.ResultSet] - {rset-100077} Result: [1]
+2015-01-30 17:22:35,552 DEBUG [java.sql.Connection] - {conn-100078} Connection
+2015-01-30 17:22:35,552 DEBUG [java.sql.Connection] - {conn-100078} Preparing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 17:22:35,615 DEBUG [java.sql.PreparedStatement] - {pstm-100079} Executing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 17:22:35,615 DEBUG [java.sql.PreparedStatement] - {pstm-100079} Parameters: [2]
+2015-01-30 17:22:35,630 DEBUG [java.sql.PreparedStatement] - {pstm-100079} Types: [java.lang.Integer]
+2015-01-30 17:22:35,630 DEBUG [java.sql.ResultSet] - {rset-100080} ResultSet
+2015-01-30 17:22:35,630 DEBUG [java.sql.ResultSet] - {rset-100080} Header: [elementId, operationalId, resultId, targetpageId]
+2015-01-30 17:22:35,630 DEBUG [java.sql.ResultSet] - {rset-100080} Result: [1, 1, 2, 2]
+2015-01-30 17:22:35,630 DEBUG [java.sql.Connection] - {conn-100081} Connection
+2015-01-30 17:22:35,630 DEBUG [java.sql.Connection] - {conn-100081} Preparing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 17:22:35,661 DEBUG [java.sql.PreparedStatement] - {pstm-100082} Executing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 17:22:35,661 DEBUG [java.sql.PreparedStatement] - {pstm-100082} Parameters: [1]
+2015-01-30 17:22:35,661 DEBUG [java.sql.PreparedStatement] - {pstm-100082} Types: [java.lang.Integer]
+2015-01-30 17:22:35,661 DEBUG [java.sql.ResultSet] - {rset-100083} ResultSet
+2015-01-30 17:22:35,661 DEBUG [java.sql.ResultSet] - {rset-100083} Header: [pageid]
+2015-01-30 17:22:35,661 DEBUG [java.sql.ResultSet] - {rset-100083} Result: [1]
+2015-01-30 17:22:35,661 DEBUG [java.sql.Connection] - {conn-100084} Connection
+2015-01-30 17:22:35,661 DEBUG [java.sql.Connection] - {conn-100084} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 17:22:35,708 DEBUG [java.sql.PreparedStatement] - {pstm-100085} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 17:22:35,708 DEBUG [java.sql.PreparedStatement] - {pstm-100085} Parameters: [1]
+2015-01-30 17:22:35,708 DEBUG [java.sql.PreparedStatement] - {pstm-100085} Types: [java.lang.Integer]
+2015-01-30 17:22:35,708 DEBUG [java.sql.ResultSet] - {rset-100086} ResultSet
+2015-01-30 17:22:35,708 DEBUG [java.sql.ResultSet] - {rset-100086} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 17:22:35,708 DEBUG [java.sql.ResultSet] - {rset-100086} Result: [1, 进入书店, TextView, 0, 1, 2]
+2015-01-30 17:22:35,708 DEBUG [java.sql.Connection] - {conn-100087} Connection
+2015-01-30 17:22:35,708 DEBUG [java.sql.Connection] - {conn-100087} Preparing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 17:22:35,724 DEBUG [java.sql.PreparedStatement] - {pstm-100088} Executing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 17:22:35,724 DEBUG [java.sql.PreparedStatement] - {pstm-100088} Parameters: [1]
+2015-01-30 17:22:35,724 DEBUG [java.sql.PreparedStatement] - {pstm-100088} Types: [java.lang.Integer]
+2015-01-30 17:22:35,724 DEBUG [java.sql.ResultSet] - {rset-100089} ResultSet
+2015-01-30 17:22:35,724 DEBUG [java.sql.ResultSet] - {rset-100089} Header: [depth]
+2015-01-30 17:22:35,724 DEBUG [java.sql.ResultSet] - {rset-100089} Result: [0]
+2015-01-30 17:22:35,724 DEBUG [java.sql.Connection] - {conn-100090} Connection
+2015-01-30 17:22:35,724 DEBUG [java.sql.Connection] - {conn-100090} Preparing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 17:22:35,724 DEBUG [java.sql.PreparedStatement] - {pstm-100091} Executing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 17:22:35,724 DEBUG [java.sql.PreparedStatement] - {pstm-100091} Parameters: [7]
+2015-01-30 17:22:35,724 DEBUG [java.sql.PreparedStatement] - {pstm-100091} Types: [java.lang.Integer]
+2015-01-30 17:22:35,724 DEBUG [java.sql.ResultSet] - {rset-100092} ResultSet
+2015-01-30 17:22:35,724 DEBUG [java.sql.Connection] - {conn-100093} Connection
+2015-01-30 17:22:35,724 DEBUG [java.sql.Connection] - {conn-100093} Preparing Statement:      select endpage endPage, pageid pageId, programid programId, depth from program_page  where programid = ? and depth = ?; 
+2015-01-30 17:22:35,739 DEBUG [java.sql.PreparedStatement] - {pstm-100094} Executing Statement:      select endpage endPage, pageid pageId, programid programId, depth from program_page  where programid = ? and depth = ?; 
+2015-01-30 17:22:35,739 DEBUG [java.sql.PreparedStatement] - {pstm-100094} Parameters: [17, 2]
+2015-01-30 17:22:35,739 DEBUG [java.sql.PreparedStatement] - {pstm-100094} Types: [java.lang.Integer, java.lang.Integer]
+2015-01-30 17:22:35,739 DEBUG [java.sql.ResultSet] - {rset-100095} ResultSet
+2015-01-30 17:22:35,739 DEBUG [java.sql.ResultSet] - {rset-100095} Header: [endPage, pageId, programId, depth]
+2015-01-30 17:22:35,739 DEBUG [java.sql.ResultSet] - {rset-100095} Result: [0, 3, 17, 2]
+2015-01-30 17:22:35,739 DEBUG [java.sql.ResultSet] - {rset-100095} Result: [0, 4, 17, 2]
+2015-01-30 17:22:35,739 DEBUG [java.sql.Connection] - {conn-100096} Connection
+2015-01-30 17:22:35,739 DEBUG [java.sql.Connection] - {conn-100096} Preparing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 17:22:35,739 DEBUG [java.sql.PreparedStatement] - {pstm-100097} Executing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 17:22:35,739 DEBUG [java.sql.PreparedStatement] - {pstm-100097} Parameters: [3]
+2015-01-30 17:22:35,739 DEBUG [java.sql.PreparedStatement] - {pstm-100097} Types: [java.lang.Integer]
+2015-01-30 17:22:35,739 DEBUG [java.sql.ResultSet] - {rset-100098} ResultSet
+2015-01-30 17:22:35,739 DEBUG [java.sql.ResultSet] - {rset-100098} Header: [elementid]
+2015-01-30 17:22:35,739 DEBUG [java.sql.ResultSet] - {rset-100098} Result: [4]
+2015-01-30 17:22:35,739 DEBUG [java.sql.ResultSet] - {rset-100098} Result: [6]
+2015-01-30 17:22:35,739 DEBUG [java.sql.Connection] - {conn-100099} Connection
+2015-01-30 17:22:35,739 DEBUG [java.sql.Connection] - {conn-100099} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId in    (       ?   ,       ?   ) 
+2015-01-30 17:22:35,755 DEBUG [java.sql.PreparedStatement] - {pstm-100100} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId in    (       ?   ,       ?   ) 
+2015-01-30 17:22:35,755 DEBUG [java.sql.PreparedStatement] - {pstm-100100} Parameters: [4, 6]
+2015-01-30 17:22:35,755 DEBUG [java.sql.PreparedStatement] - {pstm-100100} Types: [java.lang.Integer, java.lang.Integer]
+2015-01-30 17:22:35,755 DEBUG [java.sql.ResultSet] - {rset-100101} ResultSet
+2015-01-30 17:22:35,755 DEBUG [java.sql.ResultSet] - {rset-100101} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 17:22:35,755 DEBUG [java.sql.ResultSet] - {rset-100101} Result: [4, 数学, TextView, 0, 4, 2]
+2015-01-30 17:22:35,755 DEBUG [java.sql.ResultSet] - {rset-100101} Result: [6, 语文, TextView, 0, 6, 2]
+2015-01-30 17:22:35,755 DEBUG [java.sql.Connection] - {conn-100102} Connection
+2015-01-30 17:22:35,755 DEBUG [java.sql.Connection] - {conn-100102} Preparing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 17:22:35,771 DEBUG [java.sql.PreparedStatement] - {pstm-100103} Executing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 17:22:35,771 DEBUG [java.sql.PreparedStatement] - {pstm-100103} Parameters: [3]
+2015-01-30 17:22:35,771 DEBUG [java.sql.PreparedStatement] - {pstm-100103} Types: [java.lang.Integer]
+2015-01-30 17:22:35,771 DEBUG [java.sql.ResultSet] - {rset-100104} ResultSet
+2015-01-30 17:22:35,771 DEBUG [java.sql.ResultSet] - {rset-100104} Header: [elementId, operationalId, resultId, targetpageId]
+2015-01-30 17:22:35,771 DEBUG [java.sql.ResultSet] - {rset-100104} Result: [2, 2, 2, 3]
+2015-01-30 17:22:35,771 DEBUG [java.sql.Connection] - {conn-100105} Connection
+2015-01-30 17:22:35,771 DEBUG [java.sql.Connection] - {conn-100105} Preparing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 17:22:35,802 DEBUG [java.sql.PreparedStatement] - {pstm-100106} Executing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 17:22:35,802 DEBUG [java.sql.PreparedStatement] - {pstm-100106} Parameters: [2]
+2015-01-30 17:22:35,802 DEBUG [java.sql.PreparedStatement] - {pstm-100106} Types: [java.lang.Integer]
+2015-01-30 17:22:35,817 DEBUG [java.sql.ResultSet] - {rset-100107} ResultSet
+2015-01-30 17:22:35,817 DEBUG [java.sql.ResultSet] - {rset-100107} Header: [pageid]
+2015-01-30 17:22:35,817 DEBUG [java.sql.ResultSet] - {rset-100107} Result: [2]
+2015-01-30 17:22:35,817 DEBUG [java.sql.Connection] - {conn-100108} Connection
+2015-01-30 17:22:35,817 DEBUG [java.sql.Connection] - {conn-100108} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 17:22:36,005 DEBUG [java.sql.PreparedStatement] - {pstm-100109} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 17:22:36,005 DEBUG [java.sql.PreparedStatement] - {pstm-100109} Parameters: [2]
+2015-01-30 17:22:36,005 DEBUG [java.sql.PreparedStatement] - {pstm-100109} Types: [java.lang.Integer]
+2015-01-30 17:22:36,005 DEBUG [java.sql.ResultSet] - {rset-100110} ResultSet
+2015-01-30 17:22:36,005 DEBUG [java.sql.ResultSet] - {rset-100110} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 17:22:36,005 DEBUG [java.sql.ResultSet] - {rset-100110} Result: [2, 分类, TextView, 0, 2, 2]
+2015-01-30 17:22:36,005 DEBUG [java.sql.Connection] - {conn-100111} Connection
+2015-01-30 17:22:36,005 DEBUG [java.sql.Connection] - {conn-100111} Preparing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 17:22:36,005 DEBUG [java.sql.PreparedStatement] - {pstm-100112} Executing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 17:22:36,005 DEBUG [java.sql.PreparedStatement] - {pstm-100112} Parameters: [2]
+2015-01-30 17:22:36,005 DEBUG [java.sql.PreparedStatement] - {pstm-100112} Types: [java.lang.Integer]
+2015-01-30 17:22:36,005 DEBUG [java.sql.ResultSet] - {rset-100113} ResultSet
+2015-01-30 17:22:36,005 DEBUG [java.sql.ResultSet] - {rset-100113} Header: [depth]
+2015-01-30 17:22:36,005 DEBUG [java.sql.ResultSet] - {rset-100113} Result: [1]
+2015-01-30 17:22:36,005 DEBUG [java.sql.Connection] - {conn-100114} Connection
+2015-01-30 17:22:36,005 DEBUG [java.sql.Connection] - {conn-100114} Preparing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 17:22:36,067 DEBUG [java.sql.PreparedStatement] - {pstm-100115} Executing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 17:22:36,067 DEBUG [java.sql.PreparedStatement] - {pstm-100115} Parameters: [2]
+2015-01-30 17:22:36,067 DEBUG [java.sql.PreparedStatement] - {pstm-100115} Types: [java.lang.Integer]
+2015-01-30 17:22:36,067 DEBUG [java.sql.ResultSet] - {rset-100116} ResultSet
+2015-01-30 17:22:36,067 DEBUG [java.sql.ResultSet] - {rset-100116} Header: [elementId, operationalId, resultId, targetpageId]
+2015-01-30 17:22:36,067 DEBUG [java.sql.ResultSet] - {rset-100116} Result: [1, 1, 2, 2]
+2015-01-30 17:22:36,067 DEBUG [java.sql.Connection] - {conn-100117} Connection
+2015-01-30 17:22:36,067 DEBUG [java.sql.Connection] - {conn-100117} Preparing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 17:22:36,083 DEBUG [java.sql.PreparedStatement] - {pstm-100118} Executing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 17:22:36,083 DEBUG [java.sql.PreparedStatement] - {pstm-100118} Parameters: [1]
+2015-01-30 17:22:36,083 DEBUG [java.sql.PreparedStatement] - {pstm-100118} Types: [java.lang.Integer]
+2015-01-30 17:22:36,083 DEBUG [java.sql.ResultSet] - {rset-100119} ResultSet
+2015-01-30 17:22:36,083 DEBUG [java.sql.ResultSet] - {rset-100119} Header: [pageid]
+2015-01-30 17:22:36,083 DEBUG [java.sql.ResultSet] - {rset-100119} Result: [1]
+2015-01-30 17:22:36,083 DEBUG [java.sql.Connection] - {conn-100120} Connection
+2015-01-30 17:22:36,083 DEBUG [java.sql.Connection] - {conn-100120} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 17:22:36,098 DEBUG [java.sql.PreparedStatement] - {pstm-100121} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 17:22:36,098 DEBUG [java.sql.PreparedStatement] - {pstm-100121} Parameters: [1]
+2015-01-30 17:22:36,098 DEBUG [java.sql.PreparedStatement] - {pstm-100121} Types: [java.lang.Integer]
+2015-01-30 17:22:36,098 DEBUG [java.sql.ResultSet] - {rset-100122} ResultSet
+2015-01-30 17:22:36,098 DEBUG [java.sql.ResultSet] - {rset-100122} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 17:22:36,098 DEBUG [java.sql.ResultSet] - {rset-100122} Result: [1, 进入书店, TextView, 0, 1, 2]
+2015-01-30 17:22:36,098 DEBUG [java.sql.Connection] - {conn-100123} Connection
+2015-01-30 17:22:36,098 DEBUG [java.sql.Connection] - {conn-100123} Preparing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 17:22:36,098 DEBUG [java.sql.PreparedStatement] - {pstm-100124} Executing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 17:22:36,098 DEBUG [java.sql.PreparedStatement] - {pstm-100124} Parameters: [1]
+2015-01-30 17:22:36,098 DEBUG [java.sql.PreparedStatement] - {pstm-100124} Types: [java.lang.Integer]
+2015-01-30 17:22:36,098 DEBUG [java.sql.ResultSet] - {rset-100125} ResultSet
+2015-01-30 17:22:36,098 DEBUG [java.sql.ResultSet] - {rset-100125} Header: [depth]
+2015-01-30 17:22:36,098 DEBUG [java.sql.ResultSet] - {rset-100125} Result: [0]
+2015-01-30 17:22:36,098 DEBUG [java.sql.Connection] - {conn-100126} Connection
+2015-01-30 17:22:36,098 DEBUG [java.sql.Connection] - {conn-100126} Preparing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 17:22:36,192 DEBUG [java.sql.PreparedStatement] - {pstm-100127} Executing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 17:22:36,192 DEBUG [java.sql.PreparedStatement] - {pstm-100127} Parameters: [4]
+2015-01-30 17:22:36,192 DEBUG [java.sql.PreparedStatement] - {pstm-100127} Types: [java.lang.Integer]
+2015-01-30 17:22:36,192 DEBUG [java.sql.ResultSet] - {rset-100128} ResultSet
+2015-01-30 17:22:36,192 DEBUG [java.sql.Connection] - {conn-100129} Connection
+2015-01-30 17:22:36,192 DEBUG [java.sql.Connection] - {conn-100129} Preparing Statement:      select endpage endPage, pageid pageId, programid programId, depth from program_page  where programid = ? and depth = ?; 
+2015-01-30 17:22:36,223 DEBUG [java.sql.PreparedStatement] - {pstm-100130} Executing Statement:      select endpage endPage, pageid pageId, programid programId, depth from program_page  where programid = ? and depth = ?; 
+2015-01-30 17:22:36,223 DEBUG [java.sql.PreparedStatement] - {pstm-100130} Parameters: [17, 1]
+2015-01-30 17:22:36,223 DEBUG [java.sql.PreparedStatement] - {pstm-100130} Types: [java.lang.Integer, java.lang.Integer]
+2015-01-30 17:22:36,223 DEBUG [java.sql.ResultSet] - {rset-100131} ResultSet
+2015-01-30 17:22:36,223 DEBUG [java.sql.ResultSet] - {rset-100131} Header: [endPage, pageId, programId, depth]
+2015-01-30 17:22:36,223 DEBUG [java.sql.ResultSet] - {rset-100131} Result: [0, 2, 17, 1]
+2015-01-30 17:22:36,223 DEBUG [java.sql.Connection] - {conn-100132} Connection
+2015-01-30 17:22:36,223 DEBUG [java.sql.Connection] - {conn-100132} Preparing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 17:22:36,223 DEBUG [java.sql.PreparedStatement] - {pstm-100133} Executing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 17:22:36,223 DEBUG [java.sql.PreparedStatement] - {pstm-100133} Parameters: [2]
+2015-01-30 17:22:36,223 DEBUG [java.sql.PreparedStatement] - {pstm-100133} Types: [java.lang.Integer]
+2015-01-30 17:22:36,223 DEBUG [java.sql.ResultSet] - {rset-100134} ResultSet
+2015-01-30 17:22:36,223 DEBUG [java.sql.ResultSet] - {rset-100134} Header: [elementid]
+2015-01-30 17:22:36,223 DEBUG [java.sql.ResultSet] - {rset-100134} Result: [2]
+2015-01-30 17:22:36,223 DEBUG [java.sql.ResultSet] - {rset-100134} Result: [3]
+2015-01-30 17:22:36,223 DEBUG [java.sql.Connection] - {conn-100135} Connection
+2015-01-30 17:22:36,223 DEBUG [java.sql.Connection] - {conn-100135} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId in    (       ?   ,       ?   ) 
+2015-01-30 17:22:36,379 DEBUG [java.sql.PreparedStatement] - {pstm-100136} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId in    (       ?   ,       ?   ) 
+2015-01-30 17:22:36,379 DEBUG [java.sql.PreparedStatement] - {pstm-100136} Parameters: [2, 3]
+2015-01-30 17:22:36,379 DEBUG [java.sql.PreparedStatement] - {pstm-100136} Types: [java.lang.Integer, java.lang.Integer]
+2015-01-30 17:22:36,379 DEBUG [java.sql.ResultSet] - {rset-100137} ResultSet
+2015-01-30 17:22:36,379 DEBUG [java.sql.ResultSet] - {rset-100137} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 17:22:36,379 DEBUG [java.sql.ResultSet] - {rset-100137} Result: [2, 分类, TextView, 0, 2, 2]
+2015-01-30 17:22:36,379 DEBUG [java.sql.ResultSet] - {rset-100137} Result: [3, 推荐, TextView, 0, 3, 2]
+2015-01-30 17:22:36,379 DEBUG [java.sql.Connection] - {conn-100138} Connection
+2015-01-30 17:22:36,379 DEBUG [java.sql.Connection] - {conn-100138} Preparing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 17:22:36,395 DEBUG [java.sql.PreparedStatement] - {pstm-100139} Executing Statement:    select * from   (    select elementid elementId, operationalid operationalId, resultid resultId,    targetpageid targetpageId from    element_operational as eo right join elem_op_page as eop    on eo.id = eop.elem_opid   ) as elem   where targetpageId = ?  
+2015-01-30 17:22:36,395 DEBUG [java.sql.PreparedStatement] - {pstm-100139} Parameters: [2]
+2015-01-30 17:22:36,395 DEBUG [java.sql.PreparedStatement] - {pstm-100139} Types: [java.lang.Integer]
+2015-01-30 17:22:36,395 DEBUG [java.sql.ResultSet] - {rset-100140} ResultSet
+2015-01-30 17:22:36,395 DEBUG [java.sql.ResultSet] - {rset-100140} Header: [elementId, operationalId, resultId, targetpageId]
+2015-01-30 17:22:36,395 DEBUG [java.sql.ResultSet] - {rset-100140} Result: [1, 1, 2, 2]
+2015-01-30 17:22:36,395 DEBUG [java.sql.Connection] - {conn-100141} Connection
+2015-01-30 17:22:36,395 DEBUG [java.sql.Connection] - {conn-100141} Preparing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 17:22:36,566 DEBUG [java.sql.PreparedStatement] - {pstm-100142} Executing Statement:      select pageid from element_page  where elementid = ? 
+2015-01-30 17:22:36,566 DEBUG [java.sql.PreparedStatement] - {pstm-100142} Parameters: [1]
+2015-01-30 17:22:36,566 DEBUG [java.sql.PreparedStatement] - {pstm-100142} Types: [java.lang.Integer]
+2015-01-30 17:22:36,566 DEBUG [java.sql.ResultSet] - {rset-100143} ResultSet
+2015-01-30 17:22:36,582 DEBUG [java.sql.ResultSet] - {rset-100143} Header: [pageid]
+2015-01-30 17:22:36,582 DEBUG [java.sql.ResultSet] - {rset-100143} Result: [1]
+2015-01-30 17:22:36,582 DEBUG [java.sql.Connection] - {conn-100144} Connection
+2015-01-30 17:22:36,582 DEBUG [java.sql.Connection] - {conn-100144} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 17:22:36,645 DEBUG [java.sql.PreparedStatement] - {pstm-100145} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId = ?; 
+2015-01-30 17:22:36,645 DEBUG [java.sql.PreparedStatement] - {pstm-100145} Parameters: [1]
+2015-01-30 17:22:36,645 DEBUG [java.sql.PreparedStatement] - {pstm-100145} Types: [java.lang.Integer]
+2015-01-30 17:22:36,645 DEBUG [java.sql.ResultSet] - {rset-100146} ResultSet
+2015-01-30 17:22:36,645 DEBUG [java.sql.ResultSet] - {rset-100146} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 17:22:36,645 DEBUG [java.sql.ResultSet] - {rset-100146} Result: [1, 进入书店, TextView, 0, 1, 2]
+2015-01-30 17:22:36,645 DEBUG [java.sql.Connection] - {conn-100147} Connection
+2015-01-30 17:22:36,645 DEBUG [java.sql.Connection] - {conn-100147} Preparing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 17:22:36,723 DEBUG [java.sql.PreparedStatement] - {pstm-100148} Executing Statement:      select depth from program_page  where pageid = ? 
+2015-01-30 17:22:36,723 DEBUG [java.sql.PreparedStatement] - {pstm-100148} Parameters: [1]
+2015-01-30 17:22:36,723 DEBUG [java.sql.PreparedStatement] - {pstm-100148} Types: [java.lang.Integer]
+2015-01-30 17:22:36,723 DEBUG [java.sql.ResultSet] - {rset-100149} ResultSet
+2015-01-30 17:22:36,723 DEBUG [java.sql.ResultSet] - {rset-100149} Header: [depth]
+2015-01-30 17:22:36,723 DEBUG [java.sql.ResultSet] - {rset-100149} Result: [0]
+2015-01-30 17:22:36,723 DEBUG [java.sql.Connection] - {conn-100150} Connection
+2015-01-30 17:22:36,723 DEBUG [java.sql.Connection] - {conn-100150} Preparing Statement:      select endpage endPage, pageid pageId, programid programId, depth from program_page  where programid = ? and depth = ?; 
+2015-01-30 17:22:36,770 DEBUG [java.sql.PreparedStatement] - {pstm-100151} Executing Statement:      select endpage endPage, pageid pageId, programid programId, depth from program_page  where programid = ? and depth = ?; 
+2015-01-30 17:22:36,770 DEBUG [java.sql.PreparedStatement] - {pstm-100151} Parameters: [17, 0]
+2015-01-30 17:22:36,770 DEBUG [java.sql.PreparedStatement] - {pstm-100151} Types: [java.lang.Integer, java.lang.Integer]
+2015-01-30 17:22:36,770 DEBUG [java.sql.ResultSet] - {rset-100152} ResultSet
+2015-01-30 17:22:36,770 DEBUG [java.sql.ResultSet] - {rset-100152} Header: [endPage, pageId, programId, depth]
+2015-01-30 17:22:36,770 DEBUG [java.sql.ResultSet] - {rset-100152} Result: [0, 1, 17, 0]
+2015-01-30 17:22:36,770 DEBUG [java.sql.Connection] - {conn-100153} Connection
+2015-01-30 17:22:36,770 DEBUG [java.sql.Connection] - {conn-100153} Preparing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 17:22:36,786 DEBUG [java.sql.PreparedStatement] - {pstm-100154} Executing Statement:      select elementid from element_page  where pageid = ? 
+2015-01-30 17:22:36,786 DEBUG [java.sql.PreparedStatement] - {pstm-100154} Parameters: [1]
+2015-01-30 17:22:36,786 DEBUG [java.sql.PreparedStatement] - {pstm-100154} Types: [java.lang.Integer]
+2015-01-30 17:22:36,786 DEBUG [java.sql.ResultSet] - {rset-100155} ResultSet
+2015-01-30 17:22:36,786 DEBUG [java.sql.ResultSet] - {rset-100155} Header: [elementid]
+2015-01-30 17:22:36,786 DEBUG [java.sql.ResultSet] - {rset-100155} Result: [1]
+2015-01-30 17:22:36,786 DEBUG [java.sql.Connection] - {conn-100156} Connection
+2015-01-30 17:22:36,786 DEBUG [java.sql.Connection] - {conn-100156} Preparing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId in    (       ?   ) 
+2015-01-30 17:22:36,801 DEBUG [java.sql.PreparedStatement] - {pstm-100157} Executing Statement:      select * from  (   select e.elementid elementId, e.text, e.classtype classType, e.elementindex elementIndex, eo.operationalid operationalId, eo.resultid resultId from    element e left join element_operational eo on   e.elementid = eo.elementid  ) as elem  where elementId in    (       ?   ) 
+2015-01-30 17:22:36,801 DEBUG [java.sql.PreparedStatement] - {pstm-100157} Parameters: [1]
+2015-01-30 17:22:36,801 DEBUG [java.sql.PreparedStatement] - {pstm-100157} Types: [java.lang.Integer]
+2015-01-30 17:22:36,801 DEBUG [java.sql.ResultSet] - {rset-100158} ResultSet
+2015-01-30 17:22:36,801 DEBUG [java.sql.ResultSet] - {rset-100158} Header: [elementId, text, classType, elementIndex, operationalId, resultId]
+2015-01-30 17:22:36,801 DEBUG [java.sql.ResultSet] - {rset-100158} Result: [1, 进入书店, TextView, 0, 1, 2]
+2015-01-30 17:22:36,832 DEBUG [java.sql.Connection] - {conn-100159} Connection
+2015-01-30 17:22:36,832 DEBUG [java.sql.Connection] - {conn-100159} Preparing Statement:    select operationalid, content from operational  
+2015-01-30 17:22:36,832 DEBUG [java.sql.PreparedStatement] - {pstm-100160} Executing Statement:    select operationalid, content from operational  
+2015-01-30 17:22:36,832 DEBUG [java.sql.PreparedStatement] - {pstm-100160} Parameters: []
+2015-01-30 17:22:36,832 DEBUG [java.sql.PreparedStatement] - {pstm-100160} Types: []
+2015-01-30 17:22:36,832 DEBUG [java.sql.ResultSet] - {rset-100161} ResultSet
+2015-01-30 17:22:36,832 DEBUG [java.sql.ResultSet] - {rset-100161} Header: [operationalid, content]
+2015-01-30 17:22:36,832 DEBUG [java.sql.ResultSet] - {rset-100161} Result: [1, click]
+2015-01-30 17:22:36,832 DEBUG [java.sql.ResultSet] - {rset-100161} Result: [2, click]
+2015-01-30 17:22:36,832 DEBUG [java.sql.ResultSet] - {rset-100161} Result: [3, click]
+2015-01-30 17:22:36,832 DEBUG [java.sql.ResultSet] - {rset-100161} Result: [4, click]
+2015-01-30 17:22:36,832 DEBUG [java.sql.ResultSet] - {rset-100161} Result: [6, click]
+2015-01-30 17:22:36,832 DEBUG [java.sql.ResultSet] - {rset-100161} Result: [7, click]
+2015-01-30 17:22:36,832 DEBUG [java.sql.ResultSet] - {rset-100161} Result: [8, click]

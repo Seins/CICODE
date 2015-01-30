@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+body {
+ margin:0px;
+ padding:0px;
+ font-size:12px;
+ background-color:#EEEEEE;
+}
+.tb_form{
+	border:0px solid #CCCCCC;
+	background-color:#FFFFFF;
+}
+.title{
+	text-align:center;
+}
+.tabletitle{
+	border:0px solid #CCCCCC;
+	background-color:#FFFFFF;	
+}
+.cszj{
+	border:0px solid #CCCCCC;
+	background-color:#F7F7F7;	
+}
+.cezjtitle{
+	 font-weight:800;
+	 font-size:16px;	
+}
+.cszjtd{
+	border:1px solid #CCCCCC;
+	background-color:#FFFFFF;
+}

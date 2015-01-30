@@ -12,4 +12,6 @@ public class Util {
 			"applicationContext.xml");
 	public static IDataDao dao = (IDataDao) factory.getBean("Dao");
 	public static final String rootPath = "E:/CISCRIPT/";
+	
+	
 }

@@ -1,0 +1,64 @@
+.tb_data {
+	font-size: 12px;
+	background-color:#CCCCCC;
+}
+.tb_data thead td{
+	background-color:#0099CC;
+	color:#FFFFFF;
+	
+}
+.tb_data td{
+background-color:#FFFFFF;
+color:#666666;
+height:22px;
+}
+
+.tb_title{
+height:22px;
+}
+.tb_title td{ 
+	font-size: 13px;
+	background-image: url(../images/tb_head_bg_m.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.tb_title th{ 
+	width:300px;
+	/*color:#ffffff;*/
+	font-size: 14px;
+	line-height:25px;
+	font-weight: normal;
+	background-image: url(../images/tb_head_bg_l.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-left:20px;
+	}
+.tb_title{ 
+	width:100%;
+	margin:0px auto;	
+	font-size: 14px;
+	color: #333333;
+	background-image: url(../images/tb_head_bg_r.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	}
+.tb_foot{
+height:30px;
+width:100%;
+}
+.tb_form{
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+.tb_form td{
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+}

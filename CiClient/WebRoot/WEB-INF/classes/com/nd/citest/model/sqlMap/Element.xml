@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd"> 
+<sqlMap namespace="Element">
+    
+<typeAlias alias="element" type="com.nd.citest.model.Element"/>
+
+<!-- 插入元素信息 -->
+<insert id="insertElement" parameterClass="element">
+	insert into element(text,classtype,elementindex) values(#text#,#classtype#,#elementindex#)
+	<selectKey resultClass="int" keyProperty="elementid">  
+        select LAST_INSERT_ID()   
+    </selectKey>  
+</insert>
+
+<!-- 查询页面元素信息 -->
+<select id="getPageElementByPageid" parameterClass="int" resultClass="element">
+	select ele_page.pageid pageid,ele.text,ele.classtype,
+	ele.elementindex,oper.content content,oper.operationalid operationalid,ele.elementid,
+	page.pagename pagename,ele_oper.resultid resultid
+	from element_page ele_page,element ele,operational oper,element_operational ele_oper,page 
+	where ele_page.elementid=ele.elementid 
+	and ele_oper.elementid=ele_page.elementid
+	and page.pageid=ele_page.pageid
+	and oper.operationalid=ele_oper.operationalid
+	and ele_page.pageid=#pageid#
+</select>
+<!-- 查询元素信息 -->
+<select id="getElementById" parameterClass="int" resultClass="element">
+  select elementid,text,classtype,elementindex from element where elementid=#elementid#
+</select>
+<!-- 模糊查询classtype -->
+<select id="getClassType" parameterClass="String" resultClass="element">
+	select distinct classtype from element  where classtype like concat('%',#classtype#,'%')
+</select>
+
+<!-- 修改元素信息 -->
+<update id="updateElementById" parameterClass="element">
+	update element
+	<dynamic prepend="set">
+		<isNotEmpty prepend="," property="text">
+			text='$text$'
+		</isNotEmpty>
+		<isNotEmpty prepend="," property="classtype">
+			classtype='$classtype$'
+		</isNotEmpty>
+		<isNotEmpty prepend="," property="elementindex">
+			elementindex='$elementindex$'
+		</isNotEmpty>
+	</dynamic>
+	where elementid=#elementid#
+</update>
+<!--  -->
+<delete id="delElement" parameterClass="int" >
+	delete from element where elementid=#elementid#
+</delete>
+
+<select id="getElementClasstype"  parameterClass="String" resultClass="element">
+	select distinct classtype from element where 1=1 and classtype like '%$classtype$%'
+</select>
+</sqlMap>
