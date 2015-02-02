@@ -147,8 +147,9 @@ public class RealTestSuites {
 			name += string + " ";
 		}
 		try {
-			String cmd = String.format("python %s/src/ToHtml.py D:/report %s",
+			String cmd = String.format("python %s/src/ToHtml.py D:/reports/android-test %s",
 					System.getProperty("user.dir"), name);
+			System.out.println(cmd);
 			Process p = Runtime.getRuntime().exec(cmd);
 			p.waitFor();
 		} catch (IOException | InterruptedException e) {
