@@ -37,7 +37,7 @@ public class FileUtil {
 		String path = info[0];
 		for (int i = 1; i < info.length; i++) {
 			path += "/" + info[i];
-			if (i == 1) {
+			if (i <= 2) {
 				mkDir(path, false);
 			} else {
 				mkDir(path, true);

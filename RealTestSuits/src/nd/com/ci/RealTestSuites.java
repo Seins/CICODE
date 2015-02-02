@@ -14,9 +14,10 @@ import nd.com.server.FileUtil;
 
 public class RealTestSuites {
 
-	private String reportRootPath = "D:/report";
-	private String xmlPath = "D:/report/xml";
-	private String htmlPath = "D:/report/html";
+	private String reportRootPath = "D:/reports";
+	private String testPath = reportRootPath + "/android-test";
+	private String xmlPath = testPath + "/xml";
+	private String htmlPath = testPath + "/html";
 
 	/**
 	 * 扫描所以要执行的文件
@@ -29,7 +30,7 @@ public class RealTestSuites {
 		File rootDir = new File(rootPath);
 		if (!rootDir.isDirectory()) {
 			String filePath = rootDir.getAbsolutePath();
-			if (filePath.substring(filePath.lastIndexOf(".")+1).equals("py")) {
+			if (filePath.substring(filePath.lastIndexOf(".") + 1).equals("py")) {
 				fileList.add(rootDir.getAbsolutePath());
 			}
 		} else {
@@ -37,16 +38,16 @@ public class RealTestSuites {
 			for (int i = 0; i < files.length; i++) {
 				rootPath = rootDir.getAbsolutePath() + "\\" + files[i];
 				fileList.addAll(scanTestFile(rootPath));
-			}	
+			}
 		}
 		return fileList;
 	}
-	
-	private List<String> getFileNames(List<String> fileList){
+
+	private List<String> getFileNames(List<String> fileList) {
 		List<String> fileName = new ArrayList<String>();
 		for (String filepath : fileList) {
-			String[] info = filepath.split("\\\\");	
-			fileName.add(info[info.length-1].split("\\.")[0]);
+			String[] info = filepath.split("\\\\");
+			fileName.add(info[info.length - 1].split("\\.")[0]);
 		}
 		return fileName;
 	}
@@ -89,7 +90,8 @@ public class RealTestSuites {
 		File file = new File(fileName);
 		BufferedReader reader = null;
 		try {
-			InputStreamReader isr = new InputStreamReader(new FileInputStream(file), "UTF-8");
+			InputStreamReader isr = new InputStreamReader(new FileInputStream(
+					file), "UTF-8");
 			reader = new BufferedReader(isr);
 			String tempString = null;
 			// 一次读入一行，直到读入null为文件结束
@@ -115,7 +117,7 @@ public class RealTestSuites {
 	}
 
 	private void createTestSuitesXml(List<String> contents) {
-		File file = new File(xmlPath + "/TEST-TestSuites.xml");
+		File file = new File(xmlPath + "/TESTS-TestSuites.xml");
 		try {
 			if (file.exists()) {
 				file.delete();
@@ -123,13 +125,14 @@ public class RealTestSuites {
 			file.createNewFile();
 
 			StringBuilder content = new StringBuilder();
-			content.append("<?xml version=\"1.0\" encoding=\"utf-8\"?>");
+			content.append("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n");
 			content.append("<testsuites>\n");
 			for (String string : contents) {
 				content.append(string);
 			}
 			content.append("</testsuites>");
-			OutputStreamWriter writerStream = new OutputStreamWriter(new FileOutputStream(file),"UTF-8");
+			OutputStreamWriter writerStream = new OutputStreamWriter(
+					new FileOutputStream(file), "UTF-8");
 			writerStream.write(content.toString());
 			writerStream.close();
 		} catch (IOException e) {
@@ -137,14 +140,15 @@ public class RealTestSuites {
 			e.printStackTrace();
 		}
 	}
-	
-	private void collectHtml(List<String> fileNameList){
+
+	private void collectHtml(List<String> fileNameList) {
 		String name = "";
 		for (String string : fileNameList) {
-			name += string+" ";
+			name += string + " ";
 		}
 		try {
-			String cmd = String.format("python %s/src/ToHtml.py D:/report %s", System.getProperty("user.dir"), name);
+			String cmd = String.format("python %s/src/ToHtml.py D:/report %s",
+					System.getProperty("user.dir"), name);
 			Process p = Runtime.getRuntime().exec(cmd);
 			p.waitFor();
 		} catch (IOException | InterruptedException e) {
