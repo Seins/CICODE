@@ -2,3 +2,6 @@
 *.class
 *.svn*
 *.bak
+*.project
+*.classpath
+*.class
