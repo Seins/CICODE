@@ -9,8 +9,8 @@ public class TestMain {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//System.out.println(Util.dao.getProgramIdForName("测试"));
-		//System.out.println(Util.dao.getProgramNameForProjectName("91助手"));
-		new ScriptElement().createProjectScript("Demo");
+		// System.out.println(Util.dao.getProgramIdForName("测试"));
+		// System.out.println(Util.dao.getProgramNameForProjectName("91助手"));
+		new ScriptElement().createProjectScript("Demo好");
 	}
 }

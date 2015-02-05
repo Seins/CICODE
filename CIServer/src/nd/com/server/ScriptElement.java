@@ -16,12 +16,15 @@ public class ScriptElement {
 	
 	public String createProjectScript(String projectName){
 		List<String> modelList = Util.dao.getProgramNameForProjectName(projectName);
-		String projectDirPath = Util.rootPath + projectName + "/";
+		String projectDirPath = Util.rootPath + projectName;
 		FileUtil.createDir(projectDirPath);
 		for (String modelName : modelList) {
-			createModelScript(modelName, projectDirPath);
+			createModelScript(modelName, projectDirPath+"/");
 		}
-		return projectDirPath;
+		String zipPath = Util.rootPath + projectName+".zip";
+		FileZip zc = new FileZip(zipPath);
+		zc.compress(Util.rootPath, projectName);
+		return zipPath;
 	}
 
 	/**
