@@ -158,9 +158,9 @@ class uianalyzer(object) :
         '''
         '''
         xml_pc_path = 'C:/'
-        filePath = '/sdcard/UI_%s%s.xml' %(INFO.DEVICENAME, tempStr)
+        filePath = '/sdcard/UI_%s%s.xml' %(INFO.DEVICE, tempStr)
         self.adbCmd.delete(filePath)    
         self.adbCmd.uidump(filePath)
         self.adbCmd.pull(filePath, xml_pc_path)
         #print os.path.abspath('%sUI_%s%s.xml' %(xml_pc_path, INFO.DEVICENAME.decode('utf-8').encode('gbk'), tempStr))
-        return os.path.abspath('%sUI_%s%s.xml' %(xml_pc_path, INFO.DEVICENAME, tempStr))
+        return os.path.abspath('%sUI_%s%s.xml' %(xml_pc_path, INFO.DEVICE, tempStr))

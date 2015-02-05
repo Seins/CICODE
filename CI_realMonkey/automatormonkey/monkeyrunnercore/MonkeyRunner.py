@@ -78,7 +78,6 @@ class rMonkeyRunner(object) :
         self.__multiOperate(func_name, desc, self.__systemInfo, 'currentActivityName', expected, result)
     
     def clearAppData(self, packageName):
-        INFO.STEP += 1
         self.device.clearAppData(packageName)
     
     def clearTextField(self,TAG,className,match=None):
@@ -366,8 +365,8 @@ class rMonkeyRunner(object) :
             FLAG.SCREENSHOT = False
             self.wakeUp()
             path = self.__path()
-            self.install('%s/res/Unlock.apk'%(path))
-            self.startActivity('nd.com.unlock/.Unlock')
+            self.device.install('%s/res/Unlock.apk'%(path))
+            self.device.startActivity('nd.com.unlock/.Unlock')
             FLAG.SCREENSHOT = True
         
     def __path(self):
