@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="Result">
+
+	<resultMap class="java.util.HashMap" id="resultMap">
+		<result property="resultid" column="resultid" />
+		<result property="resulttype" column="resulttype" />
+	</resultMap>
+
+	<select id="getResult" resultMap="resultMap">
+		select * from result
+	</select>
+
+</sqlMap>
