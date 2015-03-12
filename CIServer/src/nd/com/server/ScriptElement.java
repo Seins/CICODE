@@ -11,15 +11,22 @@ import java.util.List;
 import nd.com.db.model.Element;
 import nd.com.db.model.ElementOperational;
 import nd.com.db.model.ProgramPage;
+import nd.com.server.python.PythonScriptTool;
+import nd.com.server.robotium.CreateProject;
+import nd.com.server.robotium.JavaScriptTool;
 
 public class ScriptElement {
+	FileUtil fileUtil = new FileUtil();
 	
-	public String createProjectScript(String projectName){
+	public String createProjectScript(String projectName, int flag){
 		List<String> modelList = Util.dao.getProgramNameForProjectName(projectName);
 		String projectDirPath = Util.rootPath + projectName;
-		FileUtil.createDir(projectDirPath);
+		fileUtil.createDir(projectDirPath);
+		if (flag != 0) {
+			new CreateProject().createTestProject(projectName, Util.packageName);
+		}
 		for (String modelName : modelList) {
-			createModelScript(modelName, projectDirPath+"/");
+			createModelScript(modelName, projectDirPath+"/", flag);
 		}
 		String zipPath = Util.rootPath + projectName+".zip";
 		FileZip zc = new FileZip(zipPath);
@@ -32,11 +39,16 @@ public class ScriptElement {
 	 * 
 	 * @param modelName
 	 */
-	private boolean createModelScript(String modelName, String projectDirPath) {
+	private boolean createModelScript(String modelName, String projectDirPath, int flag) {
 		List<List<Element>> scriptList = new ArrayList<List<Element>>();
 		scriptList = getModelScripts(modelName);
-		ScriptTool st = new ScriptTool(modelName, projectDirPath);
-		st.generateScript(modelName, scriptList);
+		if (flag == 0) {
+			PythonScriptTool pst = new PythonScriptTool(modelName, projectDirPath);
+			pst.generateScript(scriptList);
+		}else {
+			JavaScriptTool jst = new JavaScriptTool(modelName, projectDirPath);
+			jst.generateScript(scriptList);
+		}
 		return true;
 	}
 

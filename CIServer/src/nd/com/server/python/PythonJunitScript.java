@@ -1,6 +1,6 @@
 package nd.com.server.python;
 
-public class JunitScript {
+public class PythonJunitScript {
 	
 	public String setUp(String content){
 		StringBuilder sb = new StringBuilder();

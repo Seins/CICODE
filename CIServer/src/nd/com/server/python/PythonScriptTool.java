@@ -1,4 +1,4 @@
-package nd.com.server;
+package nd.com.server.python;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -8,19 +8,20 @@ import java.util.List;
 import java.util.Map;
 
 import nd.com.db.model.Element;
-import nd.com.server.python.JunitScript;
-import nd.com.server.python.RealMonkey;
+import nd.com.server.FileUtil;
+import nd.com.server.Util;
 
-public class ScriptTool {
+public class PythonScriptTool {
 	Writer python = null;
 	StringBuilder content = null;
 	String modelName = null;
 	String modelDirPath = null;
 	Map<Integer, String> operational = null;
 	RealMonkey realMonkey = new RealMonkey();
-	JunitScript junitScript = new JunitScript();
+	PythonJunitScript junitScript = new PythonJunitScript();
+	FileUtil fileUtil = new FileUtil();
 
-	public ScriptTool(String modelName, String projectDirPath) {
+	public PythonScriptTool(String modelName, String projectDirPath) {
 		this.modelName = modelName;
 		this.operational = Util.dao.getOperational();
 		this.modelDirPath = projectDirPath;
@@ -30,7 +31,7 @@ public class ScriptTool {
 		content = new StringBuilder();
 		String fileName = this.modelDirPath + scriptName;
 		
-		File file = FileUtil.createFile(fileName, ".py");
+		File file = fileUtil.createFile(fileName, ".py");
 
 		try {
 			python = new FileWriter(file, true);
@@ -53,7 +54,7 @@ public class ScriptTool {
 		return String.format("\nclass %s(unittest.TestCase):\n", className);
 	}
 
-	private String startApp(String packageName, String activityName) {
+	private String setComponent(String packageName, String activityName) {
 		return realMonkey.startApp(packageName, activityName);
 	}
 
@@ -84,8 +85,8 @@ public class ScriptTool {
 		}
 	}
 
-	public void generateScript(String modelName, List<List<Element>> scriptList) {
-		createScript(modelName);
+	public void generateScript(List<List<Element>> scriptList) {
+		createScript(this.modelName);
 		try {
 			content.append(setUp());
 			for (List<Element> list : scriptList) {
@@ -94,7 +95,7 @@ public class ScriptTool {
 				String caseName = String.format("%s%s", element.getClassType(), element.getElementId());
 				sb.append(String.format("logPath = modelname+'/%s'\n", caseName));
 				sb.append("device=rMonkeyRunner(logPath)\n");
-				sb.append(startApp("qa.demo",
+				sb.append(setComponent("qa.demo",
 						"qa.demo.MainActivity"));
 				System.out.println("-----------------------------------------");
 				int size = list.size();

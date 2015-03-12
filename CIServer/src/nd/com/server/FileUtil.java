@@ -1,18 +1,20 @@
 package nd.com.server;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
 
 public class FileUtil {
-	public static void createNew(String dirPath) {
+	public void createNew(String dirPath) {
 		File dir = new File(dirPath);
 		if (!dir.exists()) {
 			dir.mkdir();
 		}
 	}
 
-	public static File createFile(String fileName, String Suffix) {
-		File file = new File(fileName+Suffix);
+	public File createFile(String fileName, String Suffix) {
+		File file = new File(fileName + Suffix);
 		try {
 			int repeatNum = 0;
 			while (file.exists()) {
@@ -27,7 +29,7 @@ public class FileUtil {
 		return file;
 	}
 
-	public static void createDir(String dirPath) {
+	public void createDir(String dirPath) {
 		String[] info = null;
 		if (dirPath.contains("/")) {
 			info = dirPath.split("/");
@@ -45,7 +47,7 @@ public class FileUtil {
 		}
 	}
 
-	private static void mkDir(String dirPath, boolean flag) {
+	private void mkDir(String dirPath, boolean flag) {
 		File dir = new File(dirPath);
 		if (dir.exists()) {
 			if (flag) {
@@ -63,7 +65,7 @@ public class FileUtil {
 		}
 	}
 
-	public static boolean deleteDir(File dir) {
+	public boolean deleteDir(File dir) {
 		if (dir.isDirectory()) {
 			String[] children = dir.list();
 			for (int i = 0; i < children.length; i++) {
@@ -84,4 +86,28 @@ public class FileUtil {
 		return delete;
 	}
 
+	public void writeFile(File file, String content) {
+		OutputStreamWriter writerStream;
+		try {
+			file.createNewFile();
+			writerStream = new OutputStreamWriter(new FileOutputStream(file),
+					"UTF-8");
+			writerStream.write(content);
+			writerStream.close();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public void deleteFile(String filePath){
+		File file = new File(filePath);
+		deleteFile(file);
+	}
+	
+	public void deleteFile(File file){
+		if (file.exists()) {
+			file.delete();
+		}
+	}
 }

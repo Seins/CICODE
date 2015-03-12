@@ -4,6 +4,6 @@ import javax.jws.WebService;
 
 @WebService
 public interface IGenerateScript {
-	public String generateScript(String projectName);	
+	public String generateScript(String projectName, int flag);	
 
 }
