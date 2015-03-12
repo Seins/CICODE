@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE sqlMapConfig PUBLIC "-//iBATIS.com//DTD SQL Map Config 2.0//EN"
+"http://www.ibatis.com/dtd/sql-map-config-2.dtd">
+<sqlMapConfig>
+<settings
+	    cacheModelsEnabled="true"
+	    lazyLoadingEnabled="true"
+	    enhancementEnabled="true"
+	    statementCachingEnabled="true"
+	    maxSessions="64"
+	    maxTransactions="20"
+	    maxRequests="128"
+	    useStatementNamespaces="true"/>
+<sqlMap resource="nd/com/db/model/mysql/ProgramPage.xml"/>
+<sqlMap resource="nd/com/db/model/mysql/Element.xml"/>
+<sqlMap resource="nd/com/db/model/mysql/ElementOperational.xml"/>
+<sqlMap resource="nd/com/db/model/mysql/Operational.xml"/>
+<sqlMap resource="nd/com/db/model/mysql/Page.xml"/>
+<sqlMap resource="nd/com/db/model/mysql/Result.xml"/>
+<sqlMap resource="nd/com/db/model/mysql/Program.xml"/>
+<sqlMap resource="nd/com/db/model/mysql/ProjectProgram.xml"/>
+</sqlMapConfig>
