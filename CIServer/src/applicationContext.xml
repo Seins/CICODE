@@ -66,4 +66,5 @@ class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
 	<ref bean="Dao"/>
 	</property>
 </bean>
+
 </beans>

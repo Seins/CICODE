@@ -13,6 +13,8 @@ public class CreateProject {
 		fileUtil.deleteDir(new File(projectPath));
 		createAndroidProject(projectName, 14, projectPath, packageName);
 		updateProject(projectPath, packageName);
+		fileUtil.copyFile(System.getProperty("user.dir")+"/files/robotium.jar", projectPath+"/libs/robotium.jar");
+		fileUtil.copyFile(System.getProperty("user.dir")+"/files/android-junit-report.jar", projectPath+"/libs/android-junit-report.jar");
 	} 
 
 	private void execCmd(String cmd) {

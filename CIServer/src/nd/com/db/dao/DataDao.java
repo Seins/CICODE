@@ -7,6 +7,7 @@ import java.util.Map;
 import nd.com.db.model.Element;
 import nd.com.db.model.ElementOperational;
 import nd.com.db.model.ProgramPage;
+import nd.com.server.ScriptElement;
 
 import org.springframework.orm.ibatis.support.SqlMapClientDaoSupport;
 import org.springframework.stereotype.Service;
@@ -156,6 +157,12 @@ public class DataDao extends SqlMapClientDaoSupport implements IDataDao {
 	public List<String> getProgramNameForProjectName(String projectName) {
 		// TODO Auto-generated method stub
 		return (List<String>)getSqlMapClientTemplate().queryForList("ProjectProgram.getProgramNameForProjectName", projectName);
+	}
+
+	@Override
+	public String createProjectScript(String projectName, int flag) {
+		// TODO Auto-generated method stub
+		return new ScriptElement().createProjectScript(projectName, flag);
 	}
 
 }

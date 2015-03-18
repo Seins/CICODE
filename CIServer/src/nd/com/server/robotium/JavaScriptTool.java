@@ -39,10 +39,8 @@ public class JavaScriptTool {
 	
 		String path = this.packageName.replaceAll("\\.", "/");
 		System.out.println("path:"+path);
-		String fileName = this.modelDirPath+"src/"+path+"/test/" + scriptName;
-		System.out.println("fileName"+fileName);
+		String fileName = this.modelDirPath+"src/"+path+"/test/" + scriptName+"Test";
 		File file = fileUtil.createFile(fileName, ".java");
-		System.out.println(file.getName().split("\\.")[0]);
 		try {
 			java = new FileWriter(file, true);
 			java.write(initClass(this.modelName,file.getName().split("\\.")[0],packageName, activityName));
@@ -90,7 +88,7 @@ public class JavaScriptTool {
 		// TODO Auto-generated method stub
 		
 		setComponent("qa.demo","qa.demo.MainActivity");
-		createScript(this.modelName);
+		createScript("MainActivity");
 		try {
 			for (List<Element> list : scriptList) {
 				StringBuilder sb = new StringBuilder();

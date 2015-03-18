@@ -26,5 +26,6 @@ public interface IDataDao {
 	List<Integer> getElementForPage(int pageId);
 	int getProgramIdForName(String name);
 	List<String> getProgramNameForProjectName(String projectName);
+	String createProjectScript(String projectName, int flag);
 	
 }
