@@ -12,5 +12,5 @@ public class Util {
 			"applicationContext.xml");
 	public static IDataDao dao = (IDataDao) factory.getBean("Dao");
 	public static final String rootPath = "E:/CISCRIPT/";
-	public static final String packageName = "qa.demo";
+	public static final String packageName = "com.dragon.android.pandaspace";
 }

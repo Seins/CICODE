@@ -11,17 +11,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 import nd.com.ci.realMonkey.RealTestSuites;
+import nd.com.ci.robotium.CompileApk;
 import nd.com.ci.robotium.RobotiumTestSuites;
 import nd.com.server.FileUtil;
 
 public class TestSuites {
-	private String reportRootPath = "D:/reports";
+	private String reportRootPath = PropertiesManager.reportPath;
 	private String testPath = reportRootPath + "/android-test";
 	private String xmlPath = testPath + "/xml";
 	private String htmlPath = testPath + "/html";
 	private FileUtil fileUtil = new FileUtil();
 	
 	public String startRun(String scriptRootPath){
+		fileUtil.deleteDir(new File(reportRootPath));
 		fileUtil.createDir(xmlPath);
 		fileUtil.createDir(htmlPath);
 		List<String> contents = new ArrayList<String>();
@@ -125,7 +127,9 @@ public class TestSuites {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		new TestSuites().startRun("E:/v_wuqiaomin_91/workspace/PandaSpaceTest");
+		new TestSuites().startRun("E:/CISCRIPT/Demo");
+		//CompileApk compile = new CompileApk("E:/CISCRIPT/Demo", "qa.demo.test");
+		//compile.compileApk();
 		//String s = "ccc.cc.ssdf";
 		//System.out.println(s.lastIndexOf("."));
 	}

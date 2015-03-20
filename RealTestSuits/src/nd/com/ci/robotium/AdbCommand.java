@@ -41,6 +41,7 @@ public class AdbCommand {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		System.out.println("end");
 		return p;
 	}
 

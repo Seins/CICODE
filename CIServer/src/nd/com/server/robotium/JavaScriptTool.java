@@ -29,8 +29,8 @@ public class JavaScriptTool {
 		this.modelDirPath = projectDirPath;
 	}
 	
-	private void setComponent(String packageName, String activityName){
-		this.packageName = packageName;
+	private void setComponent(String activityName){
+		this.packageName = Util.packageName;
 		this.activityName = activityName;
 	}
 	
@@ -87,7 +87,7 @@ public class JavaScriptTool {
 	public void generateScript(List<List<Element>> scriptList) {
 		// TODO Auto-generated method stub
 		
-		setComponent("qa.demo","qa.demo.MainActivity");
+		setComponent("com.dragon.android.pandaspace.main.MainActivity");
 		createScript("MainActivity");
 		try {
 			for (List<Element> list : scriptList) {

@@ -3,7 +3,7 @@ package nd.com.ci.robotium;
 import java.util.ArrayList;
 
 public class TestSuite {
-	private String packageName = null;
+	private String packageName = null; 
 	private String className = null;
 	private ArrayList<String> methodName = null;
 

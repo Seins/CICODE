@@ -52,7 +52,7 @@ public class CreateProject {
 						+ "    <uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\n"
 						+ "    <uses-sdk android:minSdkVersion=\"8\" />\n\n"
 						+ "    <instrumentation\n"
-						+ "        android:name=\"android.test.InstrumentationTestRunner\"\n"
+						+ "        android:name=\"com.zutubi.android.junitreport.JUnitReportTestRunner\"\n"
 						+ "        android:targetPackage=\"%s\" />\n\n"
 						+ "    <application android:label=\"%s.test\" >\n"
 						+ "        <uses-library android:name=\"android.test.runner\" />\n"

@@ -37,30 +37,15 @@ public class FileUtil {
 		String path = info[0];
 		for (int i = 1; i < info.length; i++) {
 			path += "/" + info[i];
-			if (i <= 2) {
-				mkDir(path, false);
-			} else {
-				mkDir(path, true);
-			}
+			mkDir(path);
 		}
 	}
 
-	private void mkDir(String dirPath, boolean flag) {
+	private void mkDir(String dirPath) {
 		File dir = new File(dirPath);
-		if (dir.exists()) {
-			if (flag) {
-				deleteDir(dir);
-				try {
-					Thread.sleep(500);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				dir.mkdir();
-			}
-		} else {
+		if (!dir.exists()) {
 			dir.mkdir();
-		}
+		} 
 	}
 
 	public boolean deleteDir(File dir) {

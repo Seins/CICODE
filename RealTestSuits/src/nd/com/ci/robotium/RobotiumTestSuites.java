@@ -13,6 +13,9 @@ public class RobotiumTestSuites {
 	public void startRun(String scriptRootPath) {
 		ArrayList<TestSuite> testSuites = new ParserTestCase()
 				.findAllTestClass(new File(scriptRootPath));
+		CompileApk compile = new CompileApk(scriptRootPath, testSuites.get(0).getPackageName());
+		compile.compileApk();
+		adb.installApk(scriptRootPath+"/bin/test.apk");
 		for (TestSuite testSuite : testSuites) {
 			adb.runTest(null, testSuite.getClassName(),
 					testSuite.getPackageName());
