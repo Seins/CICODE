@@ -5,7 +5,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
 import java.util.List;
-import java.util.Map;
 
 import nd.com.db.model.Element;
 import nd.com.server.FileUtil;
@@ -16,14 +15,14 @@ public class PythonScriptTool {
 	StringBuilder content = null;
 	String modelName = null;
 	String modelDirPath = null;
-	Map<Integer, String> operational = null;
+	//Map<Integer, String> operational = null;
 	RealMonkey realMonkey = new RealMonkey();
 	PythonJunitScript junitScript = new PythonJunitScript();
 	FileUtil fileUtil = new FileUtil();
 
 	public PythonScriptTool(String modelName, String projectDirPath) {
 		this.modelName = modelName;
-		this.operational = Util.dao.getOperational();
+		//this.operational = Util.dao.getOperational();
 		this.modelDirPath = projectDirPath;
 	}
 
@@ -60,7 +59,7 @@ public class PythonScriptTool {
 
 	private String writeCode(Element element) {
 		StringBuilder sb = new StringBuilder();
-		String operate = operational.get(element.getOperationalId());
+		String operate = Util.dao.getOperational(element.getOperationalId());
 		switch (operate) {
 		case "click":
 			sb.append(realMonkey.click(element));

@@ -1,7 +1,6 @@
 package nd.com.db.dao;
 
 import java.util.List;
-import java.util.Map;
 
 import nd.com.db.model.Element;
 import nd.com.db.model.ElementOperational;
@@ -15,10 +14,10 @@ public interface IDataDao {
 	
 	ElementOperational getElementOperational(int targetPageId);
 	
-	Map<Integer, String> getOperational();
-	Map<Integer, String> getPage();
-	Map<Integer, String> getResult();
-	Map<Integer, String> getProgram();
+	String getOperational(int operationalId);
+	String getPage(int pageId);
+	String getResult(int getResult);
+	String getProgram(int programId);
 	
 	int getMaxDepth(int programId);
 	int getPageForElement(int elementId);

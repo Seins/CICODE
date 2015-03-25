@@ -8,8 +8,9 @@
 		<result property="pagename" column="pagename" />
 	</resultMap>
 
-	<select id="getPage" resultMap="pageMap">
-		select * from page
+	<select id="getPage" parameterClass="int" resultClass="String">
+		select pagename from page
+		where pageid = #pageId#
 	</select>
 	
 </sqlMap>

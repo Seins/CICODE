@@ -5,7 +5,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
 import java.util.List;
-import java.util.Map;
 
 import nd.com.db.model.Element;
 import nd.com.server.FileUtil;
@@ -18,14 +17,14 @@ public class JavaScriptTool {
 	String modelDirPath = null;
 	String packageName = null;
 	String activityName = null;
-	Map<Integer, String> operational = null;
+	//Map<Integer, String> operational = null;
 	JavaJunitScript junitScript = new JavaJunitScript();
 	Robotium robotium = new Robotium();
 	FileUtil fileUtil = new FileUtil();
 	
 	public JavaScriptTool(String modelName, String projectDirPath) {
 		this.modelName = modelName;
-		this.operational = Util.dao.getOperational();
+		//this.operational = Util.dao.getOperational();
 		this.modelDirPath = projectDirPath;
 	}
 	
@@ -59,12 +58,15 @@ public class JavaScriptTool {
 	
 	private String writeCode(Element element) {
 		StringBuilder sb = new StringBuilder();
-		String operate = operational.get(element.getOperationalId());
+		String operate = Util.dao.getOperational(element.getOperationalId());
 		switch (operate) {
 		case "click":
 			sb.append(robotium.clickOnWebElement(element));
-			sb.append(robotium.sleep(2000));
+			sb.append(robotium.sleep(3000));
 			break;
+		case "input":
+			sb.append(robotium.enterTextInWebElement(element));
+			sb.append(robotium.sleep(3000));
 		default:
 			break;
 		}
@@ -87,7 +89,7 @@ public class JavaScriptTool {
 	public void generateScript(List<List<Element>> scriptList) {
 		// TODO Auto-generated method stub
 		
-		setComponent("com.dragon.android.pandaspace.main.MainActivity");
+		setComponent("com.nd.pad.icr.ui.MainActivity");
 		createScript("MainActivity");
 		try {
 			for (List<Element> list : scriptList) {

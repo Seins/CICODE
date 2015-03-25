@@ -2,7 +2,6 @@ package nd.com.db.dao;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 import nd.com.db.model.Element;
 import nd.com.db.model.ElementOperational;
@@ -68,9 +67,9 @@ public class DataDao extends SqlMapClientDaoSupport implements IDataDao {
 	 * 映射operational表
 	 */
 	@Override
-	public Map<Integer, String> getOperational() {
+	public String getOperational(int operationalId) {
 		// TODO Auto-generated method stub
-		Map<Integer, String> operational = (Map<Integer, String>)getSqlMapClientTemplate().queryForMap("Operational.getOperational",null, "operationalid", "content");
+		String operational = (String)getSqlMapClientTemplate().queryForObject("Operational.getOperational",operationalId);
 		return operational;
 	}
 
@@ -78,9 +77,9 @@ public class DataDao extends SqlMapClientDaoSupport implements IDataDao {
 	 * 映射page表
 	 */
 	@Override
-	public Map<Integer, String> getPage() {
+	public String getPage(int pageId) {
 		// TODO Auto-generated method stub
-		Map<Integer, String> page = (Map<Integer, String>)getSqlMapClientTemplate().queryForMap("Page.getPage",null, "pageid", "pagename");
+		String page = (String)getSqlMapClientTemplate().queryForObject("Page.getPage",pageId);
 		return page;
 	}
 
@@ -88,9 +87,9 @@ public class DataDao extends SqlMapClientDaoSupport implements IDataDao {
 	 * 映射result表
 	 */
 	@Override
-	public Map<Integer, String> getResult() {
+	public String getResult(int resultId) {
 		// TODO Auto-generated method stub
-		Map<Integer, String> result = (Map<Integer, String>)getSqlMapClientTemplate().queryForMap("Result.getResult",null, "resultid", "resulttype");
+		String result = (String)getSqlMapClientTemplate().queryForObject("Result.getResult",resultId);
 		return result;
 	}
 
@@ -98,9 +97,9 @@ public class DataDao extends SqlMapClientDaoSupport implements IDataDao {
 	 * 映射program表
 	 */
 	@Override
-	public Map<Integer, String> getProgram() {
+	public String getProgram(int programId) {
 		// TODO Auto-generated method stub
-		Map<Integer, String> program = (Map<Integer, String>)getSqlMapClientTemplate().queryForMap("Program.getProgram",null, "programid", "name");
+		String program = (String)getSqlMapClientTemplate().queryForObject("Program.getProgram", programId);
 		return program;
 	}
 	

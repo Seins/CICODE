@@ -28,6 +28,7 @@ public class Robotium {
 				+ "        super.setUp();\n"
 				+ "	       solo = new Solo(getInstrumentation());\n"
 				+ "	       getActivity();\n"
+				+ "        solo.sleep(2000);"
 				+ "    }\n"
 				+ "    @Override\n"
 				+ "    public void tearDown() throws Exception {\n"
@@ -47,9 +48,30 @@ public class Robotium {
 		case "TextView":
 			code = "solo.clickOnWebElement(By.textContent(\"%s\"));\n";
 			break;
+		case "TagName":
+			code = "solo.clickOnWebElement(By.tagName(\"%s\"));\n";
+			break;
 		default:
 			break;
 		}
 		return String.format(code, element.getText());
+	}
+	
+	public String enterTextInWebElement(Element element) {
+		String code = "";
+		switch (element.getClassType()) {
+		case "TextView":
+			code = "solo.enterTextInWebElement(By.textContent(\"%s\"), \"%s\");\n";
+			break;
+		case "TagName":
+			code = "solo.enterTextInWebElement(By.tagName(\"%s\"), \"%s\");\n";
+			break;
+		case "Xpath":
+			code = "solo.enterTextInWebElement(By.xpath(\"//input[%s]\"), \"%s\");\n";
+			break;
+		default:
+			break;
+		}
+		return String.format(code, element.getElementIndex()+1, element.getText());
 	}
 }

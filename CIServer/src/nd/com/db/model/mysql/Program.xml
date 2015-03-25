@@ -8,8 +8,9 @@
 		<result property="name" column="name" />
 	</resultMap>
 
-	<select id="getProgram" resultMap="programMap">
-		select * from program
+	<select id="getProgram" parameterClass="int" resultClass="String">
+		select name from program
+		where programid=#programId#
 	</select>
 	
 	<select id="getProgramIdForName" parameterClass="String" resultClass="int">

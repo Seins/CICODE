@@ -18,6 +18,6 @@ public class TestMain {
 		//System.out.println(str.replaceAll("\\.", "/"));
 //		File file = new File("D:/code/log.log");
 //		System.out.println(file.getName());
-		new ScriptElement().createProjectScript("Demo", 1);
+		new ScriptElement().createProjectScript("互动课堂", 1);
 	}
 }

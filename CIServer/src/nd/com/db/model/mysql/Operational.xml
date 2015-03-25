@@ -8,8 +8,9 @@
 		<result property="content" column="content" />
 	</resultMap>
 
-	<select id="getOperational" resultMap="operationalMap">
-		select operationalid, content from operational
+	<select id="getOperational" parameterClass="int" resultClass="String">
+		select content from operational
+		where operationalid = #operationalId#
 	</select>
 	
 </sqlMap>

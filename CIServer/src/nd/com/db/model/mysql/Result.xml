@@ -8,8 +8,9 @@
 		<result property="resulttype" column="resulttype" />
 	</resultMap>
 
-	<select id="getResult" resultMap="resultMap">
-		select * from result
+	<select id="getResult" parameterClass="int" resultClass="String">
+		select resulttype from result
+		where resultid=#resultId#
 	</select>
 
 </sqlMap>
